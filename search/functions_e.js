@@ -10,6 +10,8 @@ var searchData=
   ['pdemgr',['PDEMgr',['../classamr__wind_1_1pde_1_1_p_d_e_mgr.html#a29eb4f57e0b96a4f941b83f02463fca7',1,'amr_wind::pde::PDEMgr']]],
   ['pdesystem',['PDESystem',['../classamr__wind_1_1pde_1_1_p_d_e_system.html#a1d8fcb4c3983247f3534f01f7576234e',1,'amr_wind::pde::PDESystem']]],
   ['perturb_5ftemperature',['perturb_temperature',['../classamr__wind_1_1_a_b_l_field_init.html#ac9cae0467ea8a40519857719ed62c0f1',1,'amr_wind::ABLFieldInit']]],
+  ['phi_5fh',['phi_h',['../structamr__wind_1_1_m_o_data.html#a363df767fca8ce701b5d5423bd05735e',1,'amr_wind::MOData::phi_h() const'],['../structamr__wind_1_1_m_o_data.html#a2e39993e4002beec593a048afe29b54c',1,'amr_wind::MOData::phi_h(amrex::Real z) const']]],
+  ['phi_5fm',['phi_m',['../structamr__wind_1_1_m_o_data.html#a9061be0568a1dcdb8fecf24c6f394a62',1,'amr_wind::MOData::phi_m() const'],['../structamr__wind_1_1_m_o_data.html#a2f9baf7b5f0b65295e2cff56b78f6fdf',1,'amr_wind::MOData::phi_m(amrex::Real z) const']]],
   ['phi_5fstate',['phi_state',['../namespaceamr__wind_1_1field__impl.html#a46473b4021274c7e32fc9711b189b51a',1,'amr_wind::field_impl']]],
   ['physics',['physics',['../classamr__wind_1_1_c_f_d_sim.html#a64662f79cf4b59f0adeae55cd111e6c1',1,'amr_wind::CFDSim::physics()'],['../classamr__wind_1_1_c_f_d_sim.html#a8b33681e0db3a66e05d685f5d1697816',1,'amr_wind::CFDSim::physics() const']]],
   ['physics_5fmanager',['physics_manager',['../classamr__wind_1_1_c_f_d_sim.html#ad47013df3b0ba713bdb77a8e21256673',1,'amr_wind::CFDSim::physics_manager()'],['../classamr__wind_1_1_c_f_d_sim.html#ac21f45c3df0e3c6382545c93806e8197',1,'amr_wind::CFDSim::physics_manager() const']]],

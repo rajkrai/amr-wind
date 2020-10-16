@@ -21,5 +21,5 @@
 <area shape="rect" id="node28" href="$classamr__wind_1_1turbulence_1_1_turbulence_model.html" title="Abstract representation of a turbulence modelThis class is an abstract representation of a turbulence..." alt="" coords="1366,187,1513,229"/>
 <area shape="rect" id="node30" href="$classamr__wind_1_1_field_repo.html" title="Field RepositoryFieldRepo is a database that manages handling of fields used during a simulation..." alt="" coords="1175,323,1320,349"/>
 <area shape="rect" id="node32" href="$classamr__wind_1_1_physics_mgr.html" title="A collection of Physics models instances that are active during a simulation. " alt="" coords="1789,456,1943,483"/>
-<area shape="rect" id="node34" href="$structamr__wind_1_1_m_o_data.html" title="amr_wind::MOData" alt="" coords="2151,131,2285,157"/>
+<area shape="rect" id="node34" href="$structamr__wind_1_1_m_o_data.html" title="Monin&#45;Obukhov surface layer profilevan der Laan, P., Kelly, M. " alt="" coords="2151,131,2285,157"/>
 </map>

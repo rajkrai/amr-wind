@@ -700,7 +700,7 @@ var sectionId = 'dynsection-0';
 <!-- Node34 -->
 <g id="node34" class="node">
 <title>Node34</title>
-<g id="a_node34"><a xlink:href="structamr__wind_1_1_m_o_data.html" target="_top" xlink:title="amr_wind::MOData">
+<g id="a_node34"><a xlink:href="structamr__wind_1_1_m_o_data.html" target="_top" xlink:title="Monin&#45;Obukhov surface layer profilevan der Laan, P., Kelly, M. ">
 <polygon fill="#ffffff" stroke="#000000" points="1609,-473.5 1609,-492.5 1710,-492.5 1710,-473.5 1609,-473.5"/>
 <text text-anchor="middle" x="1659.5" y="-480.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::MOData</text>
 </a>

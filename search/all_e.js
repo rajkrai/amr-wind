@@ -21,6 +21,8 @@ var searchData=
   ['pdetype',['PDEType',['../classamr__wind_1_1pde_1_1_p_d_e_system.html#a933e9beb74f26766d8501619b34b8af1',1,'amr_wind::pde::PDESystem']]],
   ['periodic',['periodic',['../incflo__enums_8_h.html#a6e1412fca31cbd35d0f50f12fcc70b0fae6ffdec5e14fce371eb7ae99edebbbee',1,'incflo_enums.H']]],
   ['perturb_5ftemperature',['perturb_temperature',['../classamr__wind_1_1_a_b_l_field_init.html#ac9cae0467ea8a40519857719ed62c0f1',1,'amr_wind::ABLFieldInit']]],
+  ['phi_5fh',['phi_h',['../structamr__wind_1_1_m_o_data.html#a363df767fca8ce701b5d5423bd05735e',1,'amr_wind::MOData::phi_h() const'],['../structamr__wind_1_1_m_o_data.html#a2e39993e4002beec593a048afe29b54c',1,'amr_wind::MOData::phi_h(amrex::Real z) const']]],
+  ['phi_5fm',['phi_m',['../structamr__wind_1_1_m_o_data.html#a9061be0568a1dcdb8fecf24c6f394a62',1,'amr_wind::MOData::phi_m() const'],['../structamr__wind_1_1_m_o_data.html#a2f9baf7b5f0b65295e2cff56b78f6fdf',1,'amr_wind::MOData::phi_m(amrex::Real z) const']]],
   ['phi_5fstate',['phi_state',['../namespaceamr__wind_1_1field__impl.html#a46473b4021274c7e32fc9711b189b51a',1,'amr_wind::field_impl']]],
   ['physics',['Physics',['../classamr__wind_1_1_physics.html',1,'amr_wind::Physics'],['../classamr__wind_1_1_c_f_d_sim.html#a64662f79cf4b59f0adeae55cd111e6c1',1,'amr_wind::CFDSim::physics()'],['../classamr__wind_1_1_c_f_d_sim.html#a8b33681e0db3a66e05d685f5d1697816',1,'amr_wind::CFDSim::physics() const'],['../group__physics.html',1,'(Global Namespace)']]],
   ['physics_2eh',['Physics.H',['../_physics_8_h.html',1,'']]],

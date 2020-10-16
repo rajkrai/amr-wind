@@ -76,9 +76,12 @@ $(function() {
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structamr__wind_1_1_m_o_data-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">amr_wind::MOData Struct Reference</div>  </div>
+<div class="title">amr_wind::MOData Struct Reference<div class="ingroups"><a class="el" href="group__physics.html">Physics models</a> &raquo; <a class="el" href="group__wind.html">Wind energy modeling</a> &raquo; <a class="el" href="group__we__abl.html">ABL</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Monin-Obukhov surface layer profilevan der Laan, P., Kelly, M.  
+ <a href="structamr__wind_1_1_m_o_data.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_m_o_data_8h_source.html">MOData.h</a>&gt;</code></p>
 <table class="memberdecls">
@@ -91,10 +94,18 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aba8bfb009d9b3d5141b594f584728fef"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#aba8bfb009d9b3d5141b594f584728fef">calc_psi_m</a> (amrex::Real zeta)</td></tr>
-<tr class="separator:aba8bfb009d9b3d5141b594f584728fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a359ed0ca8cc1f960a1244c5ad6cc0ba6"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#a359ed0ca8cc1f960a1244c5ad6cc0ba6">calc_psi_h</a> (amrex::Real zeta)</td></tr>
-<tr class="separator:a359ed0ca8cc1f960a1244c5ad6cc0ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9061be0568a1dcdb8fecf24c6f394a62"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#a9061be0568a1dcdb8fecf24c6f394a62">phi_m</a> () const</td></tr>
+<tr class="separator:a9061be0568a1dcdb8fecf24c6f394a62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f9baf7b5f0b65295e2cff56b78f6fdf"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#a2f9baf7b5f0b65295e2cff56b78f6fdf">phi_m</a> (amrex::Real z) const</td></tr>
+<tr class="separator:a2f9baf7b5f0b65295e2cff56b78f6fdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363df767fca8ce701b5d5423bd05735e"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#a363df767fca8ce701b5d5423bd05735e">phi_h</a> () const</td></tr>
+<tr class="separator:a363df767fca8ce701b5d5423bd05735e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e39993e4002beec593a048afe29b54c"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#a2e39993e4002beec593a048afe29b54c">phi_h</a> (amrex::Real z) const</td></tr>
+<tr class="separator:a2e39993e4002beec593a048afe29b54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47632942912fbd250a0cc98e2c7687d2"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#a47632942912fbd250a0cc98e2c7687d2">calc_psi_m</a> (amrex::Real zeta) const</td></tr>
+<tr class="separator:a47632942912fbd250a0cc98e2c7687d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aca6e436991208d28deca7a10297417"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#a5aca6e436991208d28deca7a10297417">calc_psi_h</a> (amrex::Real zeta) const</td></tr>
+<tr class="separator:a5aca6e436991208d28deca7a10297417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61a13fcafb319ae1d2908f285b075b49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#a61a13fcafb319ae1d2908f285b075b49">update_fluxes</a> (int max_iters=25)</td></tr>
 <tr class="separator:a61a13fcafb319ae1d2908f285b075b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -116,6 +127,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a3eb9061834c5b3a847b8381d10f4c1c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration due to gravity (m/s^2)  <a href="#a3eb9061834c5b3a847b8381d10f4c1c1">More...</a><br /></td></tr>
 <tr class="separator:a3eb9061834c5b3a847b8381d10f4c1c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fd085e73172993d3a2bd6d1c95dad04"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#a3fd085e73172993d3a2bd6d1c95dad04">obukhov_len</a> {1.0e16}</td></tr>
+<tr class="memdesc:a3fd085e73172993d3a2bd6d1c95dad04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-dimensional Obukhov length.  <a href="#a3fd085e73172993d3a2bd6d1c95dad04">More...</a><br /></td></tr>
 <tr class="separator:a3fd085e73172993d3a2bd6d1c95dad04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7932978a3fe28487c9be88c2dd92e562"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#a7932978a3fe28487c9be88c2dd92e562">vel_mean</a> [AMREX_SPACEDIM]</td></tr>
 <tr class="memdesc:a7932978a3fe28487c9be88c2dd92e562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mean velocity (at zref)  <a href="#a7932978a3fe28487c9be88c2dd92e562">More...</a><br /></td></tr>
@@ -144,7 +156,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aa0b59b34fda802a7fdcf83db87c8d847"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structamr__wind_1_1_m_o_data.html#a224d3e389ce06f0e7e4303a79e5dd994">ThetaCalcType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_m_o_data.html#aa0b59b34fda802a7fdcf83db87c8d847">alg_type</a> {<a class="el" href="structamr__wind_1_1_m_o_data.html#a224d3e389ce06f0e7e4303a79e5dd994ac42065bf970d5886f6cd5d8ac2617382">HEAT_FLUX</a>}</td></tr>
 <tr class="separator:aa0b59b34fda802a7fdcf83db87c8d847"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Monin-Obukhov surface layer profile</p>
+<p>van der Laan, P., Kelly, M. </p>
+<p>C., &amp; Sørensen, N. N. (2017). A new k-epsilon model consistent with Monin-Obukhov similarity theory. Wind Energy, 20(3), 479–489. <a href="https://doi.org/10.1002/we.2017">https://doi.org/10.1002/we.2017</a></p>
+<p>Consistent with Dyer (1974) formulation from page 57, Chapter 2, Modeling the vertical <a class="el" href="classamr__wind_1_1_a_b_l.html" title="Atmospheric Boundary Layer physicsThis class implements the necessary code to simulation atmospheric ...">ABL</a> structure in Modelling of Atmospheric Flow Fields, Demetri P Lalas and Corrado F Ratto, January 1996, <a href="https://doi.org/10.1142/2975">https://doi.org/10.1142/2975</a>. </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a224d3e389ce06f0e7e4303a79e5dd994"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a224d3e389ce06f0e7e4303a79e5dd994">&#9670;&nbsp;</a></span>ThetaCalcType</h2>
 
@@ -157,15 +174,17 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a224d3e389ce06f0e7e4303a79e5dd994ac42065bf970d5886f6cd5d8ac2617382"></a>HEAT_FLUX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a224d3e389ce06f0e7e4303a79e5dd994a584ef23e9219af15625a378871031d6d"></a>SURFACE_TEMPERATURE&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a224d3e389ce06f0e7e4303a79e5dd994ac42065bf970d5886f6cd5d8ac2617382"></a>HEAT_FLUX&#160;</td><td class="fielddoc"><p>Heat-flux specified. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a224d3e389ce06f0e7e4303a79e5dd994a584ef23e9219af15625a378871031d6d"></a>SURFACE_TEMPERATURE&#160;</td><td class="fielddoc"><p>Surface temperature specified. </p>
+</td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a359ed0ca8cc1f960a1244c5ad6cc0ba6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a359ed0ca8cc1f960a1244c5ad6cc0ba6">&#9670;&nbsp;</a></span>calc_psi_h()</h2>
+<a id="a5aca6e436991208d28deca7a10297417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aca6e436991208d28deca7a10297417">&#9670;&nbsp;</a></span>calc_psi_h()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,15 +194,15 @@ Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">amrex::Real&#160;</td>
           <td class="paramname"><em>zeta</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aba8bfb009d9b3d5141b594f584728fef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba8bfb009d9b3d5141b594f584728fef">&#9670;&nbsp;</a></span>calc_psi_m()</h2>
+<a id="a47632942912fbd250a0cc98e2c7687d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47632942912fbd250a0cc98e2c7687d2">&#9670;&nbsp;</a></span>calc_psi_m()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,9 +212,111 @@ Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">amrex::Real&#160;</td>
           <td class="paramname"><em>zeta</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a363df767fca8ce701b5d5423bd05735e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a363df767fca8ce701b5d5423bd05735e">&#9670;&nbsp;</a></span>phi_h() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">amrex::Real amr_wind::MOData::phi_h </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e39993e4002beec593a048afe29b54c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e39993e4002beec593a048afe29b54c">&#9670;&nbsp;</a></span>phi_h() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">amrex::Real amr_wind::MOData::phi_h </td>
+          <td>(</td>
+          <td class="paramtype">amrex::Real&#160;</td>
+          <td class="paramname"><em>z</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9061be0568a1dcdb8fecf24c6f394a62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9061be0568a1dcdb8fecf24c6f394a62">&#9670;&nbsp;</a></span>phi_m() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">amrex::Real amr_wind::MOData::phi_m </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2f9baf7b5f0b65295e2cff56b78f6fdf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f9baf7b5f0b65295e2cff56b78f6fdf">&#9670;&nbsp;</a></span>phi_m() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">amrex::Real amr_wind::MOData::phi_m </td>
+          <td>(</td>
+          <td class="paramtype">amrex::Real&#160;</td>
+          <td class="paramname"><em>z</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -318,6 +439,8 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Non-dimensional Obukhov length. </p>
 
 </div>
 </div>

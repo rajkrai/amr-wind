@@ -1,8 +1,8 @@
 var searchData=
 [
   ['calc_5faverages',['calc_averages',['../classamr__wind_1_1_a_b_l_stats.html#af0970ccc325fe14551231fca1f7a95ad',1,'amr_wind::ABLStats']]],
-  ['calc_5fpsi_5fh',['calc_psi_h',['../structamr__wind_1_1_m_o_data.html#a359ed0ca8cc1f960a1244c5ad6cc0ba6',1,'amr_wind::MOData']]],
-  ['calc_5fpsi_5fm',['calc_psi_m',['../structamr__wind_1_1_m_o_data.html#aba8bfb009d9b3d5141b594f584728fef',1,'amr_wind::MOData']]],
+  ['calc_5fpsi_5fh',['calc_psi_h',['../structamr__wind_1_1_m_o_data.html#a5aca6e436991208d28deca7a10297417',1,'amr_wind::MOData']]],
+  ['calc_5fpsi_5fm',['calc_psi_m',['../structamr__wind_1_1_m_o_data.html#a47632942912fbd250a0cc98e2c7687d2',1,'amr_wind::MOData']]],
   ['cartboxrefinement',['CartBoxRefinement',['../classamr__wind_1_1_cart_box_refinement.html#aa86e66f272d1977646e1ff3a28e619dd',1,'amr_wind::CartBoxRefinement']]],
   ['cfdsim',['CFDSim',['../classamr__wind_1_1_c_f_d_sim.html#aafb7a00e73a1179364ea87ade2f76b7c',1,'amr_wind::CFDSim']]],
   ['checkfornans',['CheckForNans',['../classincflo.html#a4eaf3f1a0c2d10b8dc8cbad5a6833ddc',1,'incflo']]],

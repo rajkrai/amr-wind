@@ -685,7 +685,7 @@
 <!-- Node37 -->
 <g id="node36" class="node">
 <title>Node37</title>
-<g id="a_node36"><a xlink:href="structamr__wind_1_1_m_o_data.html" target="_top" xlink:title="amr_wind::MOData">
+<g id="a_node36"><a xlink:href="structamr__wind_1_1_m_o_data.html" target="_top" xlink:title="Monin&#45;Obukhov surface layer profilevan der Laan, P., Kelly, M. ">
 <polygon fill="#ffffff" stroke="#000000" points="1609,-574.5 1609,-593.5 1710,-593.5 1710,-574.5 1609,-574.5"/>
 <text text-anchor="middle" x="1659.5" y="-581.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::MOData</text>
 </a>

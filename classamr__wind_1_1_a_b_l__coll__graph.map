@@ -27,7 +27,7 @@
 <area shape="rect" id="node35" href="$classamr__wind_1_1turbulence_1_1_turbulence_model.html" title="Abstract representation of a turbulence modelThis class is an abstract representation of a turbulence..." alt="" coords="1309,959,1455,1000"/>
 <area shape="rect" id="node36" href="$structamr__wind_1_1_factory.html" title="amr_wind::Factory\&lt;\l TurbulenceModel, CFDSim &amp;\&gt;" alt="" coords="884,956,1089,997"/>
 <area shape="rect" id="node37" href="$classamr__wind_1_1_physics_mgr.html" title="A collection of Physics models instances that are active during a simulation. " alt="" coords="1731,1113,1886,1139"/>
-<area shape="rect" id="node39" href="$structamr__wind_1_1_m_o_data.html" title="amr_wind::MOData" alt="" coords="2201,755,2336,782"/>
+<area shape="rect" id="node39" href="$structamr__wind_1_1_m_o_data.html" title="Monin&#45;Obukhov surface layer profilevan der Laan, P., Kelly, M. " alt="" coords="2201,755,2336,782"/>
 <area shape="rect" id="node44" href="$classamr__wind_1_1_third_moment_averaging.html" title="Compute the third moment with three fields. " alt="" coords="2582,409,2802,435"/>
 <area shape="rect" id="node47" href="$classamr__wind_1_1_second_moment_averaging.html" title="Compute second moments for two variablesComputes second&#45;moment statistics for any two variables..." alt="" coords="2575,358,2809,385"/>
 <area shape="rect" id="node46" href="$classamr__wind_1_1_vel_plane_averaging.html" title="Specific application of FieldPlaneAveraging to the velocity field. " alt="" coords="2594,526,2790,553"/>
