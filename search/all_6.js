@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['gamma_5fh',['gamma_h',['../structamr__wind_1_1_m_o_data.html#aecd4db56dfec9d195504357ebc6f850b',1,'amr_wind::MOData']]],
+  ['gamma_5fm',['gamma_m',['../structamr__wind_1_1_m_o_data.html#aa8c102b2ba716d4e9eafa30b4a6789dc',1,'amr_wind::MOData']]],
   ['geostrophicforcing',['GeostrophicForcing',['../classamr__wind_1_1pde_1_1icns_1_1_geostrophic_forcing.html',1,'amr_wind::pde::icns::GeostrophicForcing'],['../classamr__wind_1_1pde_1_1icns_1_1_geostrophic_forcing.html#aaa83057acbf60842c0cd073285376e01',1,'amr_wind::pde::icns::GeostrophicForcing::GeostrophicForcing()']]],
   ['geostrophicforcing_2ecpp',['GeostrophicForcing.cpp',['../_geostrophic_forcing_8cpp.html',1,'']]],
   ['geostrophicforcing_2eh',['GeostrophicForcing.H',['../_geostrophic_forcing_8_h.html',1,'']]],
@@ -25,5 +27,6 @@ var searchData=
   ['grad_5fz',['grad_z',['../_a_b_l_stats_8cpp.html#a8689cfebb4bc8af3eabad31026591e22',1,'ABLStats.cpp']]],
   ['gradient',['Gradient',['../structamr__wind_1_1fvm_1_1_gradient.html',1,'amr_wind::fvm::Gradient&lt; FTypeIn, FTypeOut &gt;'],['../structamr__wind_1_1fvm_1_1_gradient.html#a3cd04b607002da3372c1401a39d4d526',1,'amr_wind::fvm::Gradient::Gradient()'],['../group__fvm.html#ga97b56629fd2c55ed6faffd0ae7e54f14',1,'amr_wind::fvm::gradient(FTypeOut &amp;gradphi, const FTypeIn &amp;phi)'],['../group__fvm.html#ga87520c61c49b83b906f45ff59c1cb83f',1,'amr_wind::fvm::gradient(const FType &amp;phi)']]],
   ['gradient_2eh',['gradient.H',['../gradient_8_h.html',1,'']]],
+  ['gravity',['gravity',['../structamr__wind_1_1_m_o_data.html#a3eb9061834c5b3a847b8381d10f4c1c1',1,'amr_wind::MOData']]],
   ['group',['group',['../classncutils_1_1_n_c_group.html#a757c592cddc2272a86033fe888232333',1,'ncutils::NCGroup']]]
 ];

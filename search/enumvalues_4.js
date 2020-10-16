@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['last_5favg_5fvar',['last_avg_var',['../class_plane_averaging.html#a11efa22e59538c8c1a6d5b67820c154dab6add6493a81a6ee3aeeaa96af760463',1,'PlaneAveraging']]],
-  ['last_5ffluc_5fvar',['last_fluc_var',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87a6208f0fbe5b1f739d6e98387c669ebea',1,'PlaneAveraging']]]
+  ['implicit',['Implicit',['../incflo__enums_8_h.html#a1af7f3d9f2dff8d85c271b9c6f814251a07e01d7a96d9fd76cf08aa5916f7c788',1,'incflo_enums.H']]],
+  ['input',['input',['../namespaceamr__wind.html#a20b6c970e9f6b6de3457ad1cd299c6b3aa43c1b0aa53a0c908810c06ab1ff3967',1,'amr_wind']]],
+  ['invalid',['Invalid',['../incflo__enums_8_h.html#a1af7f3d9f2dff8d85c271b9c6f814251a4bbb8f967da6d1a610596d7257179c2b',1,'incflo_enums.H']]]
 ];

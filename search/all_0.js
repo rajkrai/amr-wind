@@ -49,6 +49,7 @@ var searchData=
   ['advectionop_3c_20pde_2c_20scheme_20_3e',['AdvectionOp&lt; PDE, Scheme &gt;',['../structamr__wind_1_1pde_1_1_advection_op.html',1,'amr_wind::pde']]],
   ['advop_5fgodunov_2eh',['AdvOp_Godunov.H',['../_adv_op___godunov_8_h.html',1,'']]],
   ['advop_5fmol_2eh',['AdvOp_MOL.H',['../_adv_op___m_o_l_8_h.html',1,'']]],
+  ['alg_5ftype',['alg_type',['../structamr__wind_1_1_m_o_data.html#aa0b59b34fda802a7fdcf83db87c8d847',1,'amr_wind::MOData']]],
   ['all_5fdims',['all_dims',['../classncutils_1_1_n_c_group.html#a8e01fe072fa48f4fa9c8be33a3a401b0',1,'ncutils::NCGroup']]],
   ['all_5fgroups',['all_groups',['../classncutils_1_1_n_c_group.html#a82a48643f27b33b27cdd87c60e63f5f5',1,'ncutils::NCGroup']]],
   ['all_5fvars',['all_vars',['../classncutils_1_1_n_c_group.html#affa2e62434110dd4fa47d093162e56cf',1,'ncutils::NCGroup']]],

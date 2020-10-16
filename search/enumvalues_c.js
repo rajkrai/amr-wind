@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['v_5favg',['v_avg',['../class_plane_averaging.html#a11efa22e59538c8c1a6d5b67820c154dad06170fec5017ed66f2371f905df2f61',1,'PlaneAveraging']]],
-  ['vv',['vv',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87aa241888ff14530a2e6d35e520dba51da',1,'PlaneAveraging']]],
-  ['vw',['vw',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87aad58dca4ba57f28c92d094052eac5442',1,'PlaneAveraging']]]
+  ['u_5favg',['u_avg',['../class_plane_averaging.html#a11efa22e59538c8c1a6d5b67820c154da8d0631388eb35f46763bfa636540a821',1,'PlaneAveraging']]],
+  ['uid',['uid',['../structamr__wind_1_1sampling_1_1_i_ix.html#a23299e2daa159d3d7e25ddddfd02a08ea7e3fc127845c94f97f48fabd411cfa5e',1,'amr_wind::sampling::IIx']]],
+  ['undefined',['undefined',['../incflo__enums_8_h.html#a6e1412fca31cbd35d0f50f12fcc70b0fa5e543256c480ac577d30f76f9120eb74',1,'undefined():&#160;incflo_enums.H'],['../namespaceamr__wind.html#a20b6c970e9f6b6de3457ad1cd299c6b3a5e543256c480ac577d30f76f9120eb74',1,'amr_wind::undefined()']]],
+  ['uu',['uu',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87a8c2de6703abbb8e12cc092023d89c4f8',1,'PlaneAveraging']]],
+  ['uv',['uv',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87a32f50fc1457eab609ca5375287ff63c1',1,'PlaneAveraging']]],
+  ['uw',['uw',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87a0f84f283087fa7e7574c3e0504534911',1,'PlaneAveraging']]]
 ];

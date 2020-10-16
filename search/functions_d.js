@@ -1,7 +1,6 @@
 var searchData=
 [
   ['objects',['objects',['../classamr__wind_1_1_coll_mgr.html#af0bbfdc5b2af7039ff14d82f797b95fb',1,'amr_wind::CollMgr::objects()'],['../classamr__wind_1_1_coll_mgr.html#a469e5d22a5b5cb2a0451240fd350c0df',1,'amr_wind::CollMgr::objects() const']]],
-  ['obukhov_5flength',['obukhov_length',['../classamr__wind_1_1_a_b_l_wall_function.html#aa2c047712bc45a3312fcc561d0084fa7',1,'amr_wind::ABLWallFunction']]],
   ['oneeqksgs',['OneEqKsgs',['../classamr__wind_1_1turbulence_1_1_one_eq_ksgs.html#a84bd1058cd33ebc084d6184203c71d5e',1,'amr_wind::turbulence::OneEqKsgs']]],
   ['oneeqksgsm84',['OneEqKsgsM84',['../classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html#a6531acc52d8a9d28e1c3d210e1e4664f',1,'amr_wind::turbulence::OneEqKsgsM84']]],
   ['oneeqksgss94',['OneEqKsgsS94',['../classamr__wind_1_1turbulence_1_1_one_eq_ksgs_s94.html#a6cc0be498e9b4629268d4906facc2590',1,'amr_wind::turbulence::OneEqKsgsS94']]],

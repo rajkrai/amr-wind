@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['t_5favg',['T_avg',['../class_plane_averaging.html#a11efa22e59538c8c1a6d5b67820c154da24b588295d7d26e3d45c1b6c4e644771',1,'PlaneAveraging']]],
-  ['tu',['Tu',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87a1222b933f1588bab18ed7ac0558da931',1,'PlaneAveraging']]],
-  ['tv',['Tv',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87a2c3b9baa40767dbfc78143b39fb9318b',1,'PlaneAveraging']]],
-  ['tw',['Tw',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87a56b8d820b45918543885a8d9ae01e8a2',1,'PlaneAveraging']]]
+  ['sid',['sid',['../structamr__wind_1_1sampling_1_1_i_ix.html#a23299e2daa159d3d7e25ddddfd02a08eae5684de089c4e96f0675449720d2632a',1,'amr_wind::sampling::IIx']]],
+  ['slip_5fwall',['slip_wall',['../incflo__enums_8_h.html#a6e1412fca31cbd35d0f50f12fcc70b0fa03ee6de9fd100444c5c0567ea01bd538',1,'incflo_enums.H']]],
+  ['surface_5ftemperature',['SURFACE_TEMPERATURE',['../structamr__wind_1_1_m_o_data.html#a224d3e389ce06f0e7e4303a79e5dd994a584ef23e9219af15625a378871031d6d',1,'amr_wind::MOData']]]
 ];

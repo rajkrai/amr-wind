@@ -1,7 +1,7 @@
 <map id="wind_energy" name="wind_energy">
 <area shape="rect" id="node1" href="dir_0c368f76a33d967d5b838b5681461de6.html" title="wind_energy" alt="" coords="64,52,159,100"/>
 <area shape="rect" id="node2" href="dir_e4cd57caa88bf1f4e1bf9521bc47c3c0.html" title="utilities" alt="" coords="30,244,102,292"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000001_000005.html" title="19" alt="" coords="76,220,91,235"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000001_000005.html" title="20" alt="" coords="76,220,91,235"/>
 <area shape="rect" id="node3" href="dir_7f7a014517bfe31ea45620a6a947e37b.html" title="fvm" alt="" coords="126,244,198,292"/>
 <area shape="rect" id="edge2-headlabel" href="dir_000001_000011.html" title="1" alt="" coords="150,216,158,231"/>
 <area shape="rect" id="node4" href="dir_a816a247b59c90f95e41afe29b966a18.html" title="diffusion" alt="" coords="273,244,345,292"/>
