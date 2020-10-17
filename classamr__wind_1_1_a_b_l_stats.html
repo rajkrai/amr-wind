@@ -170,6 +170,15 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a6399f25d1e434cdb8a19c8d710764183"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_stats.html#a6399f25d1e434cdb8a19c8d710764183">m_out_freq</a> {100}</td></tr>
 <tr class="memdesc:a6399f25d1e434cdb8a19c8d710764183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frequency of data sampling and output.  <a href="#a6399f25d1e434cdb8a19c8d710764183">More...</a><br /></td></tr>
 <tr class="separator:a6399f25d1e434cdb8a19c8d710764183"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcc1d262addf189bd6889d6335fed06a"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_stats.html#adcc1d262addf189bd6889d6335fed06a">m_gravity</a> {9.81}</td></tr>
+<tr class="memdesc:adcc1d262addf189bd6889d6335fed06a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceleration due to gravity magnitude.  <a href="#adcc1d262addf189bd6889d6335fed06a">More...</a><br /></td></tr>
+<tr class="separator:adcc1d262addf189bd6889d6335fed06a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5facbe8f0dbd966456367561bf40ac1"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_stats.html#af5facbe8f0dbd966456367561bf40ac1">m_kappa</a> {0.41}</td></tr>
+<tr class="memdesc:af5facbe8f0dbd966456367561bf40ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Von-Karman constant.  <a href="#af5facbe8f0dbd966456367561bf40ac1">More...</a><br /></td></tr>
+<tr class="separator:af5facbe8f0dbd966456367561bf40ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25e875048b0ae91bb84819c2bf058b2a"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_stats.html#a25e875048b0ae91bb84819c2bf058b2a">m_ref_theta</a> {300.0}</td></tr>
+<tr class="memdesc:a25e875048b0ae91bb84819c2bf058b2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference surface temperature.  <a href="#a25e875048b0ae91bb84819c2bf058b2a">More...</a><br /></td></tr>
+<tr class="separator:a25e875048b0ae91bb84819c2bf058b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8924f3d173260cc16e623e72acbbf2c3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_stats.html#a8924f3d173260cc16e623e72acbbf2c3">m_zi</a> {0.0}</td></tr>
 <tr class="memdesc:a8924f3d173260cc16e623e72acbbf2c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable to store capping inversion height.  <a href="#a8924f3d173260cc16e623e72acbbf2c3">More...</a><br /></td></tr>
 <tr class="separator:a8924f3d173260cc16e623e72acbbf2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -613,6 +622,54 @@ template&lt;typename h1_dir , typename h2_dir &gt; </div>
 
 </div>
 </div>
+<a id="adcc1d262addf189bd6889d6335fed06a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcc1d262addf189bd6889d6335fed06a">&#9670;&nbsp;</a></span>m_gravity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">amrex::Real amr_wind::ABLStats::m_gravity {9.81}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Acceleration due to gravity magnitude. </p>
+
+</div>
+</div>
+<a id="af5facbe8f0dbd966456367561bf40ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5facbe8f0dbd966456367561bf40ac1">&#9670;&nbsp;</a></span>m_kappa</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">amrex::Real amr_wind::ABLStats::m_kappa {0.41}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Von-Karman constant. </p>
+
+</div>
+</div>
 <a id="a13e9575b6676b4fc58c3b6673ecb1ef7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a13e9575b6676b4fc58c3b6673ecb1ef7">&#9670;&nbsp;</a></span>m_mueff</h2>
 
@@ -904,6 +961,30 @@ template&lt;typename h1_dir , typename h2_dir &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25e875048b0ae91bb84819c2bf058b2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25e875048b0ae91bb84819c2bf058b2a">&#9670;&nbsp;</a></span>m_ref_theta</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">amrex::Real amr_wind::ABLStats::m_ref_theta {300.0}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference surface temperature. </p>
 
 </div>
 </div>
