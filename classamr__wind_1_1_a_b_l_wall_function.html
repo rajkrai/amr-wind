@@ -145,13 +145,13 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8f01e222f1ac527a94071273e124c88d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa024a58f4b002ef22e2b356d378e1fd6"><td class="memItemLeft" align="right" valign="top">amrex::FArrayBox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#aa024a58f4b002ef22e2b356d378e1fd6">m_store_xy_vel_temp</a></td></tr>
 <tr class="separator:aa024a58f4b002ef22e2b356d378e1fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a1d023b9a482a8680874c092bc7a307"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a2a1d023b9a482a8680874c092bc7a307">m_tempflux</a></td></tr>
+<tr class="memitem:a2a1d023b9a482a8680874c092bc7a307"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a2a1d023b9a482a8680874c092bc7a307">m_tempflux</a> {true}</td></tr>
 <tr class="separator:a2a1d023b9a482a8680874c092bc7a307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55642795ca41ba4072d3cae090f2c576"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a55642795ca41ba4072d3cae090f2c576">m_surf_temp_rate</a></td></tr>
+<tr class="memitem:a55642795ca41ba4072d3cae090f2c576"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a55642795ca41ba4072d3cae090f2c576">m_surf_temp_rate</a> {0.0}</td></tr>
 <tr class="separator:a55642795ca41ba4072d3cae090f2c576"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5351766ae8a5c40605f9a0fa20b239a5"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a5351766ae8a5c40605f9a0fa20b239a5">m_surf_temp_rate_tstart</a></td></tr>
+<tr class="memitem:a5351766ae8a5c40605f9a0fa20b239a5"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a5351766ae8a5c40605f9a0fa20b239a5">m_surf_temp_rate_tstart</a> {0.0}</td></tr>
 <tr class="separator:a5351766ae8a5c40605f9a0fa20b239a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a964f37b01fb5482d0e0a1215ae1521aa"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a964f37b01fb5482d0e0a1215ae1521aa">m_surf_temp_init</a></td></tr>
+<tr class="memitem:a964f37b01fb5482d0e0a1215ae1521aa"><td class="memItemLeft" align="right" valign="top">amrex::Real&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a964f37b01fb5482d0e0a1215ae1521aa">m_surf_temp_init</a> {300.0}</td></tr>
 <tr class="separator:a964f37b01fb5482d0e0a1215ae1521aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -623,7 +623,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">amrex::Real amr_wind::ABLWallFunction::m_surf_temp_init</td>
+          <td class="memname">amrex::Real amr_wind::ABLWallFunction::m_surf_temp_init {300.0}</td>
         </tr>
       </table>
   </td>
@@ -645,7 +645,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">amrex::Real amr_wind::ABLWallFunction::m_surf_temp_rate</td>
+          <td class="memname">amrex::Real amr_wind::ABLWallFunction::m_surf_temp_rate {0.0}</td>
         </tr>
       </table>
   </td>
@@ -667,7 +667,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">amrex::Real amr_wind::ABLWallFunction::m_surf_temp_rate_tstart</td>
+          <td class="memname">amrex::Real amr_wind::ABLWallFunction::m_surf_temp_rate_tstart {0.0}</td>
         </tr>
       </table>
   </td>
@@ -689,7 +689,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool amr_wind::ABLWallFunction::m_tempflux</td>
+          <td class="memname">bool amr_wind::ABLWallFunction::m_tempflux {true}</td>
         </tr>
       </table>
   </td>
