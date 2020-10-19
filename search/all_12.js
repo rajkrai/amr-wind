@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['t',['T',['../structamr__wind_1_1_factory_1_1_register.html#a7750bbbf17dbc8cd175864e96cd3808b',1,'amr_wind::Factory::Register']]],
+  ['t',['T',['../structamr__wind_1_1_factory_1_1_register.html#a7750bbbf17dbc8cd175864e96cd3808b',1,'amr_wind::Factory::Register::T()'],['../classamr__wind_1_1_view_field.html#a5cb2f1b2f7df0f7d38b634337472f2dc',1,'amr_wind::ViewField::T()']]],
   ['t_5favg',['T_avg',['../class_plane_averaging.html#a11efa22e59538c8c1a6d5b67820c154da24b588295d7d26e3d45c1b6c4e644771',1,'PlaneAveraging']]],
   ['table',['table',['../structamr__wind_1_1_factory.html#a64faf4997754405b0144c4563302a7b7',1,'amr_wind::Factory']]],
   ['taylorgreenvortex',['TaylorGreenVortex',['../classamr__wind_1_1_taylor_green_vortex.html',1,'amr_wind::TaylorGreenVortex'],['../classamr__wind_1_1_taylor_green_vortex.html#a37862cd4c63df236b6bb370d10c41179',1,'amr_wind::TaylorGreenVortex::TaylorGreenVortex()']]],
@@ -66,6 +66,6 @@ var searchData=
   ['tv',['Tv',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87a2c3b9baa40767dbfc78143b39fb9318b',1,'PlaneAveraging']]],
   ['tw',['Tw',['../class_plane_averaging.html#a70e0eef48ff7f0cec7d0604899f7bb87a56b8d820b45918543885a8d9ae01e8a2',1,'PlaneAveraging']]],
   ['two_5fpi',['two_pi',['../namespaceamr__wind_1_1utils.html#a5157dd6482418271f733c3b2e3a70f7b',1,'amr_wind::utils']]],
-  ['typeptr',['TypePtr',['../classamr__wind_1_1_coll_mgr.html#a54ee65988a7653c55653024d05256656',1,'amr_wind::CollMgr']]],
-  ['typevector',['TypeVector',['../classamr__wind_1_1_coll_mgr.html#a42023c48d3e1fac30a08f8a49d63a96b',1,'amr_wind::CollMgr']]]
+  ['typeptr',['TypePtr',['../classamr__wind_1_1_coll_mgr.html#a54ee65988a7653c55653024d05256656',1,'amr_wind::CollMgr::TypePtr()'],['../classamr__wind_1_1_derived_qty_mgr.html#a8ab88dc792816a3d2ee96ef072a5466c',1,'amr_wind::DerivedQtyMgr::TypePtr()']]],
+  ['typevector',['TypeVector',['../classamr__wind_1_1_coll_mgr.html#a42023c48d3e1fac30a08f8a49d63a96b',1,'amr_wind::CollMgr::TypeVector()'],['../classamr__wind_1_1_derived_qty_mgr.html#a26ac596531600d32d3bd877f85c90549',1,'amr_wind::DerivedQtyMgr::TypeVector()']]]
 ];

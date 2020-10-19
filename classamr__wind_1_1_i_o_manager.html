@@ -116,6 +116,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c4fce412069a3362b0695e1723986e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_i_o_manager.html#a6c4fce412069a3362b0695e1723986e6">register_output_var</a> (const std::string &amp;fname)</td></tr>
 <tr class="memdesc:a6c4fce412069a3362b0695e1723986e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a variable for output.  <a href="#a6c4fce412069a3362b0695e1723986e6">More...</a><br /></td></tr>
 <tr class="separator:a6c4fce412069a3362b0695e1723986e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95331ca7ae6a864bd6095ce92b6e4418"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_i_o_manager.html#a95331ca7ae6a864bd6095ce92b6e4418">register_output_int_var</a> (const std::string &amp;fname)</td></tr>
+<tr class="separator:a95331ca7ae6a864bd6095ce92b6e4418"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff0a3c6bc63b4edfb0c8d4c76a837fc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_i_o_manager.html#aff0a3c6bc63b4edfb0c8d4c76a837fc3">register_restart_var</a> (const std::string &amp;fname)</td></tr>
 <tr class="memdesc:aff0a3c6bc63b4edfb0c8d4c76a837fc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a variable for restart file.  <a href="#aff0a3c6bc63b4edfb0c8d4c76a837fc3">More...</a><br /></td></tr>
 <tr class="separator:aff0a3c6bc63b4edfb0c8d4c76a837fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,15 +141,23 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:af78cba133e0529f0135eab5a60f099b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_c_f_d_sim.html">CFDSim</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_i_o_manager.html#af78cba133e0529f0135eab5a60f099b8">m_sim</a></td></tr>
 <tr class="separator:af78cba133e0529f0135eab5a60f099b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a660ac23589f8d5be793d6be353cb70e1"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classamr__wind_1_1_derived_qty_mgr.html">DerivedQtyMgr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_i_o_manager.html#a660ac23589f8d5be793d6be353cb70e1">m_derived_mgr</a></td></tr>
+<tr class="separator:a660ac23589f8d5be793d6be353cb70e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e36ccc0361755d1ee0cb6f0d3dc9acd"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_i_o_manager.html#a2e36ccc0361755d1ee0cb6f0d3dc9acd">m_pltvars_default</a></td></tr>
 <tr class="memdesc:a2e36ccc0361755d1ee0cb6f0d3dc9acd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default output variables registered automatically in the code.  <a href="#a2e36ccc0361755d1ee0cb6f0d3dc9acd">More...</a><br /></td></tr>
 <tr class="separator:a2e36ccc0361755d1ee0cb6f0d3dc9acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaf6cbd33e738c9e8fd6a323fd8117ba"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_i_o_manager.html#aaaf6cbd33e738c9e8fd6a323fd8117ba">m_int_pltvars_default</a></td></tr>
+<tr class="memdesc:aaaf6cbd33e738c9e8fd6a323fd8117ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default output integer variales registered automatically in the code.  <a href="#aaaf6cbd33e738c9e8fd6a323fd8117ba">More...</a><br /></td></tr>
+<tr class="separator:aaaf6cbd33e738c9e8fd6a323fd8117ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee1a93cfe0fd398dc49078ddfd87c927"><td class="memItemLeft" align="right" valign="top">std::set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_i_o_manager.html#aee1a93cfe0fd398dc49078ddfd87c927">m_chkvars</a></td></tr>
 <tr class="memdesc:aee1a93cfe0fd398dc49078ddfd87c927"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variables for output in checkpoint/restart files.  <a href="#aee1a93cfe0fd398dc49078ddfd87c927">More...</a><br /></td></tr>
 <tr class="separator:aee1a93cfe0fd398dc49078ddfd87c927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac0bdde5b91859e6c2b74a57df966190"><td class="memItemLeft" align="right" valign="top">amrex::Vector&lt; <a class="el" href="classamr__wind_1_1_field.html">Field</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_i_o_manager.html#aac0bdde5b91859e6c2b74a57df966190">m_plt_fields</a></td></tr>
 <tr class="memdesc:aac0bdde5b91859e6c2b74a57df966190"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final list of fields to be output.  <a href="#aac0bdde5b91859e6c2b74a57df966190">More...</a><br /></td></tr>
 <tr class="separator:aac0bdde5b91859e6c2b74a57df966190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a571fff9aa158fd1780a85c88d8d14153"><td class="memItemLeft" align="right" valign="top">amrex::Vector&lt; <a class="el" href="classamr__wind_1_1_int_field.html">IntField</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_i_o_manager.html#a571fff9aa158fd1780a85c88d8d14153">m_int_plt_fields</a></td></tr>
+<tr class="memdesc:a571fff9aa158fd1780a85c88d8d14153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final list of integer fields to be output.  <a href="#a571fff9aa158fd1780a85c88d8d14153">More...</a><br /></td></tr>
+<tr class="separator:a571fff9aa158fd1780a85c88d8d14153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add69ed908f8c226ace9c511faf03a46f"><td class="memItemLeft" align="right" valign="top">amrex::Vector&lt; <a class="el" href="classamr__wind_1_1_field.html">Field</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_i_o_manager.html#add69ed908f8c226ace9c511faf03a46f">m_chk_fields</a></td></tr>
 <tr class="memdesc:add69ed908f8c226ace9c511faf03a46f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Final list of fields for restart.  <a href="#add69ed908f8c226ace9c511faf03a46f">More...</a><br /></td></tr>
 <tr class="separator:add69ed908f8c226ace9c511faf03a46f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,6 +370,32 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Convenience function to register a variable for both output and restart. </p>
+
+</div>
+</div>
+<a id="a95331ca7ae6a864bd6095ce92b6e4418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95331ca7ae6a864bd6095ce92b6e4418">&#9670;&nbsp;</a></span>register_output_int_var()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::IOManager::register_output_int_var </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>fname</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -606,6 +642,76 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Variables for output in checkpoint/restart files. </p>
+
+</div>
+</div>
+<a id="a660ac23589f8d5be793d6be353cb70e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a660ac23589f8d5be793d6be353cb70e1">&#9670;&nbsp;</a></span>m_derived_mgr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classamr__wind_1_1_derived_qty_mgr.html">DerivedQtyMgr</a>&gt; amr_wind::IOManager::m_derived_mgr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a571fff9aa158fd1780a85c88d8d14153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a571fff9aa158fd1780a85c88d8d14153">&#9670;&nbsp;</a></span>m_int_plt_fields</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">amrex::Vector&lt;<a class="el" href="classamr__wind_1_1_int_field.html">IntField</a>*&gt; amr_wind::IOManager::m_int_plt_fields</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Final list of integer fields to be output. </p>
+
+</div>
+</div>
+<a id="aaaf6cbd33e738c9e8fd6a323fd8117ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaf6cbd33e738c9e8fd6a323fd8117ba">&#9670;&nbsp;</a></span>m_int_pltvars_default</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::set&lt;std::string&gt; amr_wind::IOManager::m_int_pltvars_default</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default output integer variales registered automatically in the code. </p>
 
 </div>
 </div>

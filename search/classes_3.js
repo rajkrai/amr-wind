@@ -3,6 +3,8 @@ var searchData=
   ['density',['Density',['../structamr__wind_1_1pde_1_1_density.html',1,'amr_wind::pde']]],
   ['densitybuoyancy',['DensityBuoyancy',['../classamr__wind_1_1pde_1_1icns_1_1_density_buoyancy.html',1,'amr_wind::pde::icns']]],
   ['densitysource',['DensitySource',['../classamr__wind_1_1pde_1_1_density_source.html',1,'amr_wind::pde']]],
+  ['derivedqty',['DerivedQty',['../classamr__wind_1_1_derived_qty.html',1,'amr_wind']]],
+  ['derivedqtymgr',['DerivedQtyMgr',['../classamr__wind_1_1_derived_qty_mgr.html',1,'amr_wind']]],
   ['diffsolveriface',['DiffSolverIface',['../classamr__wind_1_1pde_1_1_diff_solver_iface.html',1,'amr_wind::pde']]],
   ['diffsolveriface_3c_20icns_3a_3amldiffop_20_3e',['DiffSolverIface&lt; ICNS::MLDiffOp &gt;',['../classamr__wind_1_1pde_1_1_diff_solver_iface.html',1,'amr_wind::pde']]],
   ['diffsolveriface_3c_20pde_3a_3amldiffop_20_3e',['DiffSolverIface&lt; PDE::MLDiffOp &gt;',['../classamr__wind_1_1pde_1_1_diff_solver_iface.html',1,'amr_wind::pde']]],
@@ -14,5 +16,5 @@ var searchData=
   ['directionselector_3c_200_20_3e',['DirectionSelector&lt; 0 &gt;',['../struct_direction_selector_3_010_01_4.html',1,'']]],
   ['directionselector_3c_201_20_3e',['DirectionSelector&lt; 1 &gt;',['../struct_direction_selector_3_011_01_4.html',1,'']]],
   ['directionselector_3c_202_20_3e',['DirectionSelector&lt; 2 &gt;',['../struct_direction_selector_3_012_01_4.html',1,'']]],
-  ['divergence',['Divergence',['../structamr__wind_1_1fvm_1_1_divergence.html',1,'amr_wind::fvm']]]
+  ['divergence',['Divergence',['../structamr__wind_1_1derived_1_1_divergence.html',1,'amr_wind::derived::Divergence'],['../structamr__wind_1_1fvm_1_1_divergence.html',1,'amr_wind::fvm::Divergence&lt; FTypeIn, FTypeOut &gt;']]]
 ];

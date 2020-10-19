@@ -15,6 +15,6 @@ var searchData=
   ['global_5fmax_5fmagnitude',['global_max_magnitude',['../group__field__ops.html#gaec69eec8e1e211dcc30cabe1e9132e14',1,'amr_wind::field_ops']]],
   ['gotonextline',['GotoNextLine',['../io_8cpp.html#adf2ebdee3ee75dbe3b5b77e85a5c4e2f',1,'io.cpp']]],
   ['grad_5fp',['grad_p',['../classincflo.html#a77bcdf7928df6e21a0ce4c0d98e1bb7f',1,'incflo']]],
-  ['gradient',['Gradient',['../structamr__wind_1_1fvm_1_1_gradient.html#a3cd04b607002da3372c1401a39d4d526',1,'amr_wind::fvm::Gradient::Gradient()'],['../group__fvm.html#ga97b56629fd2c55ed6faffd0ae7e54f14',1,'amr_wind::fvm::gradient(FTypeOut &amp;gradphi, const FTypeIn &amp;phi)'],['../group__fvm.html#ga87520c61c49b83b906f45ff59c1cb83f',1,'amr_wind::fvm::gradient(const FType &amp;phi)']]],
+  ['gradient',['Gradient',['../structamr__wind_1_1fvm_1_1_gradient.html#a3cd04b607002da3372c1401a39d4d526',1,'amr_wind::fvm::Gradient::Gradient()'],['../structamr__wind_1_1derived_1_1_gradient.html#ac844219ca2ea06a7d4d1e1936d4f7204',1,'amr_wind::derived::Gradient::Gradient()'],['../group__fvm.html#ga97b56629fd2c55ed6faffd0ae7e54f14',1,'amr_wind::fvm::gradient(FTypeOut &amp;gradphi, const FTypeIn &amp;phi)'],['../group__fvm.html#ga87520c61c49b83b906f45ff59c1cb83f',1,'amr_wind::fvm::gradient(const FType &amp;phi)']]],
   ['group',['group',['../classncutils_1_1_n_c_group.html#a757c592cddc2272a86033fe888232333',1,'ncutils::NCGroup']]]
 ];

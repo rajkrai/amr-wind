@@ -76,6 +76,7 @@ var searchData=
   ['snstructint',['SNStructInt',['../namespaceamr__wind_1_1sampling.html#aee84b7c788bacc2cdd96613179d63daf',1,'amr_wind::sampling']]],
   ['snstructreal',['SNStructReal',['../namespaceamr__wind_1_1sampling.html#a858216ed4cc3d59ccdac598a5c9b94d8',1,'amr_wind::sampling']]],
   ['solve',['solve',['../classamr__wind_1_1pde_1_1_p_d_e_system.html#ac800661a4223ebee3aad10fb8d236b6e',1,'amr_wind::pde::PDESystem::solve()'],['../classamr__wind_1_1pde_1_1_p_d_e_base.html#a73ba758a3744921cb1c370106392a119',1,'amr_wind::pde::PDEBase::solve()']]],
+  ['source_5ffield',['source_field',['../classamr__wind_1_1_view_field.html#a30b87f8ad33c35df5bfa2141b0f742bc',1,'amr_wind::ViewField::source_field()'],['../classamr__wind_1_1_view_field.html#adc787643ffc5b0806aa6d1dc80e4c9f7',1,'amr_wind::ViewField::source_field() const']]],
   ['sources',['sources',['../structamr__wind_1_1pde_1_1_src_term_op_base.html#a78dd6e8261ed7dd1a3ce2e55bdf83c42',1,'amr_wind::pde::SrcTermOpBase']]],
   ['sourceterm',['SourceTerm',['../classamr__wind_1_1pde_1_1_source_term.html',1,'amr_wind::pde']]],
   ['sourceterm_2eh',['SourceTerm.H',['../_source_term_8_h.html',1,'']]],
@@ -118,6 +119,8 @@ var searchData=
   ['stencils_2eh',['stencils.H',['../stencils_8_h.html',1,'']]],
   ['strainrate',['StrainRate',['../structamr__wind_1_1fvm_1_1_strain_rate.html',1,'amr_wind::fvm::StrainRate&lt; FTypeIn, FTypeOut &gt;'],['../structamr__wind_1_1fvm_1_1_strain_rate.html#aa617c6b696ce4a62e4ab3fc4a388a9bc',1,'amr_wind::fvm::StrainRate::StrainRate()'],['../group__fvm.html#ga1eb09a343113dcb7178c3749645ef0aa',1,'amr_wind::fvm::strainrate(FTypeOut &amp;strphi, const FTypeIn &amp;phi)'],['../group__fvm.html#gaa337ed82bc65640fbaa416a577d471c5',1,'amr_wind::fvm::strainrate(const FType &amp;phi)']]],
   ['strainrate_2eh',['strainrate.H',['../strainrate_8_h.html',1,'']]],
+  ['strainratemag',['StrainRateMag',['../structamr__wind_1_1derived_1_1_strain_rate_mag.html',1,'amr_wind::derived::StrainRateMag'],['../structamr__wind_1_1derived_1_1_strain_rate_mag.html#aa6089973187eca623499138e2cb5c358',1,'amr_wind::derived::StrainRateMag::StrainRateMag()']]],
+  ['subview',['subview',['../classamr__wind_1_1_field.html#ad5241981076987a58e21575e518dc908',1,'amr_wind::Field::subview()'],['../classamr__wind_1_1_scratch_field.html#a8c1d1bf0f3ee2e4c8ded62cd99ded18a',1,'amr_wind::ScratchField::subview()']]],
   ['surf_5ftemp',['surf_temp',['../structamr__wind_1_1_m_o_data.html#a27cd6e3b89a07eb4f93b1eb398748305',1,'amr_wind::MOData']]],
   ['surf_5ftemp_5fflux',['surf_temp_flux',['../structamr__wind_1_1_m_o_data.html#a2d85c7da91c9de692fcc10b19ec3cd7f',1,'amr_wind::MOData']]],
   ['surface_5ftemperature',['SURFACE_TEMPERATURE',['../structamr__wind_1_1_m_o_data.html#a224d3e389ce06f0e7e4303a79e5dd994a584ef23e9219af15625a378871031d6d',1,'amr_wind::MOData']]]

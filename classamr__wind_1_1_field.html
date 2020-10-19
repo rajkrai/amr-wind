@@ -195,6 +195,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a994fec47306b5bc39102d444488689c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field.html#a994fec47306b5bc39102d444488689c3">setVal</a> (const amrex::Vector&lt; amrex::Real &gt; &amp;values, int nghost=0) noexcept</td></tr>
 <tr class="memdesc:a994fec47306b5bc39102d444488689c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set components to those in the vector for a multi-component field.  <a href="#a994fec47306b5bc39102d444488689c3">More...</a><br /></td></tr>
 <tr class="separator:a994fec47306b5bc39102d444488689c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5241981076987a58e21575e518dc908"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_view_field.html">ViewField</a>&lt; <a class="el" href="classamr__wind_1_1_field.html">Field</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field.html#ad5241981076987a58e21575e518dc908">subview</a> (const int scomp=0, const int ncomp=1)</td></tr>
+<tr class="memdesc:ad5241981076987a58e21575e518dc908"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a sub-view of the <a class="el" href="classamr__wind_1_1_field.html" title="Computational fieldThis is an abstraction of a collection of MultiFabs over multiple levels...">Field</a> instance.  <a href="#ad5241981076987a58e21575e518dc908">More...</a><br /></td></tr>
+<tr class="separator:ad5241981076987a58e21575e518dc908"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95565eab5ee4232e7f69e88563518174"><td class="memTemplParams" colspan="2">template&lt;typename T , class... Args&gt; </td></tr>
 <tr class="memitem:a95565eab5ee4232e7f69e88563518174"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field.html#a95565eab5ee4232e7f69e88563518174">register_fill_patch_op</a> (Args &amp;&amp;... args)</td></tr>
 <tr class="memdesc:a95565eab5ee4232e7f69e88563518174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a custom fillpatch class instance for this field.  <a href="#a95565eab5ee4232e7f69e88563518174">More...</a><br /></td></tr>
@@ -1800,6 +1803,44 @@ template&lt;typename T , class... Args&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad5241981076987a58e21575e518dc908"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5241981076987a58e21575e518dc908">&#9670;&nbsp;</a></span>subview()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classamr__wind_1_1_view_field.html">ViewField</a>&lt;<a class="el" href="classamr__wind_1_1_field.html">Field</a>&gt; amr_wind::Field::subview </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>scomp</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>ncomp</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return a sub-view of the <a class="el" href="classamr__wind_1_1_field.html" title="Computational fieldThis is an abstraction of a collection of MultiFabs over multiple levels...">Field</a> instance. </p>
 
 </div>
 </div>

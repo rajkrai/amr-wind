@@ -42,5 +42,6 @@ var searchData=
   ['stenciljlo_5fklo',['StencilJLO_KLO',['../structamr__wind_1_1fvm_1_1stencil_1_1_stencil_j_l_o___k_l_o.html',1,'amr_wind::fvm::stencil']]],
   ['stencilkhi',['StencilKHI',['../structamr__wind_1_1fvm_1_1stencil_1_1_stencil_k_h_i.html',1,'amr_wind::fvm::stencil']]],
   ['stencilklo',['StencilKLO',['../structamr__wind_1_1fvm_1_1stencil_1_1_stencil_k_l_o.html',1,'amr_wind::fvm::stencil']]],
-  ['strainrate',['StrainRate',['../structamr__wind_1_1fvm_1_1_strain_rate.html',1,'amr_wind::fvm']]]
+  ['strainrate',['StrainRate',['../structamr__wind_1_1fvm_1_1_strain_rate.html',1,'amr_wind::fvm']]],
+  ['strainratemag',['StrainRateMag',['../structamr__wind_1_1derived_1_1_strain_rate_mag.html',1,'amr_wind::derived']]]
 ];

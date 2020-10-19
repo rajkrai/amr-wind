@@ -122,6 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1d5a64ce3bca60483b5df54b23ddcf1f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classamr__wind_1_1_field_repo.html">FieldRepo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a1d5a64ce3bca60483b5df54b23ddcf1f">repo</a> () const</td></tr>
 <tr class="memdesc:a1d5a64ce3bca60483b5df54b23ddcf1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a reference to the field repository that created this field.  <a href="#a1d5a64ce3bca60483b5df54b23ddcf1f">More...</a><br /></td></tr>
 <tr class="separator:a1d5a64ce3bca60483b5df54b23ddcf1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c1d1bf0f3ee2e4c8ded62cd99ded18a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_view_field.html">ViewField</a>&lt; <a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a8c1d1bf0f3ee2e4c8ded62cd99ded18a">subview</a> (const int scomp=0, const int ncomp=1)</td></tr>
+<tr class="memdesc:a8c1d1bf0f3ee2e4c8ded62cd99ded18a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a sub-view of the <a class="el" href="classamr__wind_1_1_scratch_field.html" title="A temporary computational fieldA ScratchField is similar to a Field in usage, but is temporary in nat...">ScratchField</a> instance.  <a href="#a8c1d1bf0f3ee2e4c8ded62cd99ded18a">More...</a><br /></td></tr>
+<tr class="separator:a8c1d1bf0f3ee2e4c8ded62cd99ded18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c86bc87a90bd35f7ad1b36119d5bbbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a1c86bc87a90bd35f7ad1b36119d5bbbb">fillpatch</a> (amrex::Real time) noexcept</td></tr>
 <tr class="separator:a1c86bc87a90bd35f7ad1b36119d5bbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89be16ee0959e2b7c465ebcc1c32573e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_scratch_field.html#a89be16ee0959e2b7c465ebcc1c32573e">fillpatch</a> (amrex::Real time, const amrex::IntVect &amp;ng) noexcept</td></tr>
@@ -619,6 +622,44 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return a reference to the field repository that created this field. </p>
+
+</div>
+</div>
+<a id="a8c1d1bf0f3ee2e4c8ded62cd99ded18a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c1d1bf0f3ee2e4c8ded62cd99ded18a">&#9670;&nbsp;</a></span>subview()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classamr__wind_1_1_view_field.html">ViewField</a>&lt;<a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a>&gt; amr_wind::ScratchField::subview </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>scomp</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>ncomp</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return a sub-view of the <a class="el" href="classamr__wind_1_1_scratch_field.html" title="A temporary computational fieldA ScratchField is similar to a Field in usage, but is temporary in nat...">ScratchField</a> instance. </p>
 
 </div>
 </div>

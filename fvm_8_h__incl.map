@@ -1,16 +1,18 @@
 <map id="fvm.H" name="fvm.H">
-<area shape="rect" id="node2" href="$curvature_8_h.html" title="amr&#45;wind/fvm/curvature.H" alt="" coords="1871,80,2045,107"/>
-<area shape="rect" id="node28" href="$divergence_8_h.html" title="amr&#45;wind/fvm/divergence.H" alt="" coords="2069,80,2252,107"/>
-<area shape="rect" id="node30" href="$gradient_8_h.html" title="amr&#45;wind/fvm/gradient.H" alt="" coords="2277,80,2442,107"/>
-<area shape="rect" id="node31" href="$laplacian_8_h.html" title="amr&#45;wind/fvm/laplacian.H" alt="" coords="1479,80,1650,107"/>
-<area shape="rect" id="node32" href="$strainrate_8_h.html" title="amr&#45;wind/fvm/strainrate.H" alt="" coords="1674,80,1847,107"/>
-<area shape="rect" id="node3" href="$fvm__utils_8_h.html" title="amr&#45;wind/fvm/fvm_utils.H" alt="" coords="1825,155,1997,181"/>
-<area shape="rect" id="node4" href="$_field_repo_8_h.html" title="amr&#45;wind/core/FieldRepo.H" alt="" coords="1061,229,1242,256"/>
-<area shape="rect" id="node22" href="$stencils_8_h.html" title="Second&#45;order finite volume discretization stencil coefficients. " alt="" coords="1821,229,1985,256"/>
-<area shape="rect" id="node7" href="$_field_desc_types_8_h.html" title="amr&#45;wind/core/FieldDescTypes.H" alt="" coords="1065,379,1283,405"/>
-<area shape="rect" id="node8" href="$_field_utils_8_h.html" title="amr&#45;wind/core/FieldUtils.H" alt="" coords="771,304,948,331"/>
-<area shape="rect" id="node11" href="$_field_8_h.html" title="amr&#45;wind/core/Field.H" alt="" coords="544,304,695,331"/>
-<area shape="rect" id="node16" href="$_int_field_8_h.html" title="amr&#45;wind/core/IntField.H" alt="" coords="1189,304,1354,331"/>
-<area shape="rect" id="node18" href="$_scratch_field_8_h.html" title="amr&#45;wind/core/ScratchField.H" alt="" coords="1429,304,1623,331"/>
-<area shape="rect" id="node15" href="$incflo__enums_8_h.html" title="amr&#45;wind/incflo_enums.H" alt="" coords="278,379,449,405"/>
+<area shape="rect" id="node2" href="$curvature_8_h.html" title="amr&#45;wind/fvm/curvature.H" alt="" coords="1462,87,1635,114"/>
+<area shape="rect" id="node29" href="$divergence_8_h.html" title="amr&#45;wind/fvm/divergence.H" alt="" coords="2227,87,2409,114"/>
+<area shape="rect" id="node31" href="$gradient_8_h.html" title="amr&#45;wind/fvm/gradient.H" alt="" coords="2434,87,2599,114"/>
+<area shape="rect" id="node32" href="$laplacian_8_h.html" title="amr&#45;wind/fvm/laplacian.H" alt="" coords="1659,87,1830,114"/>
+<area shape="rect" id="node33" href="$strainrate_8_h.html" title="amr&#45;wind/fvm/strainrate.H" alt="" coords="1854,87,2027,114"/>
+<area shape="rect" id="node34" href="$vorticity__mag_8_h.html" title="amr&#45;wind/fvm/vorticity\l_mag.H" alt="" coords="2052,80,2203,121"/>
+<area shape="rect" id="node3" href="$fvm__utils_8_h.html" title="amr&#45;wind/fvm/fvm_utils.H" alt="" coords="1959,169,2131,196"/>
+<area shape="rect" id="node4" href="$_field_repo_8_h.html" title="amr&#45;wind/core/FieldRepo.H" alt="" coords="1299,244,1481,271"/>
+<area shape="rect" id="node23" href="$stencils_8_h.html" title="Second&#45;order finite volume discretization stencil coefficients. " alt="" coords="1963,244,2127,271"/>
+<area shape="rect" id="node7" href="$_field_desc_types_8_h.html" title="amr&#45;wind/core/FieldDescTypes.H" alt="" coords="1305,468,1523,495"/>
+<area shape="rect" id="node8" href="$_field_utils_8_h.html" title="amr&#45;wind/core/FieldUtils.H" alt="" coords="1789,393,1967,420"/>
+<area shape="rect" id="node11" href="$_field_8_h.html" title="amr&#45;wind/core/Field.H" alt="" coords="857,319,1008,345"/>
+<area shape="rect" id="node18" href="$_int_field_8_h.html" title="amr&#45;wind/core/IntField.H" alt="" coords="1430,319,1595,345"/>
+<area shape="rect" id="node20" href="$_scratch_field_8_h.html" title="amr&#45;wind/core/ScratchField.H" alt="" coords="235,319,430,345"/>
+<area shape="rect" id="node15" href="$incflo__enums_8_h.html" title="amr&#45;wind/incflo_enums.H" alt="" coords="1087,393,1258,420"/>
+<area shape="rect" id="node16" href="$_view_field_8_h.html" title="amr&#45;wind/core/ViewField.H" alt="" coords="243,393,422,420"/>
 </map>

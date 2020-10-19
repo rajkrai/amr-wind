@@ -18,6 +18,8 @@ var searchData=
   ['_7ecoriolisforcing',['~CoriolisForcing',['../classamr__wind_1_1pde_1_1icns_1_1_coriolis_forcing.html#a10f1b12153c4ee4086a5141104dd06f0',1,'amr_wind::pde::icns::CoriolisForcing']]],
   ['_7edensitybuoyancy',['~DensityBuoyancy',['../classamr__wind_1_1pde_1_1icns_1_1_density_buoyancy.html#acf37749399109429a77c93592740ed33',1,'amr_wind::pde::icns::DensityBuoyancy']]],
   ['_7edensitysource',['~DensitySource',['../classamr__wind_1_1pde_1_1_density_source.html#aaeaea62a859d5c2aadc5272041b0a76e',1,'amr_wind::pde::DensitySource']]],
+  ['_7ederivedqty',['~DerivedQty',['../classamr__wind_1_1_derived_qty.html#a12ed13d4ba68d02925281b085d7b52b7',1,'amr_wind::DerivedQty']]],
+  ['_7ederivedqtymgr',['~DerivedQtyMgr',['../classamr__wind_1_1_derived_qty_mgr.html#af648f811ad1213d127c9163eaaed4ebe',1,'amr_wind::DerivedQtyMgr']]],
   ['_7ediffsolveriface',['~DiffSolverIface',['../classamr__wind_1_1pde_1_1_diff_solver_iface.html#af2e147ed1661cc4cc0c7b06dd7af2674',1,'amr_wind::pde::DiffSolverIface']]],
   ['_7eekmanspiral',['~EkmanSpiral',['../classamr__wind_1_1_ekman_spiral.html#a745e58d3c2a076ed4ce8372f6bd4efcb',1,'amr_wind::EkmanSpiral']]],
   ['_7efactory',['~Factory',['../structamr__wind_1_1_factory.html#aa6fca890ed3550c62d0f65b8d3bc07ad',1,'amr_wind::Factory']]],
