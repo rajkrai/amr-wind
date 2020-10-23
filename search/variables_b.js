@@ -17,7 +17,7 @@ var searchData=
   ['m_5fbc_5fcopied_5fto_5fdevice',['m_bc_copied_to_device',['../structamr__wind_1_1_field_info.html#a4c767c00152386b70f3f04dd10d95d7e',1,'amr_wind::FieldInfo']]],
   ['m_5fbc_5ffunc',['m_bc_func',['../structamr__wind_1_1_field_info.html#ac598a1fd254038aa270460c90c0e096a',1,'amr_wind::FieldInfo']]],
   ['m_5fbc_5fop',['m_bc_op',['../classamr__wind_1_1pde_1_1_p_d_e_system.html#aa19373b3572a7dab16abc630bdbf8a1d',1,'amr_wind::pde::PDESystem']]],
-  ['m_5fbc_5ftype',['m_bc_type',['../structamr__wind_1_1_field_info.html#ad4e22804c9e5d5c7562c47c602e73124',1,'amr_wind::FieldInfo']]],
+  ['m_5fbc_5ftype',['m_bc_type',['../structamr__wind_1_1_field_info.html#a58e477f49f149e1d4b0f8624bc5cc364',1,'amr_wind::FieldInfo']]],
   ['m_5fbc_5fvalues',['m_bc_values',['../structamr__wind_1_1_field_info.html#a36cdee3c384983bfe2683a24d0812310',1,'amr_wind::FieldInfo']]],
   ['m_5fbc_5fvalues_5fd',['m_bc_values_d',['../structamr__wind_1_1_field_info.html#a783e6c39d0c74b639011f13237758e40',1,'amr_wind::FieldInfo']]],
   ['m_5fbc_5fvalues_5fdview',['m_bc_values_dview',['../structamr__wind_1_1_field_info.html#acc19782ece994efbd8e7363080160d5d',1,'amr_wind::FieldInfo']]],

@@ -30,10 +30,10 @@
 <!-- Node2 -->
 <g id="node3" class="node">
 <title>Node2</title>
-<g id="a_node3"><a xlink:href="_m_o_data_8h.html" target="_top" xlink:title="amr&#45;wind/wind_energy\l/MOData.h">
+<g id="a_node3"><a xlink:href="_m_o_data_8_h.html" target="_top" xlink:title="amr&#45;wind/wind_energy\l/MOData.H">
 <polygon fill="#ffffff" stroke="#000000" points="58,-123.5 58,-153.5 172,-153.5 172,-123.5 58,-123.5"/>
 <text text-anchor="start" x="66" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr&#45;wind/wind_energy</text>
-<text text-anchor="middle" x="115" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/MOData.h</text>
+<text text-anchor="middle" x="115" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/MOData.H</text>
 </a>
 </g>
 </g>
