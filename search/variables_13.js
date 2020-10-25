@@ -4,5 +4,6 @@ var searchData=
   ['varid',['varid',['../structncutils_1_1_n_c_var.html#a2dce982c1ddb8f3b89b071bc3bf15532',1,'ncutils::NCVar']]],
   ['vel_5fmean',['vel_mean',['../structamr__wind_1_1_m_o_data.html#a7932978a3fe28487c9be88c2dd92e562',1,'amr_wind::MOData']]],
   ['verbose',['verbose',['../structamr__wind_1_1_m_l_m_g_options.html#af93c207fe16324a58f79b618ed144b99',1,'amr_wind::MLMGOptions']]],
-  ['vmag_5fmean',['vmag_mean',['../structamr__wind_1_1_m_o_data.html#a6304f2968f4239a54767b9ea8b979401',1,'amr_wind::MOData']]]
+  ['vmag_5fmean',['vmag_mean',['../structamr__wind_1_1_m_o_data.html#a6304f2968f4239a54767b9ea8b979401',1,'amr_wind::MOData']]],
+  ['vv',['vv',['../structamr__wind_1_1vs_1_1_tensor_t.html#af7074bc16e2d22689489e5e13e187469',1,'amr_wind::vs::TensorT::vv()'],['../structamr__wind_1_1vs_1_1_vector_t.html#ae2edb8363d842c1b1bfac65e2a26d2c1',1,'amr_wind::vs::VectorT::vv()']]]
 ];

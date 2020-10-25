@@ -16,5 +16,9 @@ var searchData=
   ['directionselector_3c_200_20_3e',['DirectionSelector&lt; 0 &gt;',['../struct_direction_selector_3_010_01_4.html',1,'']]],
   ['directionselector_3c_201_20_3e',['DirectionSelector&lt; 1 &gt;',['../struct_direction_selector_3_011_01_4.html',1,'']]],
   ['directionselector_3c_202_20_3e',['DirectionSelector&lt; 2 &gt;',['../struct_direction_selector_3_012_01_4.html',1,'']]],
-  ['divergence',['Divergence',['../structamr__wind_1_1derived_1_1_divergence.html',1,'amr_wind::derived::Divergence'],['../structamr__wind_1_1fvm_1_1_divergence.html',1,'amr_wind::fvm::Divergence&lt; FTypeIn, FTypeOut &gt;']]]
+  ['divergence',['Divergence',['../structamr__wind_1_1derived_1_1_divergence.html',1,'amr_wind::derived::Divergence'],['../structamr__wind_1_1fvm_1_1_divergence.html',1,'amr_wind::fvm::Divergence&lt; FTypeIn, FTypeOut &gt;']]],
+  ['dtraits',['DTraits',['../structamr__wind_1_1vs_1_1_d_traits.html',1,'amr_wind::vs']]],
+  ['dtraits_3c_20double_20_3e',['DTraits&lt; double &gt;',['../structamr__wind_1_1vs_1_1_d_traits_3_01double_01_4.html',1,'amr_wind::vs']]],
+  ['dtraits_3c_20float_20_3e',['DTraits&lt; float &gt;',['../structamr__wind_1_1vs_1_1_d_traits_3_01float_01_4.html',1,'amr_wind::vs']]],
+  ['dtraits_3c_20int_20_3e',['DTraits&lt; int &gt;',['../structamr__wind_1_1vs_1_1_d_traits_3_01int_01_4.html',1,'amr_wind::vs']]]
 ];

@@ -25,6 +25,7 @@ var searchData=
   ['bcscalar',['BCScalar',['../classamr__wind_1_1_b_c_scalar.html',1,'amr_wind::BCScalar'],['../classamr__wind_1_1_b_c_scalar.html#a86e1a8745d0886eb676e235b7750eab2',1,'amr_wind::BCScalar::BCScalar()']]],
   ['bcsrcterm',['BCSrcTerm',['../classamr__wind_1_1_b_c_src_term.html',1,'amr_wind::BCSrcTerm'],['../classamr__wind_1_1_b_c_src_term.html#acaae2b4fe53458a3bda6e0889de075bf',1,'amr_wind::BCSrcTerm::BCSrcTerm()']]],
   ['bcvelocity',['BCVelocity',['../classamr__wind_1_1_b_c_velocity.html',1,'amr_wind::BCVelocity'],['../classamr__wind_1_1_b_c_velocity.html#a33929dacaaa75146795d37c291ba9223',1,'amr_wind::BCVelocity::BCVelocity()']]],
+  ['begin',['begin',['../structamr__wind_1_1vs_1_1_tensor_t.html#a77cec4a86b771fb3893d6cbffe140d52',1,'amr_wind::vs::TensorT::begin()'],['../structamr__wind_1_1vs_1_1_vector_t.html#acc4db22c68ae0c45294b8a23b7c2f1eb',1,'amr_wind::vs::VectorT::begin()']]],
   ['beta_5fm',['beta_m',['../structamr__wind_1_1_m_o_data.html#a62cbfd5e9bf94de5727c90d2d0035144',1,'amr_wind::MOData']]],
   ['bndry_5fplane',['bndry_plane',['../classamr__wind_1_1_a_b_l.html#a6db672bc2b069c195340c8577a545f16',1,'amr_wind::ABL']]],
   ['bodyforce',['BodyForce',['../classamr__wind_1_1pde_1_1icns_1_1_body_force.html',1,'amr_wind::pde::icns::BodyForce'],['../classamr__wind_1_1pde_1_1icns_1_1_body_force.html#a9eb929a40c4855eec58d587db8328daf',1,'amr_wind::pde::icns::BodyForce::BodyForce()']]],

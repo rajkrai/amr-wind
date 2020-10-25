@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['data',['data',['../structamr__wind_1_1_buffer_data.html#a21b998cd43f59aaf149b766ad3f0565c',1,'amr_wind::BufferData']]],
+  ['data',['data',['../structamr__wind_1_1_buffer_data.html#a21b998cd43f59aaf149b766ad3f0565c',1,'amr_wind::BufferData::data()'],['../structamr__wind_1_1vs_1_1_tensor_t.html#a8a8efa2bbb9dfe52b99646f4b9b90931',1,'amr_wind::vs::TensorT::data() noexcept'],['../structamr__wind_1_1vs_1_1_tensor_t.html#a884921ac37aa0f928217bc21e69b0503',1,'amr_wind::vs::TensorT::data() const noexcept'],['../structamr__wind_1_1vs_1_1_vector_t.html#a1a40b300270a80eae1469513cfe8d934',1,'amr_wind::vs::VectorT::data() noexcept'],['../structamr__wind_1_1vs_1_1_vector_t.html#a009c39a40c196d490c9b2a0710b21f10',1,'amr_wind::vs::VectorT::data() const noexcept']]],
   ['declare_5fcc_5ffield',['declare_cc_field',['../classamr__wind_1_1_field_repo.html#ae9154840b9eebbe2e94842edee401480',1,'amr_wind::FieldRepo']]],
   ['declare_5fface_5fnormal_5ffield',['declare_face_normal_field',['../classamr__wind_1_1_field_repo.html#aa77ef977def43395e4d550c0310e9dec',1,'amr_wind::FieldRepo']]],
   ['declare_5ffield',['declare_field',['../classamr__wind_1_1_field_repo.html#a3a5de82750cce16fc911ade860750a6b',1,'amr_wind::FieldRepo']]],
@@ -67,6 +67,10 @@ var searchData=
   ['do_5fregrid',['do_regrid',['../classamr__wind_1_1_sim_time.html#a3a462d49c815cceb15b7a976e865a643',1,'amr_wind::SimTime']]],
   ['dof_5fstate',['dof_state',['../namespaceamr__wind_1_1field__impl.html#ac4d9d9bff3243cbdd432904f9cfe5d78',1,'amr_wind::field_impl']]],
   ['dot_5fprod',['dot_prod',['../namespaceamr__wind_1_1utils.html#a1c28676d41ffc309a17fec8d89e9d085',1,'amr_wind::utils::dot_prod(const T *x, const T *y)'],['../namespaceamr__wind_1_1utils.html#a46a0864d8a31479f5c3fcc9854f8fbd8',1,'amr_wind::utils::dot_prod(const T *x, const T *y, const int ndim)']]],
+  ['dtraits',['DTraits',['../structamr__wind_1_1vs_1_1_d_traits.html',1,'amr_wind::vs']]],
+  ['dtraits_3c_20double_20_3e',['DTraits&lt; double &gt;',['../structamr__wind_1_1vs_1_1_d_traits_3_01double_01_4.html',1,'amr_wind::vs']]],
+  ['dtraits_3c_20float_20_3e',['DTraits&lt; float &gt;',['../structamr__wind_1_1vs_1_1_d_traits_3_01float_01_4.html',1,'amr_wind::vs']]],
+  ['dtraits_3c_20int_20_3e',['DTraits&lt; int &gt;',['../structamr__wind_1_1vs_1_1_d_traits_3_01int_01_4.html',1,'amr_wind::vs']]],
   ['dx',['dx',['../class_plane_averaging.html#a1f772e46ad8adef95ec5b9905fa0ce0e',1,'PlaneAveraging::dx()'],['../classamr__wind_1_1_f_plane_averaging.html#a3157f62cebbc114f6488a79ed12b86b9',1,'amr_wind::FPlaneAveraging::dx()']]],
   ['data_2dsampling_20utilities',['Data-sampling utilities',['../group__sampling.html',1,'']]]
 ];
