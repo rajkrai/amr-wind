@@ -67,16 +67,28 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">godunov Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a17da36a0f6b425b194910f4c1fc2dbc5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5">scheme</a> { <a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5a7bcdc2e24170884c173aa12b9b1bdd24">scheme::PLM</a>, 
+<a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5a4bb1ebdeeb70354069bc644b9c94ee5f">scheme::PPM</a>, 
+<a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5abf63f2417a0dfd326107c3c047b7cae6">scheme::PPM_NOLIM</a>, 
+<a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5a373656f56e555e31f62cb895843a5f57">scheme::WENO</a>
+ }</td></tr>
+<tr class="separator:a17da36a0f6b425b194910f4c1fc2dbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac24dc4f902deaea0e918f7674c504122"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegodunov.html#ac24dc4f902deaea0e918f7674c504122">compute_advection</a> (int lev, amrex::Box const &amp;bx, int ncomp, amrex::Array4&lt; amrex::Real &gt; const &amp;dqdt, amrex::Array4&lt; amrex::Real const &gt; const &amp;q, amrex::Array4&lt; amrex::Real const &gt; const &amp;umac, amrex::Array4&lt; amrex::Real const &gt; const &amp;vmac, amrex::Array4&lt; amrex::Real const &gt; const &amp;wmac, amrex::Array4&lt; amrex::Real const &gt; const &amp;fq, amrex::BCRec const *pbc, int const *iconserv, amrex::Real *p, amrex::Vector&lt; amrex::Geometry &gt; geom, amrex::Real dt, bool godunov_ppm, bool use_limiter)</td></tr>
-<tr class="separator:ac24dc4f902deaea0e918f7674c504122"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87e2296e15d47947f8275050e176ed01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegodunov.html#a87e2296e15d47947f8275050e176ed01">compute_advection</a> (int lev, amrex::Box const &amp;bx, int ncomp, amrex::Array4&lt; amrex::Real &gt; const &amp;dqdt, amrex::Array4&lt; amrex::Real const &gt; const &amp;q, amrex::Array4&lt; amrex::Real const &gt; const &amp;umac, amrex::Array4&lt; amrex::Real const &gt; const &amp;vmac, amrex::Array4&lt; amrex::Real const &gt; const &amp;wmac, amrex::Array4&lt; amrex::Real const &gt; const &amp;fq, amrex::BCRec const *pbc, int const *iconserv, amrex::Real *p, amrex::Vector&lt; amrex::Geometry &gt; geom, amrex::Real dt, <a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5">godunov::scheme</a> godunov_scheme)</td></tr>
+<tr class="separator:a87e2296e15d47947f8275050e176ed01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebf4030be86ff9d5b4e86136226b7648"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegodunov.html#aebf4030be86ff9d5b4e86136226b7648">predict_weno</a> (int lev, amrex::Box const &amp;bx, int ncomp, amrex::Array4&lt; amrex::Real &gt; const &amp;Imx, amrex::Array4&lt; amrex::Real &gt; const &amp;Ipx, amrex::Array4&lt; amrex::Real &gt; const &amp;Imy, amrex::Array4&lt; amrex::Real &gt; const &amp;Ipy, amrex::Array4&lt; amrex::Real &gt; const &amp;Imz, amrex::Array4&lt; amrex::Real &gt; const &amp;Ipz, amrex::Array4&lt; amrex::Real const &gt; const &amp;q, amrex::Array4&lt; amrex::Real const &gt; const &amp;vel, amrex::Vector&lt; amrex::Geometry &gt; geom, amrex::Real dt, amrex::Gpu::DeviceVector&lt; amrex::BCRec &gt; &amp;bcrec_device)</td></tr>
+<tr class="separator:aebf4030be86ff9d5b4e86136226b7648"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80f47080a0263d48f46ab534dc380972"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegodunov.html#a80f47080a0263d48f46ab534dc380972">predict_ppm</a> (int lev, amrex::Box const &amp;bx, int ncomp, amrex::Array4&lt; amrex::Real &gt; const &amp;Imx, amrex::Array4&lt; amrex::Real &gt; const &amp;Ipx, amrex::Array4&lt; amrex::Real &gt; const &amp;Imy, amrex::Array4&lt; amrex::Real &gt; const &amp;Ipy, amrex::Array4&lt; amrex::Real &gt; const &amp;Imz, amrex::Array4&lt; amrex::Real &gt; const &amp;Ipz, amrex::Array4&lt; amrex::Real const &gt; const &amp;q, amrex::Array4&lt; amrex::Real const &gt; const &amp;vel, amrex::Vector&lt; amrex::Geometry &gt; geom, amrex::Real dt, amrex::Gpu::DeviceVector&lt; amrex::BCRec &gt; &amp;bcrec_device, bool use_limiter)</td></tr>
 <tr class="separator:a80f47080a0263d48f46ab534dc380972"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71eec090ff4e8d178b740ffc2262a694"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegodunov.html#a71eec090ff4e8d178b740ffc2262a694">predict_plm_x</a> (int lev, amrex::Box const &amp;bx, int ncomp, amrex::Array4&lt; amrex::Real &gt; const &amp;Imx, amrex::Array4&lt; amrex::Real &gt; const &amp;Ipx, amrex::Array4&lt; amrex::Real const &gt; const &amp;q, amrex::Array4&lt; amrex::Real const &gt; const &amp;vcc, amrex::Vector&lt; amrex::Geometry &gt; geom, amrex::Real dt, amrex::Vector&lt; amrex::BCRec &gt; const &amp;h_bcrec, amrex::Gpu::DeviceVector&lt; amrex::BCRec &gt; &amp;bcrec_device)</td></tr>
@@ -90,9 +102,38 @@ Functions</h2></td></tr>
 <tr class="memitem:a4bb8dcf0cbbbc7815da5868781fc0079"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacegodunov.html#a4bb8dcf0cbbbc7815da5868781fc0079">predict_godunov</a> (int lev, amrex::Box const &amp;bx, int ncomp, amrex::Box const &amp;xbx, amrex::Box const &amp;ybx, amrex::Box const &amp;zbx, amrex::Array4&lt; amrex::Real &gt; const &amp;qx, amrex::Array4&lt; amrex::Real &gt; const &amp;qy, amrex::Array4&lt; amrex::Real &gt; const &amp;qz, amrex::Array4&lt; amrex::Real const &gt; const &amp;q, amrex::Array4&lt; amrex::Real const &gt; const &amp;u_ad, amrex::Array4&lt; amrex::Real const &gt; const &amp;v_ad, amrex::Array4&lt; amrex::Real const &gt; const &amp;w_ad, amrex::Array4&lt; amrex::Real &gt; const &amp;Imx, amrex::Array4&lt; amrex::Real &gt; const &amp;Ipx, amrex::Array4&lt; amrex::Real &gt; const &amp;Imy, amrex::Array4&lt; amrex::Real &gt; const &amp;Ipy, amrex::Array4&lt; amrex::Real &gt; const &amp;Imz, amrex::Array4&lt; amrex::Real &gt; const &amp;Ipz, amrex::Array4&lt; amrex::Real const &gt; const &amp;f, amrex::Real *p, amrex::Vector&lt; amrex::Geometry &gt; geom, amrex::Real dt, amrex::Gpu::DeviceVector&lt; amrex::BCRec &gt; &amp;bcrec_device, bool godunov_use_forces_in_trans)</td></tr>
 <tr class="separator:a4bb8dcf0cbbbc7815da5868781fc0079"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a17da36a0f6b425b194910f4c1fc2dbc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17da36a0f6b425b194910f4c1fc2dbc5">&#9670;&nbsp;</a></span>scheme</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5">godunov::scheme</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a17da36a0f6b425b194910f4c1fc2dbc5a7bcdc2e24170884c173aa12b9b1bdd24"></a>PLM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17da36a0f6b425b194910f4c1fc2dbc5a4bb1ebdeeb70354069bc644b9c94ee5f"></a>PPM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17da36a0f6b425b194910f4c1fc2dbc5abf63f2417a0dfd326107c3c047b7cae6"></a>PPM_NOLIM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a17da36a0f6b425b194910f4c1fc2dbc5a373656f56e555e31f62cb895843a5f57"></a>WENO&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ac24dc4f902deaea0e918f7674c504122"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac24dc4f902deaea0e918f7674c504122">&#9670;&nbsp;</a></span>compute_advection()</h2>
+<a id="a87e2296e15d47947f8275050e176ed01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87e2296e15d47947f8275050e176ed01">&#9670;&nbsp;</a></span>compute_advection()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,14 +225,8 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>godunov_ppm</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>use_limiter</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5">godunov::scheme</a>&#160;</td>
+          <td class="paramname"><em>godunov_scheme</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -840,6 +875,106 @@ Functions</h2></td></tr>
           <td></td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>use_limiter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aebf4030be86ff9d5b4e86136226b7648"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebf4030be86ff9d5b4e86136226b7648">&#9670;&nbsp;</a></span>predict_weno()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void godunov::predict_weno </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Box const &amp;&#160;</td>
+          <td class="paramname"><em>bx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ncomp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Array4&lt; amrex::Real &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>Imx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Array4&lt; amrex::Real &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>Ipx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Array4&lt; amrex::Real &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>Imy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Array4&lt; amrex::Real &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>Ipy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Array4&lt; amrex::Real &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>Imz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Array4&lt; amrex::Real &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>Ipz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Array4&lt; amrex::Real const &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Array4&lt; amrex::Real const &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>vel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Vector&lt; amrex::Geometry &gt;&#160;</td>
+          <td class="paramname"><em>geom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Real&#160;</td>
+          <td class="paramname"><em>dt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">amrex::Gpu::DeviceVector&lt; amrex::BCRec &gt; &amp;&#160;</td>
+          <td class="paramname"><em>bcrec_device</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

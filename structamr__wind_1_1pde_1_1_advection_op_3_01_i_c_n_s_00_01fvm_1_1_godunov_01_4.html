@@ -109,12 +109,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a24f48813b313fc4401a4b90321e8b891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeec879f7a6fffd1f16a5b9b20a5a35cd"><td class="memItemLeft" align="right" valign="top">amrex::Gpu::DeviceVector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#aeec879f7a6fffd1f16a5b9b20a5a35cd">iconserv</a></td></tr>
 <tr class="separator:aeec879f7a6fffd1f16a5b9b20a5a35cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3888b03c6688a3685bd8283316c60096"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#a3888b03c6688a3685bd8283316c60096">godunov_ppm</a> {true}</td></tr>
-<tr class="separator:a3888b03c6688a3685bd8283316c60096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a302d1ba581696caa533648c1a4ce694b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5">godunov::scheme</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#a302d1ba581696caa533648c1a4ce694b">godunov_scheme</a> = <a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5a4bb1ebdeeb70354069bc644b9c94ee5f">godunov::scheme::PPM</a></td></tr>
+<tr class="separator:a302d1ba581696caa533648c1a4ce694b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac66db5b9a874f2ff24d8ba5311e69ec4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#ac66db5b9a874f2ff24d8ba5311e69ec4">godunov_type</a></td></tr>
+<tr class="separator:ac66db5b9a874f2ff24d8ba5311e69ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc96e294ff1a3c6f5a906e1cf92e175f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#abc96e294ff1a3c6f5a906e1cf92e175f">godunov_use_forces_in_trans</a> {false}</td></tr>
 <tr class="separator:abc96e294ff1a3c6f5a906e1cf92e175f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fffda13dcbdc5f566e116827709fa4d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#a4fffda13dcbdc5f566e116827709fa4d">use_limiter</a> {true}</td></tr>
-<tr class="separator:a4fffda13dcbdc5f566e116827709fa4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;&gt;<br />
@@ -206,14 +206,28 @@ struct amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;</h3>
 
 </div>
 </div>
-<a id="a3888b03c6688a3685bd8283316c60096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3888b03c6688a3685bd8283316c60096">&#9670;&nbsp;</a></span>godunov_ppm</h2>
+<a id="a302d1ba581696caa533648c1a4ce694b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a302d1ba581696caa533648c1a4ce694b">&#9670;&nbsp;</a></span>godunov_scheme</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="structamr__wind_1_1pde_1_1_advection_op.html">amr_wind::pde::AdvectionOp</a>&lt; <a class="el" href="structamr__wind_1_1pde_1_1_i_c_n_s.html">ICNS</a>, <a class="el" href="structamr__wind_1_1fvm_1_1_godunov.html">fvm::Godunov</a> &gt;::godunov_ppm {true}</td>
+          <td class="memname"><a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5">godunov::scheme</a> <a class="el" href="structamr__wind_1_1pde_1_1_advection_op.html">amr_wind::pde::AdvectionOp</a>&lt; <a class="el" href="structamr__wind_1_1pde_1_1_i_c_n_s.html">ICNS</a>, <a class="el" href="structamr__wind_1_1fvm_1_1_godunov.html">fvm::Godunov</a> &gt;::godunov_scheme = <a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5a4bb1ebdeeb70354069bc644b9c94ee5f">godunov::scheme::PPM</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac66db5b9a874f2ff24d8ba5311e69ec4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac66db5b9a874f2ff24d8ba5311e69ec4">&#9670;&nbsp;</a></span>godunov_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string <a class="el" href="structamr__wind_1_1pde_1_1_advection_op.html">amr_wind::pde::AdvectionOp</a>&lt; <a class="el" href="structamr__wind_1_1pde_1_1_i_c_n_s.html">ICNS</a>, <a class="el" href="structamr__wind_1_1fvm_1_1_godunov.html">fvm::Godunov</a> &gt;::godunov_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -256,20 +270,6 @@ struct amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;</h3>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classamr__wind_1_1_field.html">Field</a>&amp; <a class="el" href="structamr__wind_1_1pde_1_1_advection_op.html">amr_wind::pde::AdvectionOp</a>&lt; <a class="el" href="structamr__wind_1_1pde_1_1_i_c_n_s.html">ICNS</a>, <a class="el" href="structamr__wind_1_1fvm_1_1_godunov.html">fvm::Godunov</a> &gt;::u_mac</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4fffda13dcbdc5f566e116827709fa4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fffda13dcbdc5f566e116827709fa4d">&#9670;&nbsp;</a></span>use_limiter</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="structamr__wind_1_1pde_1_1_advection_op.html">amr_wind::pde::AdvectionOp</a>&lt; <a class="el" href="structamr__wind_1_1pde_1_1_i_c_n_s.html">ICNS</a>, <a class="el" href="structamr__wind_1_1fvm_1_1_godunov.html">fvm::Godunov</a> &gt;::use_limiter {true}</td>
         </tr>
       </table>
 </div><div class="memdoc">
