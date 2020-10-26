@@ -35,6 +35,7 @@ var searchData=
   ['derive_2ecpp',['derive.cpp',['../derive_8cpp.html',1,'']]],
   ['derivedqty',['DerivedQty',['../classamr__wind_1_1_derived_qty.html',1,'amr_wind']]],
   ['derivedqtydefs_2ecpp',['DerivedQtyDefs.cpp',['../_derived_qty_defs_8cpp.html',1,'']]],
+  ['derivedqtydefs_2eh',['DerivedQtyDefs.H',['../_derived_qty_defs_8_h.html',1,'']]],
   ['derivedqtymgr',['DerivedQtyMgr',['../classamr__wind_1_1_derived_qty_mgr.html',1,'amr_wind::DerivedQtyMgr'],['../classamr__wind_1_1_derived_qty_mgr.html#aac5637c0fc652033434d60abd1eaf87e',1,'amr_wind::DerivedQtyMgr::DerivedQtyMgr()']]],
   ['derivedquantity_2ecpp',['DerivedQuantity.cpp',['../_derived_quantity_8cpp.html',1,'']]],
   ['derivedquantity_2eh',['DerivedQuantity.H',['../_derived_quantity_8_h.html',1,'']]],
