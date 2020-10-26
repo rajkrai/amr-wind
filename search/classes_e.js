@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['rayleightaylor',['RayleighTaylor',['../classamr__wind_1_1_rayleigh_taylor.html',1,'amr_wind']]],
-  ['rayleightaylorfieldinit',['RayleighTaylorFieldInit',['../classamr__wind_1_1_rayleigh_taylor_field_init.html',1,'amr_wind']]],
-  ['refinementcriteria',['RefinementCriteria',['../classamr__wind_1_1_refinement_criteria.html',1,'amr_wind']]],
-  ['register',['Register',['../structamr__wind_1_1_factory_1_1_register.html',1,'amr_wind::Factory']]]
+  ['qcriterion',['QCriterion',['../structamr__wind_1_1derived_1_1_q_criterion.html',1,'amr_wind::derived::QCriterion'],['../structamr__wind_1_1fvm_1_1_qcriterion.html',1,'amr_wind::fvm::Qcriterion&lt; FTypeIn, FTypeOut &gt;']]]
 ];

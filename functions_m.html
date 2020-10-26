@@ -715,6 +715,7 @@ $(function() {
 , <a class="el" href="structamr__wind_1_1fvm_1_1_divergence.html#ae6f2ffc286177f2e63f6a412e1b882a7">amr_wind::fvm::Divergence&lt; FTypeIn, FTypeOut &gt;</a>
 , <a class="el" href="structamr__wind_1_1fvm_1_1_gradient.html#a261d9f18c240970816dfd151ed4698d1">amr_wind::fvm::Gradient&lt; FTypeIn, FTypeOut &gt;</a>
 , <a class="el" href="structamr__wind_1_1fvm_1_1_laplacian.html#a6d1aca0be3a428c164ca73d726045472">amr_wind::fvm::Laplacian&lt; FTypeIn, FTypeOut &gt;</a>
+, <a class="el" href="structamr__wind_1_1fvm_1_1_qcriterion.html#a9c8a8fbd19efa505a1f9edc89a604753">amr_wind::fvm::Qcriterion&lt; FTypeIn, FTypeOut &gt;</a>
 , <a class="el" href="structamr__wind_1_1fvm_1_1_strain_rate.html#a289fb527ace4e3f868cb09132d881071">amr_wind::fvm::StrainRate&lt; FTypeIn, FTypeOut &gt;</a>
 , <a class="el" href="structamr__wind_1_1fvm_1_1_vorticity_mag.html#aa46ff3daf973c81d7c5b52a4171d2fc1">amr_wind::fvm::VorticityMag&lt; FTypeIn, FTypeOut &gt;</a>
 </li>
@@ -791,6 +792,9 @@ $(function() {
 </li>
 <li>m_qcell
 : <a class="el" href="classamr__wind_1_1_tioga_interface.html#a93d5bde3708e9d772021a5bb345ed9c1">amr_wind::TiogaInterface</a>
+</li>
+<li>m_qcritphi
+: <a class="el" href="structamr__wind_1_1fvm_1_1_qcriterion.html#a47d3ccbb279bd56a39309311f3ed7890">amr_wind::fvm::Qcriterion&lt; FTypeIn, FTypeOut &gt;</a>
 </li>
 <li>m_qnode
 : <a class="el" href="classamr__wind_1_1_tioga_interface.html#aba5cb8386e6eef9dc5f781b519da8468">amr_wind::TiogaInterface</a>
@@ -1096,6 +1100,7 @@ $(function() {
 </li>
 <li>m_vel
 : <a class="el" href="classamr__wind_1_1_a_b_l_field_init.html#a604a57d7d3b5bcf9c0bf6d1e9f2f2f5f">amr_wind::ABLFieldInit</a>
+, <a class="el" href="structamr__wind_1_1derived_1_1_q_criterion.html#ad4c8e2db33d2b065b4fd71a3dc4dbdfc">amr_wind::derived::QCriterion</a>
 , <a class="el" href="structamr__wind_1_1derived_1_1_strain_rate_mag.html#ac15e7caf11fdf9984465c16d768edc54">amr_wind::derived::StrainRateMag</a>
 , <a class="el" href="structamr__wind_1_1derived_1_1_vorticity_mag.html#a98d678cb6241e954ada4041edee42dc9">amr_wind::derived::VorticityMag</a>
 , <a class="el" href="classamr__wind_1_1_ekman_spiral.html#a9405f2248fd15200961730fce9f2a4f4">amr_wind::EkmanSpiral</a>
@@ -1193,7 +1198,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_mean_boussinesq.html#a541aa22bf5dcf260b3ca70e9ee5991de">amr_wind::pde::icns::ABLMeanBoussinesq</a>
 </li>
 <li>mesh()
-: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#abf7ff85c5fc21b8befe456c81ab7c9bc">amr_wind::CFDSim</a>
+: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a43722465985d48f96c670da7d182f895">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1_field_repo.html#abbc1f14779d1c6d8ac8d5d6d12431b6e">amr_wind::FieldRepo</a>
 </li>
 <li>min()
@@ -1216,7 +1221,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1mms_1_1_m_m_s_forcing.html#a788d199299a159af188ed3ff0cfeb7ea">amr_wind::pde::icns::mms::MMSForcing</a>
 </li>
 <li>mo()
-: <a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a4574e4e49de15db9d255ba4097abe195">amr_wind::ABLWallFunction</a>
+: <a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a4d3b42e8cb128ae28483e04f3518d4e2">amr_wind::ABLWallFunction</a>
 </li>
 <li>model_coeffs()
 : <a class="el" href="classamr__wind_1_1turbulence_1_1_laminar.html#ab0761212a5b0477cfae64887319fa195">amr_wind::turbulence::Laminar&lt; Transport &gt;</a>
