@@ -114,6 +114,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a11f3e58ad355534da34fc31d6dcea6ea"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac">FieldPlaneAveraging</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_stats.html#a11f3e58ad355534da34fc31d6dcea6ea">temperature_plane_stats</a> () const</td></tr>
 <tr class="memdesc:a11f3e58ad355534da34fc31d6dcea6ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return instance that handles temperature statistics.  <a href="#a11f3e58ad355534da34fc31d6dcea6ea">More...</a><br /></td></tr>
 <tr class="separator:a11f3e58ad355534da34fc31d6dcea6ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e4457f1a218b93f952ad06cb0ee1cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_stats.html#ad1e4457f1a218b93f952ad06cb0ee1cc">register_forcing_term</a> (<a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_forcing.html">pde::icns::ABLForcing</a> *forcing) const</td></tr>
+<tr class="separator:ad1e4457f1a218b93f952ad06cb0ee1cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -160,6 +162,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ab2a84a73c137745ba1420f349b5387ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52583aba134845784b68cd456179e9aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_third_moment_averaging.html">ThirdMomentAveraging</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_stats.html#a52583aba134845784b68cd456179e9aa">m_pa_uuu</a></td></tr>
 <tr class="separator:a52583aba134845784b68cd456179e9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd39455c915266e038f51a1081dc798"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_forcing.html">pde::icns::ABLForcing</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_stats.html#abdd39455c915266e038f51a1081dc798">m_abl_forcing</a> {nullptr}</td></tr>
+<tr class="memdesc:abdd39455c915266e038f51a1081dc798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to <a class="el" href="classamr__wind_1_1_a_b_l.html" title="Atmospheric Boundary Layer physicsThis class implements the necessary code to simulation atmospheric ...">ABL</a> forcing term if present.  <a href="#abdd39455c915266e038f51a1081dc798">More...</a><br /></td></tr>
+<tr class="separator:abdd39455c915266e038f51a1081dc798"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8144513a5c459c24cb7a69875ce7654f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_a_b_l_stats.html#a8144513a5c459c24cb7a69875ce7654f">m_out_fmt</a> {&quot;netcdf&quot;}</td></tr>
 <tr class="memdesc:a8144513a5c459c24cb7a69875ce7654f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format of the data output (ascii, netcdf, etc.)  <a href="#a8144513a5c459c24cb7a69875ce7654f">More...</a><br /></td></tr>
 <tr class="separator:a8144513a5c459c24cb7a69875ce7654f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -444,6 +449,32 @@ template&lt;typename h1_dir , typename h2_dir &gt; </div>
 
 </div>
 </div>
+<a id="ad1e4457f1a218b93f952ad06cb0ee1cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1e4457f1a218b93f952ad06cb0ee1cc">&#9670;&nbsp;</a></span>register_forcing_term()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void amr_wind::ABLStats::register_forcing_term </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_forcing.html">pde::icns::ABLForcing</a> *&#160;</td>
+          <td class="paramname"><em>forcing</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a11f3e58ad355534da34fc31d6dcea6ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a11f3e58ad355534da34fc31d6dcea6ea">&#9670;&nbsp;</a></span>temperature_plane_stats()</h2>
 
@@ -554,6 +585,30 @@ template&lt;typename h1_dir , typename h2_dir &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="abdd39455c915266e038f51a1081dc798"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdd39455c915266e038f51a1081dc798">&#9670;&nbsp;</a></span>m_abl_forcing</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_forcing.html">pde::icns::ABLForcing</a>* amr_wind::ABLStats::m_abl_forcing {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to <a class="el" href="classamr__wind_1_1_a_b_l.html" title="Atmospheric Boundary Layer physicsThis class implements the necessary code to simulation atmospheric ...">ABL</a> forcing term if present. </p>
+
+</div>
+</div>
 <a id="a39a3f312a5de3eac70639b152fe9cf53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39a3f312a5de3eac70639b152fe9cf53">&#9670;&nbsp;</a></span>m_abl_wall_func</h2>
 
