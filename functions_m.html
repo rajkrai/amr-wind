@@ -262,7 +262,7 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1_taylor_green_vortex.html#aea53d0c36bab4b23bcf213b8c65398df">amr_wind::TaylorGreenVortex</a>
 </li>
 <li>m_depth
-: <a class="el" href="classamr__wind_1_1_zalesak_disk_field_init.html#a6134c84c6e0ce828005d8baec83882d9">amr_wind::ZalesakDiskFieldInit</a>
+: <a class="el" href="classamr__wind_1_1_zalesak_disk.html#a9792d1670a80c49089845d24c3d94546">amr_wind::ZalesakDisk</a>
 </li>
 <li>m_derived_mgr
 : <a class="el" href="classamr__wind_1_1_i_o_manager.html#a660ac23589f8d5be793d6be353cb70e1">amr_wind::IOManager</a>
@@ -319,8 +319,6 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l.html#a213616ba7ee9c20af0e4b760e1a06e1e">amr_wind::ABL</a>
 , <a class="el" href="classamr__wind_1_1_boussinesq_bubble.html#af5b8e1753f5053e341e34df29f0bdc53">amr_wind::BoussinesqBubble</a>
 , <a class="el" href="classamr__wind_1_1_rayleigh_taylor.html#a8f80f2f4035cf1d0ef42f4731487ebc3">amr_wind::RayleighTaylor</a>
-, <a class="el" href="classamr__wind_1_1_vortex_patch.html#a9f9226633686d94eb3ca4479661edbac">amr_wind::VortexPatch</a>
-, <a class="el" href="classamr__wind_1_1_zalesak_disk.html#a279a544ee57540edfba5b5ec6ae2151a">amr_wind::ZalesakDisk</a>
 </li>
 <li>m_field_vec
 : <a class="el" href="classamr__wind_1_1_field_repo.html#a4fcb6497fe20552def4023e7124f26b9">amr_wind::FieldRepo</a>
@@ -377,6 +375,9 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_boussinesq_buoyancy.html#ac4833ba7ca42a64a144c7e53892cf259">amr_wind::pde::icns::BoussinesqBuoyancy</a>
 , <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_density_buoyancy.html#a85799ce6d1eca3d33f4c3b852a11f178">amr_wind::pde::icns::DensityBuoyancy</a>
 , <a class="el" href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html#a1c868f4dea5731453322a798e94dcb74">amr_wind::turbulence::OneEqKsgsM84&lt; Transport &gt;</a>
+</li>
+<li>m_height
+: <a class="el" href="classamr__wind_1_1_dam_break.html#ad32e46408c31754e2f159a812c8dd866">amr_wind::DamBreak</a>
 </li>
 <li>m_iblank_cell
 : <a class="el" href="classamr__wind_1_1_tioga_interface.html#a9aceb6539e191707b3a6e83a9228d0d5">amr_wind::TiogaInterface</a>
@@ -474,7 +475,8 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_field_repo.html#a5be22728d89b80234619aa5acd7cdec9">amr_wind::FieldRepo</a>
 </li>
 <li>m_levelset
-: <a class="el" href="classamr__wind_1_1_multi_phase.html#aa6b3d1d15e05293d08671af5f5d6802f">amr_wind::MultiPhase</a>
+: <a class="el" href="classamr__wind_1_1_dam_break.html#ad9e759381f7fce9eb44b9687255d5f17">amr_wind::DamBreak</a>
+, <a class="el" href="classamr__wind_1_1_multi_phase.html#aa6b3d1d15e05293d08671af5f5d6802f">amr_wind::MultiPhase</a>
 , <a class="el" href="classamr__wind_1_1_vortex_patch.html#a1bb1e36b022afd07d3a30aecb4d529cc">amr_wind::VortexPatch</a>
 , <a class="el" href="classamr__wind_1_1_zalesak_disk.html#a4fa3404b4060548a3d946a0e59a579ce">amr_wind::ZalesakDisk</a>
 </li>
@@ -495,8 +497,9 @@ $(function() {
 </li>
 <li>m_loc
 : <a class="el" href="classamr__wind_1_1_boussinesq_bubble_field_init.html#a03f188cbbd408dc5d7ba02b833814fee">amr_wind::BoussinesqBubbleFieldInit</a>
-, <a class="el" href="classamr__wind_1_1_vortex_patch_field_init.html#afb2cc8bc30e74679029fa3de8c37dabf">amr_wind::VortexPatchFieldInit</a>
-, <a class="el" href="classamr__wind_1_1_zalesak_disk_field_init.html#a115c1f5105a6b7c908a681b53e9c92c7">amr_wind::ZalesakDiskFieldInit</a>
+, <a class="el" href="classamr__wind_1_1_dam_break.html#a8fc68f7847d7e6291bd2b77de6c0e6d7">amr_wind::DamBreak</a>
+, <a class="el" href="classamr__wind_1_1_vortex_patch.html#ae18242db52c8e6aaa5ce09de4e64980b">amr_wind::VortexPatch</a>
+, <a class="el" href="classamr__wind_1_1_zalesak_disk.html#a8ea80cba5684bd999879d0ed9ac82d6c">amr_wind::ZalesakDisk</a>
 </li>
 <li>m_lpinfo
 : <a class="el" href="structamr__wind_1_1_m_l_m_g_options.html#a75199734c45386eb32ac24e4fc402d01">amr_wind::MLMGOptions</a>
@@ -802,8 +805,8 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_tioga_interface.html#aba5cb8386e6eef9dc5f781b519da8468">amr_wind::TiogaInterface</a>
 </li>
 <li>m_radius
-: <a class="el" href="classamr__wind_1_1_vortex_patch_field_init.html#a63dd0f2e2bad818a92221b033651af0e">amr_wind::VortexPatchFieldInit</a>
-, <a class="el" href="classamr__wind_1_1_zalesak_disk_field_init.html#a9838c7090b0b8fc5be64c5aa4a34c0f3">amr_wind::ZalesakDiskFieldInit</a>
+: <a class="el" href="classamr__wind_1_1_vortex_patch.html#a5b116d8a2c3b676b36dfb2ffe4f0da32">amr_wind::VortexPatch</a>
+, <a class="el" href="classamr__wind_1_1_zalesak_disk.html#a0a1daf0bf17777ccc95736d9de8a8357">amr_wind::ZalesakDisk</a>
 </li>
 <li>m_real_boxes
 : <a class="el" href="classamr__wind_1_1_cart_box_refinement.html#a38655d52a0df1cce63b41d7ff17ab318">amr_wind::CartBoxRefinement</a>
@@ -1059,7 +1062,6 @@ $(function() {
 <li>m_TT
 : <a class="el" href="classamr__wind_1_1_vortex_patch.html#a9ea5e4ccb6b2763cb115b802d2c38361">amr_wind::VortexPatch</a>
 , <a class="el" href="classamr__wind_1_1_zalesak_disk.html#a8358073496be2a44ce128b4a3cd96876">amr_wind::ZalesakDisk</a>
-, <a class="el" href="classamr__wind_1_1_zalesak_disk_field_init.html#affc073ac04473a50b3eec40ad4e3e998">amr_wind::ZalesakDiskFieldInit</a>
 </li>
 <li>m_turb_lscale
 : <a class="el" href="classamr__wind_1_1pde_1_1tke_1_1_ksgs_m84_src.html#ae54e474c41c5a6302dbcc49e5cd38897">amr_wind::pde::tke::KsgsM84Src</a>
@@ -1114,6 +1116,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l.html#aa36522844bc8b194eda44d8729933696">amr_wind::ABL</a>
 , <a class="el" href="classamr__wind_1_1_boussinesq_bubble.html#a30f7f44ba5ff48f3b76427117ab2201f">amr_wind::BoussinesqBubble</a>
 , <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#a70bfed10ff36ec970f641c28cde25068">amr_wind::ctv::ConvectingTaylorVortex</a>
+, <a class="el" href="classamr__wind_1_1_dam_break.html#a1fdf3c22a5a504ca77b79b18484cc665">amr_wind::DamBreak</a>
 , <a class="el" href="classamr__wind_1_1_ekman_spiral.html#adc1f0489a1b3284b718932c02b653a9e">amr_wind::EkmanSpiral</a>
 , <a class="el" href="classamr__wind_1_1_free_stream.html#a0e95615eb39aa73f4fb6194b385150cd">amr_wind::FreeStream</a>
 , <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#aa3095a0e50abd6331615a220c1ea86d9">amr_wind::mms::MMS</a>
@@ -1144,7 +1147,8 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1_a_b_l_vel_wall_func.html#a57f27a1c47bae0984ac3dd27519fd4d8">amr_wind::ABLVelWallFunc</a>
 </li>
 <li>m_width
-: <a class="el" href="classamr__wind_1_1_zalesak_disk_field_init.html#a23e2fda8b911042f80f61865a7513a35">amr_wind::ZalesakDiskFieldInit</a>
+: <a class="el" href="classamr__wind_1_1_dam_break.html#ae1c8ed2edec5bccfc9bf237f1692a1e1">amr_wind::DamBreak</a>
+, <a class="el" href="classamr__wind_1_1_zalesak_disk.html#ae17f25a2c1696dca1ac60e0e9c1e8f26">amr_wind::ZalesakDisk</a>
 </li>
 <li>m_write_frequency
 : <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#a7b41c9eb1ab5f14901e38f8c7f4c6cfd">amr_wind::ABLBoundaryPlane</a>
@@ -1200,7 +1204,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_mean_boussinesq.html#a541aa22bf5dcf260b3ca70e9ee5991de">amr_wind::pde::icns::ABLMeanBoussinesq</a>
 </li>
 <li>mesh()
-: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a43722465985d48f96c670da7d182f895">amr_wind::CFDSim</a>
+: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#abf7ff85c5fc21b8befe456c81ab7c9bc">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1_field_repo.html#abbc1f14779d1c6d8ac8d5d6d12431b6e">amr_wind::FieldRepo</a>
 </li>
 <li>min()

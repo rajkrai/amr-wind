@@ -16,6 +16,7 @@ var searchData=
   ['_7econsttransport',['~ConstTransport',['../classamr__wind_1_1transport_1_1_const_transport.html#aff2f9d828df04ca5049c881f462ff477',1,'amr_wind::transport::ConstTransport']]],
   ['_7econvectingtaylorvortex',['~ConvectingTaylorVortex',['../classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#a73fa03576112b548462475e87bfcd416',1,'amr_wind::ctv::ConvectingTaylorVortex']]],
   ['_7ecoriolisforcing',['~CoriolisForcing',['../classamr__wind_1_1pde_1_1icns_1_1_coriolis_forcing.html#a10f1b12153c4ee4086a5141104dd06f0',1,'amr_wind::pde::icns::CoriolisForcing']]],
+  ['_7edambreak',['~DamBreak',['../classamr__wind_1_1_dam_break.html#a910e79d78e8dee4ea6b0c94d3f28df65',1,'amr_wind::DamBreak']]],
   ['_7edensitybuoyancy',['~DensityBuoyancy',['../classamr__wind_1_1pde_1_1icns_1_1_density_buoyancy.html#acf37749399109429a77c93592740ed33',1,'amr_wind::pde::icns::DensityBuoyancy']]],
   ['_7edensitysource',['~DensitySource',['../classamr__wind_1_1pde_1_1_density_source.html#aaeaea62a859d5c2aadc5272041b0a76e',1,'amr_wind::pde::DensitySource']]],
   ['_7ederivedqty',['~DerivedQty',['../classamr__wind_1_1_derived_qty.html#a12ed13d4ba68d02925281b085d7b52b7',1,'amr_wind::DerivedQty']]],

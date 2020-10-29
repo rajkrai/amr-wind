@@ -5,6 +5,5 @@ var searchData=
   ['velplaneaveraging',['VelPlaneAveraging',['../classamr__wind_1_1_vel_plane_averaging.html',1,'amr_wind']]],
   ['viewfield',['ViewField',['../classamr__wind_1_1_view_field.html',1,'amr_wind']]],
   ['vortexpatch',['VortexPatch',['../classamr__wind_1_1_vortex_patch.html',1,'amr_wind']]],
-  ['vortexpatchfieldinit',['VortexPatchFieldInit',['../classamr__wind_1_1_vortex_patch_field_init.html',1,'amr_wind']]],
-  ['vorticitymag',['VorticityMag',['../structamr__wind_1_1fvm_1_1_vorticity_mag.html',1,'amr_wind::fvm::VorticityMag&lt; FTypeIn, FTypeOut &gt;'],['../structamr__wind_1_1derived_1_1_vorticity_mag.html',1,'amr_wind::derived::VorticityMag']]]
+  ['vorticitymag',['VorticityMag',['../structamr__wind_1_1derived_1_1_vorticity_mag.html',1,'amr_wind::derived::VorticityMag'],['../structamr__wind_1_1fvm_1_1_vorticity_mag.html',1,'amr_wind::fvm::VorticityMag&lt; FTypeIn, FTypeOut &gt;']]]
 ];
