@@ -12,5 +12,7 @@ var searchData=
   ['boussinesqbubblefieldinit_2ecpp',['BoussinesqBubbleFieldInit.cpp',['../_boussinesq_bubble_field_init_8cpp.html',1,'']]],
   ['boussinesqbubblefieldinit_2eh',['BoussinesqBubbleFieldInit.H',['../_boussinesq_bubble_field_init_8_h.html',1,'']]],
   ['boussinesqbuoyancy_2ecpp',['BoussinesqBuoyancy.cpp',['../_boussinesq_buoyancy_8cpp.html',1,'']]],
-  ['boussinesqbuoyancy_2eh',['BoussinesqBuoyancy.H',['../_boussinesq_buoyancy_8_h.html',1,'']]]
+  ['boussinesqbuoyancy_2eh',['BoussinesqBuoyancy.H',['../_boussinesq_buoyancy_8_h.html',1,'']]],
+  ['boxrefiner_2ecpp',['BoxRefiner.cpp',['../_box_refiner_8cpp.html',1,'']]],
+  ['boxrefiner_2eh',['BoxRefiner.H',['../_box_refiner_8_h.html',1,'']]]
 ];

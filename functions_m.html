@@ -299,9 +299,16 @@ $(function() {
 </li>
 <li>m_end
 : <a class="el" href="classamr__wind_1_1sampling_1_1_line_sampler.html#ad3d042f1d4a9cf0c787f6c1c4e9b9b5c">amr_wind::sampling::LineSampler</a>
+, <a class="el" href="classamr__wind_1_1tagging_1_1_cylinder_refiner.html#a71bda6c82e22049f250923e0241265da">amr_wind::tagging::CylinderRefiner</a>
 </li>
 <li>m_extrap_type
 : <a class="el" href="classamr__wind_1_1_b_c_fill_patch_extrap.html#aedc2f4f8baefb1ca0dd2a8b7c58a7f3a">amr_wind::BCFillPatchExtrap</a>
+</li>
+<li>m_face_normals
+: <a class="el" href="classamr__wind_1_1tagging_1_1_box_refiner.html#afdd200c3263aae3bce1973badb445eea">amr_wind::tagging::BoxRefiner</a>
+</li>
+<li>m_face_origin
+: <a class="el" href="classamr__wind_1_1tagging_1_1_box_refiner.html#a3283fb864328da467709a6435e170344">amr_wind::tagging::BoxRefiner</a>
 </li>
 <li>m_factory
 : <a class="el" href="structamr__wind_1_1_level_data_holder.html#aa0b3146c394e8effa93c84d030e44a95">amr_wind::LevelDataHolder</a>
@@ -312,8 +319,12 @@ $(function() {
 <li>m_field
 : <a class="el" href="classamr__wind_1_1_b_c_iface.html#a716ebd5ea7895e5a6a8f506f91fb3d1b">amr_wind::BCIface</a>
 , <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#aa62958c462455bb8ff1f7bce8c8efad4">amr_wind::FieldFillPatchOps&lt; Functor &gt;</a>
+, <a class="el" href="classamr__wind_1_1_field_refinement.html#a40ee0222ab4597dcbae68b0bd9871497">amr_wind::FieldRefinement</a>
 , <a class="el" href="classamr__wind_1_1_fixed_gradient_b_c.html#a6b53040f58372cfdb4f0b4d4cd9bc566">amr_wind::FixedGradientBC</a>
 , <a class="el" href="classamr__wind_1_1_f_plane_averaging.html#a5d2fce756d43f1b7beb22d8ed97ba7a0">amr_wind::FPlaneAveraging&lt; FType &gt;</a>
+</li>
+<li>m_field_error
+: <a class="el" href="classamr__wind_1_1_field_refinement.html#a4de61b81f557f075077a7de9a179b512">amr_wind::FieldRefinement</a>
 </li>
 <li>m_field_init
 : <a class="el" href="classamr__wind_1_1_a_b_l.html#a213616ba7ee9c20af0e4b760e1a06e1e">amr_wind::ABL</a>
@@ -365,6 +376,12 @@ $(function() {
 <li>m_g_forcing
 : <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_geostrophic_forcing.html#a87fc5303049745b9249e3375447741cc">amr_wind::pde::icns::GeostrophicForcing</a>
 </li>
+<li>m_geom_refiners
+: <a class="el" href="classamr__wind_1_1_geometry_refinement.html#abb1b31a4e1f3e85b169ba7ad3319907d">amr_wind::GeometryRefinement</a>
+</li>
+<li>m_grad_error
+: <a class="el" href="classamr__wind_1_1_field_refinement.html#a98feffd8bd08a65a3480ee6aebfec900">amr_wind::FieldRefinement</a>
+</li>
 <li>m_gradphi
 : <a class="el" href="structamr__wind_1_1fvm_1_1_gradient.html#ae9e001c2ccf536010160a588bac8a50f">amr_wind::fvm::Gradient&lt; FTypeIn, FTypeOut &gt;</a>
 </li>
@@ -378,6 +395,9 @@ $(function() {
 </li>
 <li>m_height
 : <a class="el" href="classamr__wind_1_1_dam_break.html#ad32e46408c31754e2f159a812c8dd866">amr_wind::DamBreak</a>
+</li>
+<li>m_hex_corners
+: <a class="el" href="classamr__wind_1_1tagging_1_1_box_refiner.html#ae090a9ebe35e81729eda0936786599eb">amr_wind::tagging::BoxRefiner</a>
 </li>
 <li>m_iblank_cell
 : <a class="el" href="classamr__wind_1_1_tioga_interface.html#a9aceb6539e191707b3a6e83a9228d0d5">amr_wind::TiogaInterface</a>
@@ -413,6 +433,9 @@ $(function() {
 </li>
 <li>m_initial_iterations
 : <a class="el" href="classincflo.html#a5f9b11262dd5dfc86a6debbfc3353e84">incflo</a>
+</li>
+<li>m_inner_radius
+: <a class="el" href="classamr__wind_1_1tagging_1_1_cylinder_refiner.html#a3cd12d8552190e59f1fb57e12823d3e8">amr_wind::tagging::CylinderRefiner</a>
 </li>
 <li>m_int_fabs
 : <a class="el" href="structamr__wind_1_1_level_data_holder.html#a1b7a75fa36625f158ba65d4445124f68">amr_wind::LevelDataHolder</a>
@@ -516,12 +539,25 @@ $(function() {
 <li>m_max_cfl
 : <a class="el" href="classamr__wind_1_1_sim_time.html#a8b6fa6fb0f801ffaedb7b767723c865a">amr_wind::SimTime</a>
 </li>
+<li>m_max_lev
+: <a class="el" href="classamr__wind_1_1_overset_refinement.html#a1b1669343f9f298c8f99509ebe58d908">amr_wind::OversetRefinement</a>
+</li>
+<li>m_max_lev_field
+: <a class="el" href="classamr__wind_1_1_field_refinement.html#afaf2e7614ad11f1dbde5d377784c83ca">amr_wind::FieldRefinement</a>
+</li>
+<li>m_max_lev_grad
+: <a class="el" href="classamr__wind_1_1_field_refinement.html#a4aa64ff3d21bb2f06898e5d557ab6529">amr_wind::FieldRefinement</a>
+</li>
+<li>m_max_level
+: <a class="el" href="classamr__wind_1_1_geometry_refinement.html#a93708194336817750765e32c5e72bc25">amr_wind::GeometryRefinement</a>
+</li>
 <li>m_mean_vel
 : <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_forcing.html#a339f29194d7a88b9247133d430e87c10">amr_wind::pde::icns::ABLForcing</a>
 </li>
 <li>m_mesh
 : <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#abe4872544b96ca2191234327d0465fb1">amr_wind::ABLBoundaryPlane</a>
 , <a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a64c5525cae721c07df45136d9ac6e6ff">amr_wind::ABLWallFunction</a>
+, <a class="el" href="classamr__wind_1_1_cart_box_refinement.html#aa54fb6fc93e93c609c02f8131d1c9a5f">amr_wind::CartBoxRefinement</a>
 , <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a90607ccba30799874dc0290b3c042080">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html#ad69f66f8e1238a94a46939687a933473">amr_wind::ctv::ConvectingTaylorVortex</a>
 , <a class="el" href="classamr__wind_1_1_ekman_spiral.html#adb922b95e06fd53d73e1663bbcab68f3">amr_wind::EkmanSpiral</a>
@@ -531,8 +567,14 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_mean_boussinesq.html#a6cb6588c4f615d50918766592e5d998e">amr_wind::pde::icns::ABLMeanBoussinesq</a>
 , <a class="el" href="classamr__wind_1_1sampling_1_1_sampling_container.html#abf6a4de1938dbad0599bba5a66dd947a">amr_wind::sampling::SamplingContainer</a>
 </li>
+<li>m_mesh_refiner
+: <a class="el" href="classincflo.html#a27b3801994fbbc6ffbbc3c12592673e1">incflo</a>
+</li>
 <li>m_mfabs
 : <a class="el" href="structamr__wind_1_1_level_data_holder.html#ae36ad57294d8d401a09385cc08bdfe3f">amr_wind::LevelDataHolder</a>
+</li>
+<li>m_min_level
+: <a class="el" href="classamr__wind_1_1_geometry_refinement.html#a1586e299c27fac66bd2b5bbc1e70894b">amr_wind::GeometryRefinement</a>
 </li>
 <li>m_mms_vel_source
 : <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#a99ea8219b9d0f70b4129205efc9f804a">amr_wind::mms::MMS</a>
@@ -664,6 +706,9 @@ $(function() {
 </li>
 <li>m_out_start_time
 : <a class="el" href="classamr__wind_1_1_a_b_l_boundary_plane.html#adeff53311144a380b7f26e79acd2f921">amr_wind::ABLBoundaryPlane</a>
+</li>
+<li>m_outer_radius
+: <a class="el" href="classamr__wind_1_1tagging_1_1_cylinder_refiner.html#a00413d770be1b5dd616a4c20044cd068">amr_wind::tagging::CylinderRefiner</a>
 </li>
 <li>m_output_default_vars
 : <a class="el" href="classamr__wind_1_1_i_o_manager.html#a0df30482e87b80ea62832fb70a155f0a">amr_wind::IOManager</a>
@@ -820,8 +865,8 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_boussinesq_buoyancy.html#a6aa8e45cbb101cddd04ee2a4d8037ce2">amr_wind::pde::icns::BoussinesqBuoyancy</a>
 , <a class="el" href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html#a06cc4bf640d8c0dc92c5ed83b0fc69f4">amr_wind::turbulence::OneEqKsgsM84&lt; Transport &gt;</a>
 </li>
-<li>m_refine_criteria
-: <a class="el" href="classincflo.html#a808996910a56c8fc83ddc33e318dd333">incflo</a>
+<li>m_refiners
+: <a class="el" href="classamr__wind_1_1_refine_criteria_manager.html#a7ab29589f5be71aa6c10d3da8cc376b2">amr_wind::RefineCriteriaManager</a>
 </li>
 <li>m_regrid_interval
 : <a class="el" href="classamr__wind_1_1_sim_time.html#a6be0aac645481139a518a80f022b2819">amr_wind::SimTime</a>
@@ -883,6 +928,9 @@ $(function() {
 <li>m_second_moments_line
 : <a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a3ad2ea019c60b8af0afa1d3d8af59b66">amr_wind::SecondMomentAveraging</a>
 </li>
+<li>m_set_level
+: <a class="el" href="classamr__wind_1_1_geometry_refinement.html#a4b1927c35acb6f3048f840de873d3c4a">amr_wind::GeometryRefinement</a>
+</li>
 <li>m_shear_prod
 : <a class="el" href="classamr__wind_1_1pde_1_1tke_1_1_ksgs_m84_src.html#ab93201694a5ddd3294d749de026ec6b7">amr_wind::pde::tke::KsgsM84Src</a>
 , <a class="el" href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs.html#a036eaa8cc537d85ca44cf0cb7e24a83c">amr_wind::turbulence::OneEqKsgs&lt; Transport &gt;</a>
@@ -891,11 +939,15 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_a_b_l.html#a2a3a3b4f2b345aafe5d85cc51566435f">amr_wind::ABL</a>
 , <a class="el" href="classamr__wind_1_1_a_b_l_stats.html#a93f0da575cc7dcb6ed9f530d1da0bb21">amr_wind::ABLStats</a>
 , <a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a61aa8e26dab18433cf3ead4e118d426f">amr_wind::ABLWallFunction</a>
+, <a class="el" href="classamr__wind_1_1_field_refinement.html#a96fa22f7f7b59a41372cc0355b08f591">amr_wind::FieldRefinement</a>
+, <a class="el" href="classamr__wind_1_1_geometry_refinement.html#a89468dd487377af18b1b3b6945b26b5c">amr_wind::GeometryRefinement</a>
 , <a class="el" href="classamr__wind_1_1_i_o_manager.html#af78cba133e0529f0135eab5a60f099b8">amr_wind::IOManager</a>
 , <a class="el" href="classamr__wind_1_1_multi_phase.html#ab3e594ad4693cdba8ca5cd37d0bd2082">amr_wind::MultiPhase</a>
+, <a class="el" href="classamr__wind_1_1_overset_refinement.html#a56988e76e6749297fe90163eced563e8">amr_wind::OversetRefinement</a>
 , <a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_mgr.html#aad3407228ed8317a6c2b066f5e42cd28">amr_wind::pde::PDEMgr</a>
 , <a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html#a19ba47afc3adb83146f3f6caa4152917">amr_wind::pde::PDESystem&lt; PDE, Scheme &gt;</a>
 , <a class="el" href="classamr__wind_1_1_post_process_manager.html#ab94f78b6d7902bec73e9bae9daf1139d">amr_wind::PostProcessManager</a>
+, <a class="el" href="classamr__wind_1_1_refine_criteria_manager.html#a90b29d38910935cff96f15113d9f0a4b">amr_wind::RefineCriteriaManager</a>
 , <a class="el" href="classamr__wind_1_1sampling_1_1_line_sampler.html#a302db4a1f4741695efb10b190e51307e">amr_wind::sampling::LineSampler</a>
 , <a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#af29d91cf8b5ffd5034e2400560c352d5">amr_wind::sampling::Sampling</a>
 , <a class="el" href="classamr__wind_1_1_tioga_interface.html#adc532f75557157b6da322fbbe93239cc">amr_wind::TiogaInterface</a>
@@ -918,6 +970,7 @@ $(function() {
 </li>
 <li>m_start
 : <a class="el" href="classamr__wind_1_1sampling_1_1_line_sampler.html#a1f0f4b6f2f7f93fe7d8a47f9f51f130a">amr_wind::sampling::LineSampler</a>
+, <a class="el" href="classamr__wind_1_1tagging_1_1_cylinder_refiner.html#a7d93894c5cc7fb4f9ee6ff5acbddd8cc">amr_wind::tagging::CylinderRefiner</a>
 </li>
 <li>m_start_time
 : <a class="el" href="classamr__wind_1_1_sim_time.html#a6011d3cfee0b2028895b4db9214a0b53">amr_wind::SimTime</a>
@@ -1204,7 +1257,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_a_b_l_mean_boussinesq.html#a541aa22bf5dcf260b3ca70e9ee5991de">amr_wind::pde::icns::ABLMeanBoussinesq</a>
 </li>
 <li>mesh()
-: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#abf7ff85c5fc21b8befe456c81ab7c9bc">amr_wind::CFDSim</a>
+: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a43722465985d48f96c670da7d182f895">amr_wind::CFDSim</a>
 , <a class="el" href="classamr__wind_1_1_field_repo.html#abbc1f14779d1c6d8ac8d5d6d12431b6e">amr_wind::FieldRepo</a>
 </li>
 <li>min()
@@ -1227,7 +1280,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1mms_1_1_m_m_s_forcing.html#a788d199299a159af188ed3ff0cfeb7ea">amr_wind::pde::icns::mms::MMSForcing</a>
 </li>
 <li>mo()
-: <a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a4d3b42e8cb128ae28483e04f3518d4e2">amr_wind::ABLWallFunction</a>
+: <a class="el" href="classamr__wind_1_1_a_b_l_wall_function.html#a4574e4e49de15db9d255ba4097abe195">amr_wind::ABLWallFunction</a>
 </li>
 <li>model_coeffs()
 : <a class="el" href="classamr__wind_1_1turbulence_1_1_laminar.html#ab0761212a5b0477cfae64887319fa195">amr_wind::turbulence::Laminar&lt; Transport &gt;</a>

@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classamr__wind_1_1_c_f_d_sim.html" title="Data structures for a CFD simulationCFDSim represents the amr&#45;wind execution environment and manages ..." alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node2" href="$classamr__wind_1_1_cart_box_refinement.html" title="Static refinement with Cartesian&#45;aligned bounding boxesImplements tagging functionality for nested re..." alt="" coords="129,5,330,32"/>
+<area shape="rect" id="node3" href="$classamr__wind_1_1_field_refinement.html" title="AMR refinement using a given field (e.g., density)``` tagging.labels = t1 tagging/t1.type = FieldRefinement tagging/t1.field_name = density " alt="" coords="139,56,320,83"/>
+<area shape="rect" id="node4" href="$classamr__wind_1_1_geometry_refinement.html" title="AMR based on geometric shapes. " alt="" coords="124,107,335,133"/>
+<area shape="rect" id="node5" href="$classamr__wind_1_1_overset_refinement.html" title="amr_wind::OversetRefinement" alt="" coords="130,157,329,184"/>
 </map>

@@ -3,7 +3,7 @@ var searchData=
   ['calc_5faverages',['calc_averages',['../classamr__wind_1_1_a_b_l_stats.html#af0970ccc325fe14551231fca1f7a95ad',1,'amr_wind::ABLStats']]],
   ['calc_5fpsi_5fh',['calc_psi_h',['../structamr__wind_1_1_m_o_data.html#a5aca6e436991208d28deca7a10297417',1,'amr_wind::MOData']]],
   ['calc_5fpsi_5fm',['calc_psi_m',['../structamr__wind_1_1_m_o_data.html#a47632942912fbd250a0cc98e2c7687d2',1,'amr_wind::MOData']]],
-  ['cartboxrefinement',['CartBoxRefinement',['../classamr__wind_1_1_cart_box_refinement.html#aa86e66f272d1977646e1ff3a28e619dd',1,'amr_wind::CartBoxRefinement']]],
+  ['cartboxrefinement',['CartBoxRefinement',['../classamr__wind_1_1_cart_box_refinement.html#a3d67b8fb7d70ca2645fd9bdf187efa5c',1,'amr_wind::CartBoxRefinement']]],
   ['cbegin',['cbegin',['../structamr__wind_1_1vs_1_1_tensor_t.html#a20e5c8e907574f6e8f20eed8cb4819fa',1,'amr_wind::vs::TensorT::cbegin()'],['../structamr__wind_1_1vs_1_1_vector_t.html#aa284be3439a0cf62250d7c187768ffa2',1,'amr_wind::vs::VectorT::cbegin()']]],
   ['cend',['cend',['../structamr__wind_1_1vs_1_1_tensor_t.html#af08cf6a206d6d0675ebb7e0128791b2d',1,'amr_wind::vs::TensorT::cend()'],['../structamr__wind_1_1vs_1_1_vector_t.html#a3be26ab062d4b139b17415d0aefec698',1,'amr_wind::vs::VectorT::cend()']]],
   ['cfdsim',['CFDSim',['../classamr__wind_1_1_c_f_d_sim.html#aafb7a00e73a1179364ea87ade2f76b7c',1,'amr_wind::CFDSim']]],
@@ -57,5 +57,6 @@ var searchData=
   ['create_5fturbulence_5fmodel',['create_turbulence_model',['../classamr__wind_1_1_c_f_d_sim.html#a7d2e1f641120e5beda72137cf63175ba',1,'amr_wind::CFDSim::create_turbulence_model()'],['../namespaceamr__wind_1_1turbulence.html#aeb046d2e61f3f7cdab0e5663b9218882',1,'amr_wind::turbulence::create_turbulence_model()']]],
   ['cross_5fprod',['cross_prod',['../namespaceamr__wind_1_1utils.html#aa50085ebceea4b8121a65fa9bf71753b',1,'amr_wind::utils']]],
   ['current_5ftime',['current_time',['../classamr__wind_1_1_sim_time.html#acfe7e36c17f949615ff7ce65a3161e0d',1,'amr_wind::SimTime::current_time() const'],['../classamr__wind_1_1_sim_time.html#a5a5b6788f56c00f39b768b545be964d0',1,'amr_wind::SimTime::current_time()']]],
-  ['curvature',['Curvature',['../structamr__wind_1_1fvm_1_1_curvature.html#a5203abeffa720bf312c86d99bd89cac2',1,'amr_wind::fvm::Curvature::Curvature()'],['../group__fvm.html#gac90ada200ccb614c32d9c89adfce573c',1,'amr_wind::fvm::curvature(FTypeOut &amp;curphi, const FTypeIn &amp;phi)'],['../group__fvm.html#ga84f24e8d1e0bc456abdb5ef1b71c7921',1,'amr_wind::fvm::curvature(const FType &amp;phi)']]]
+  ['curvature',['Curvature',['../structamr__wind_1_1fvm_1_1_curvature.html#a5203abeffa720bf312c86d99bd89cac2',1,'amr_wind::fvm::Curvature::Curvature()'],['../group__fvm.html#gac90ada200ccb614c32d9c89adfce573c',1,'amr_wind::fvm::curvature(FTypeOut &amp;curphi, const FTypeIn &amp;phi)'],['../group__fvm.html#ga84f24e8d1e0bc456abdb5ef1b71c7921',1,'amr_wind::fvm::curvature(const FType &amp;phi)']]],
+  ['cylinderrefiner',['CylinderRefiner',['../classamr__wind_1_1tagging_1_1_cylinder_refiner.html#ada7eb4580106738a550f78832dd3a66a',1,'amr_wind::tagging::CylinderRefiner']]]
 ];

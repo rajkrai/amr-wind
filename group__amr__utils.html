@@ -85,11 +85,33 @@ Collaboration diagram for Mesh refinement:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1tagging_1_1_box_refiner.html">amr_wind::tagging::BoxRefiner</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">AMR inside an arbitrarily oriented hexahedral boxThe hexahedral box is defined by three vectors <code>xaxis</code>, <code>yaxis</code>, and <code>zaxis</code> that specify the direction and lengths of the box with respect to <code>origin</code>.  <a href="classamr__wind_1_1tagging_1_1_box_refiner.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_cart_box_refinement.html">amr_wind::CartBoxRefinement</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static refinement with Cartesian-aligned bounding boxesImplements tagging functionality for nested refinement of meshes using bounding box specifications.  <a href="classamr__wind_1_1_cart_box_refinement.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1tagging_1_1_cylinder_refiner.html">amr_wind::tagging::CylinderRefiner</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refine region inside a cylinderThe axis of the cylinder is defined by two vectors <code>start</code> and <code>end</code> that define the beginning and end of the cylinder along its axis.  <a href="classamr__wind_1_1tagging_1_1_cylinder_refiner.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_field_refinement.html">amr_wind::FieldRefinement</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">AMR refinement using a given field (e.g., density)``` tagging.labels = t1 tagging/t1.type = <a class="el" href="classamr__wind_1_1_field_refinement.html" title="AMR refinement using a given field (e.g., density)``` tagging.labels = t1 tagging/t1.type = FieldRefinement tagging/t1.field_name = density ">FieldRefinement</a> tagging/t1.field_name = density <h1><a class="anchor" id="autotoc_md0"></a>
+Tagging based on field value</h1>
+<h1><a class="anchor" id="autotoc_md1"></a>
+tagging/t1.field_error = 10.0 10.0</h1>
+ <a href="classamr__wind_1_1_field_refinement.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1tagging_1_1_geometry_type.html">amr_wind::tagging::GeometryType</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract definition of shapes for AMR.  <a href="classamr__wind_1_1tagging_1_1_geometry_type.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_geometry_refinement.html">amr_wind::GeometryRefinement</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">AMR based on geometric shapes.  <a href="classamr__wind_1_1_geometry_refinement.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_refinement_criteria.html">amr_wind::RefinementCriteria</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract interface for tagging cells for refinementThis class provides an API that can be used by concrete implementations to tag cells that must be refined based on a pre-defined criteria.  <a href="classamr__wind_1_1_refinement_criteria.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_refine_criteria_manager.html">amr_wind::RefineCriteriaManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A collection of refinement criteria instances that are active during a simulation.  <a href="classamr__wind_1_1_refine_criteria_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>

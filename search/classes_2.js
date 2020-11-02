@@ -11,5 +11,6 @@ var searchData=
   ['consttransport',['ConstTransport',['../classamr__wind_1_1transport_1_1_const_transport.html',1,'amr_wind::transport']]],
   ['convectingtaylorvortex',['ConvectingTaylorVortex',['../classamr__wind_1_1ctv_1_1_convecting_taylor_vortex.html',1,'amr_wind::ctv']]],
   ['coriolisforcing',['CoriolisForcing',['../classamr__wind_1_1pde_1_1icns_1_1_coriolis_forcing.html',1,'amr_wind::pde::icns']]],
-  ['curvature',['Curvature',['../structamr__wind_1_1fvm_1_1_curvature.html',1,'amr_wind::fvm']]]
+  ['curvature',['Curvature',['../structamr__wind_1_1fvm_1_1_curvature.html',1,'amr_wind::fvm']]],
+  ['cylinderrefiner',['CylinderRefiner',['../classamr__wind_1_1tagging_1_1_cylinder_refiner.html',1,'amr_wind::tagging']]]
 ];

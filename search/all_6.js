@@ -2,6 +2,10 @@ var searchData=
 [
   ['gamma_5fh',['gamma_h',['../structamr__wind_1_1_m_o_data.html#aecd4db56dfec9d195504357ebc6f850b',1,'amr_wind::MOData']]],
   ['gamma_5fm',['gamma_m',['../structamr__wind_1_1_m_o_data.html#aa8c102b2ba716d4e9eafa30b4a6789dc',1,'amr_wind::MOData']]],
+  ['geometryrefinement',['GeometryRefinement',['../classamr__wind_1_1_geometry_refinement.html',1,'amr_wind::GeometryRefinement'],['../classamr__wind_1_1_geometry_refinement.html#aabf90c11ef5586354074469987cf0e79',1,'amr_wind::GeometryRefinement::GeometryRefinement()']]],
+  ['geometryrefinement_2ecpp',['GeometryRefinement.cpp',['../_geometry_refinement_8cpp.html',1,'']]],
+  ['geometryrefinement_2eh',['GeometryRefinement.H',['../_geometry_refinement_8_h.html',1,'']]],
+  ['geometrytype',['GeometryType',['../classamr__wind_1_1tagging_1_1_geometry_type.html',1,'amr_wind::tagging::GeometryType'],['../classamr__wind_1_1tagging_1_1_geometry_type.html#a9c87382c1bed0c3407b9383166709753',1,'amr_wind::tagging::GeometryType::GeometryType()']]],
   ['geostrophicforcing',['GeostrophicForcing',['../classamr__wind_1_1pde_1_1icns_1_1_geostrophic_forcing.html',1,'amr_wind::pde::icns::GeostrophicForcing'],['../classamr__wind_1_1pde_1_1icns_1_1_geostrophic_forcing.html#aaa83057acbf60842c0cd073285376e01',1,'amr_wind::pde::icns::GeostrophicForcing::GeostrophicForcing()']]],
   ['geostrophicforcing_2ecpp',['GeostrophicForcing.cpp',['../_geostrophic_forcing_8cpp.html',1,'']]],
   ['geostrophicforcing_2eh',['GeostrophicForcing.H',['../_geostrophic_forcing_8_h.html',1,'']]],

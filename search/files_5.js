@@ -10,6 +10,8 @@ var searchData=
   ['fieldfillpatchops_2eh',['FieldFillPatchOps.H',['../_field_fill_patch_ops_8_h.html',1,'']]],
   ['fieldplaneaveraging_2ecpp',['FieldPlaneAveraging.cpp',['../_field_plane_averaging_8cpp.html',1,'']]],
   ['fieldplaneaveraging_2eh',['FieldPlaneAveraging.H',['../_field_plane_averaging_8_h.html',1,'']]],
+  ['fieldrefinement_2ecpp',['FieldRefinement.cpp',['../_field_refinement_8cpp.html',1,'']]],
+  ['fieldrefinement_2eh',['FieldRefinement.H',['../_field_refinement_8_h.html',1,'']]],
   ['fieldrepo_2ecpp',['FieldRepo.cpp',['../_field_repo_8cpp.html',1,'']]],
   ['fieldrepo_2eh',['FieldRepo.H',['../_field_repo_8_h.html',1,'']]],
   ['fieldutils_2eh',['FieldUtils.H',['../_field_utils_8_h.html',1,'']]],

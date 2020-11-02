@@ -114,10 +114,13 @@ $(function() {
 , <a class="el" href="structamr__wind_1_1_field_b_c_dirichlet.html#a6d6fe5bdb6d50dd73964116365690f4f">amr_wind::FieldBCDirichlet</a>
 , <a class="el" href="classamr__wind_1_1_field_b_c_iface.html#a221669efd0de6733fa13bd98a6bfe1a1">amr_wind::FieldBCIface</a>
 , <a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#ac7a49b5cab5694896e8c6556b7a2ef1f">amr_wind::FieldBCNoOp</a>
+, <a class="el" href="classamr__wind_1_1_field_refinement.html#a8abe2a8fa1239dc68972ae1ca8808537">amr_wind::FieldRefinement</a>
 , <a class="el" href="classamr__wind_1_1_fixed_gradient_b_c.html#a485aa47e6c5b3191cd4dc9c3c22cd054">amr_wind::FixedGradientBC</a>
 , <a class="el" href="classamr__wind_1_1_f_plane_averaging.html#a1461f26bf9b00d44d1b67ac5814ae07f">amr_wind::FPlaneAveraging&lt; FType &gt;</a>
+, <a class="el" href="classamr__wind_1_1_geometry_refinement.html#a95e1ac8fd6c572d2ce33210173dc2611">amr_wind::GeometryRefinement</a>
 , <a class="el" href="classamr__wind_1_1_int_field.html#a7f62ec22d82648ed88b0744c730e40c6">amr_wind::IntField</a>
 , <a class="el" href="structamr__wind_1_1_m_l_m_g_options.html#a19f5b4dffb7c8e8bd6e69ce89469ecd1">amr_wind::MLMGOptions</a>
+, <a class="el" href="classamr__wind_1_1_overset_refinement.html#a7350878566cfad9a97afb94292288b4d">amr_wind::OversetRefinement</a>
 , <a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#a82df723fa989741a0b99b56aba528099">amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;</a>
 , <a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_m_o_l_01_4.html#a91df7b8a55a940141b631ca58c4d6b45">amr_wind::pde::AdvectionOp&lt; ICNS, fvm::MOL &gt;</a>
 , <a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_p_d_e_00_01fvm_1_1_godunov_00_01typename_01std_1_1e1063a557f39edceb10cd2474c8648de6.html#aa09a54e305418691502c3f0d030af6f3">amr_wind::pde::AdvectionOp&lt; PDE, fvm::Godunov, typename std::enable_if&lt; std::is_base_of&lt; ScalarTransport, PDE &gt;::value &gt;::type &gt;</a>
@@ -153,6 +156,9 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1_refinement_criteria.html#a62173a0a434c9e28b7aae2d3e91fa8a7">amr_wind::RefinementCriteria</a>
 , <a class="el" href="classamr__wind_1_1_scratch_field.html#acb49688c616955c4be2f9abd0fe863f7">amr_wind::ScratchField</a>
 , <a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a797e785056e3ec870a1ffa4e85eee602">amr_wind::SecondMomentAveraging</a>
+, <a class="el" href="classamr__wind_1_1tagging_1_1_box_refiner.html#ad7df26b791951303589577b7ee2ee9fb">amr_wind::tagging::BoxRefiner</a>
+, <a class="el" href="classamr__wind_1_1tagging_1_1_cylinder_refiner.html#a942c2f0a89a8fc261bb82ad68e77b906">amr_wind::tagging::CylinderRefiner</a>
+, <a class="el" href="classamr__wind_1_1tagging_1_1_geometry_type.html#a23212bd6d5ecc607dd09d5daf2c3f460">amr_wind::tagging::GeometryType</a>
 , <a class="el" href="classamr__wind_1_1_third_moment_averaging.html#ab6dfeb2f730a2052c3a7d09eba92aa57">amr_wind::ThirdMomentAveraging</a>
 , <a class="el" href="classamr__wind_1_1_vel_plane_averaging.html#a4bcfe1eecc07751aedd26f0316d6b951">amr_wind::VelPlaneAveraging</a>
 , <a class="el" href="classamr__wind_1_1_view_field.html#a01fc2e05151ec30944131c3208605e2f">amr_wind::ViewField&lt; T &gt;</a>
@@ -178,10 +184,10 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1_int_field.html#ab5f72b90ac03f85269e6e8ed813845df">amr_wind::IntField</a>
 , <a class="el" href="classamr__wind_1_1_i_o_manager.html#a2100ff2a33cc7cb42751bf440afa60de">amr_wind::IOManager</a>
 , <a class="el" href="classamr__wind_1_1_scratch_field.html#a44411565fba069d99e3f8d352f181726">amr_wind::ScratchField</a>
-, <a class="el" href="classamr__wind_1_1_view_field.html#addcb4313908a0c8a82906b21582c4ea2">amr_wind::ViewField&lt; T &gt;</a>
+, <a class="el" href="classamr__wind_1_1_view_field.html#a6f599672a731d6eb6e87db8a63a53234">amr_wind::ViewField&lt; T &gt;</a>
 </li>
 <li>operator[]()
-: <a class="el" href="structamr__wind_1_1vs_1_1_tensor_t.html#a559f71511bfa10e655bfe00f1335a776">amr_wind::vs::TensorT&lt; T &gt;</a>
+: <a class="el" href="structamr__wind_1_1vs_1_1_tensor_t.html#a487873d6674de7b4c3cb8362d4487313">amr_wind::vs::TensorT&lt; T &gt;</a>
 , <a class="el" href="structamr__wind_1_1vs_1_1_vector_t.html#aff76b9c6fe73a3fbbc3e2b06a56624ae">amr_wind::vs::VectorT&lt; T &gt;</a>
 </li>
 <li>output_error()
@@ -191,11 +197,14 @@ $(function() {
 <li>output_line_average_ascii()
 : <a class="el" href="classamr__wind_1_1_f_plane_averaging.html#a60fba0602699380405c5becca176c9b0">amr_wind::FPlaneAveraging&lt; FType &gt;</a>
 , <a class="el" href="classamr__wind_1_1_second_moment_averaging.html#a891170f2029f02d521259b4eab2d5a96">amr_wind::SecondMomentAveraging</a>
-, <a class="el" href="classamr__wind_1_1_third_moment_averaging.html#a9904012c2c0e15cc95895d89cf71771f">amr_wind::ThirdMomentAveraging</a>
-, <a class="el" href="classamr__wind_1_1_vel_plane_averaging.html#a3da70de6b47d793661f748c19fd40a9c">amr_wind::VelPlaneAveraging</a>
+, <a class="el" href="classamr__wind_1_1_third_moment_averaging.html#a6f1642c899de5d16f8e276a85410230f">amr_wind::ThirdMomentAveraging</a>
+, <a class="el" href="classamr__wind_1_1_vel_plane_averaging.html#ac2fce593e87609f44dd490ec66a37976">amr_wind::VelPlaneAveraging</a>
 </li>
 <li>overset_manager()
-: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#a182e5e90c04d6ebd440d5334ef304f67">amr_wind::CFDSim</a>
+: <a class="el" href="classamr__wind_1_1_c_f_d_sim.html#af7d735aef79c2c83d7d848066290e192">amr_wind::CFDSim</a>
+</li>
+<li>OversetRefinement()
+: <a class="el" href="classamr__wind_1_1_overset_refinement.html#a98ecc52bad3f18605f08406b76e57fc9">amr_wind::OversetRefinement</a>
 </li>
 </ul>
 </div><!-- contents -->

@@ -13,5 +13,7 @@ var searchData=
   ['convectingtaylorvortex_2eh',['ConvectingTaylorVortex.H',['../_convecting_taylor_vortex_8_h.html',1,'']]],
   ['coriolisforcing_2ecpp',['CoriolisForcing.cpp',['../_coriolis_forcing_8cpp.html',1,'']]],
   ['coriolisforcing_2eh',['CoriolisForcing.H',['../_coriolis_forcing_8_h.html',1,'']]],
-  ['curvature_2eh',['curvature.H',['../curvature_8_h.html',1,'']]]
+  ['curvature_2eh',['curvature.H',['../curvature_8_h.html',1,'']]],
+  ['cylinderrefiner_2ecpp',['CylinderRefiner.cpp',['../_cylinder_refiner_8cpp.html',1,'']]],
+  ['cylinderrefiner_2eh',['CylinderRefiner.H',['../_cylinder_refiner_8_h.html',1,'']]]
 ];

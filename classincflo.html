@@ -233,8 +233,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a7f5244e0ea29179b03a8b40649f120d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf0ea4d3bd7f18a25febc58f95f20fbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_field_repo.html">amr_wind::FieldRepo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#aaf0ea4d3bd7f18a25febc58f95f20fbe">m_repo</a></td></tr>
 <tr class="separator:aaf0ea4d3bd7f18a25febc58f95f20fbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a808996910a56c8fc83ddc33e318dd333"><td class="memItemLeft" align="right" valign="top">amrex::Vector&lt; std::unique_ptr&lt; <a class="el" href="classamr__wind_1_1_refinement_criteria.html">amr_wind::RefinementCriteria</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a808996910a56c8fc83ddc33e318dd333">m_refine_criteria</a></td></tr>
-<tr class="separator:a808996910a56c8fc83ddc33e318dd333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27b3801994fbbc6ffbbc3c12592673e1"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classamr__wind_1_1_refine_criteria_manager.html">amr_wind::RefineCriteriaManager</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a27b3801994fbbc6ffbbc3c12592673e1">m_mesh_refiner</a></td></tr>
+<tr class="separator:a27b3801994fbbc6ffbbc3c12592673e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2a2d943643a4ac78ec2f3b268ddb7f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#ae2a2d943643a4ac78ec2f3b268ddb7f1">m_verbose</a> = 0</td></tr>
 <tr class="separator:ae2a2d943643a4ac78ec2f3b268ddb7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a592e0cb76ccb72d12b54fe7dcf8dfef5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classincflo.html#a592e0cb76ccb72d12b54fe7dcf8dfef5">m_probtype</a> = 0</td></tr>
@@ -1961,8 +1961,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a592e0cb76ccb72d12b54fe7dcf8dfef5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a592e0cb76ccb72d12b54fe7dcf8dfef5">&#9670;&nbsp;</a></span>m_probtype</h2>
+<a id="a27b3801994fbbc6ffbbc3c12592673e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27b3801994fbbc6ffbbc3c12592673e1">&#9670;&nbsp;</a></span>m_mesh_refiner</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1971,7 +1971,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int incflo::m_probtype = 0</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classamr__wind_1_1_refine_criteria_manager.html">amr_wind::RefineCriteriaManager</a>&gt; incflo::m_mesh_refiner</td>
         </tr>
       </table>
   </td>
@@ -1983,8 +1983,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a808996910a56c8fc83ddc33e318dd333"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a808996910a56c8fc83ddc33e318dd333">&#9670;&nbsp;</a></span>m_refine_criteria</h2>
+<a id="a592e0cb76ccb72d12b54fe7dcf8dfef5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a592e0cb76ccb72d12b54fe7dcf8dfef5">&#9670;&nbsp;</a></span>m_probtype</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1993,7 +1993,7 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">amrex::Vector&lt;std::unique_ptr&lt;<a class="el" href="classamr__wind_1_1_refinement_criteria.html">amr_wind::RefinementCriteria</a>&gt; &gt; incflo::m_refine_criteria</td>
+          <td class="memname">int incflo::m_probtype = 0</td>
         </tr>
       </table>
   </td>
@@ -2123,7 +2123,6 @@ Here is the call graph for this function:</div>
 <li><a class="el" href="incflo__advance_8cpp.html">incflo_advance.cpp</a></li>
 <li><a class="el" href="incflo__compute__dt_8cpp.html">incflo_compute_dt.cpp</a></li>
 <li><a class="el" href="incflo__regrid_8cpp.html">incflo_regrid.cpp</a></li>
-<li><a class="el" href="incflo__tagging_8cpp.html">incflo_tagging.cpp</a></li>
 <li><a class="el" href="prob__bc_8cpp.html">prob_bc.cpp</a></li>
 <li><a class="el" href="prob__init__fluid_8cpp.html">prob_init_fluid.cpp</a></li>
 <li><a class="el" href="incflo__apply__nodal__projection_8cpp.html">incflo_apply_nodal_projection.cpp</a></li>

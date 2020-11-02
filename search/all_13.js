@@ -3,6 +3,7 @@ var searchData=
   ['t',['T',['../structamr__wind_1_1_factory_1_1_register.html#a7750bbbf17dbc8cd175864e96cd3808b',1,'amr_wind::Factory::Register::T()'],['../classamr__wind_1_1_view_field.html#a5cb2f1b2f7df0f7d38b634337472f2dc',1,'amr_wind::ViewField::T()']]],
   ['t_5favg',['T_avg',['../class_plane_averaging.html#a11efa22e59538c8c1a6d5b67820c154da24b588295d7d26e3d45c1b6c4e644771',1,'PlaneAveraging']]],
   ['table',['table',['../structamr__wind_1_1_factory.html#a64faf4997754405b0144c4563302a7b7',1,'amr_wind::Factory']]],
+  ['tag_5fcells',['tag_cells',['../classamr__wind_1_1_refine_criteria_manager.html#a7c58de55c70f32c09d6177e8572c1950',1,'amr_wind::RefineCriteriaManager']]],
   ['taylorgreenvortex',['TaylorGreenVortex',['../classamr__wind_1_1_taylor_green_vortex.html',1,'amr_wind::TaylorGreenVortex'],['../classamr__wind_1_1_taylor_green_vortex.html#a37862cd4c63df236b6bb370d10c41179',1,'amr_wind::TaylorGreenVortex::TaylorGreenVortex()']]],
   ['taylorgreenvortex_2ecpp',['TaylorGreenVortex.cpp',['../_taylor_green_vortex_8cpp.html',1,'']]],
   ['taylorgreenvortex_2eh',['TaylorGreenVortex.H',['../_taylor_green_vortex_8_h.html',1,'']]],
