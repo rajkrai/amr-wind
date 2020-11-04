@@ -61,6 +61,7 @@ var searchData=
   ['_7epostprocessbase',['~PostProcessBase',['../classamr__wind_1_1_post_process_base.html#a2371a2dc41236988725bde7a7545dcef',1,'amr_wind::PostProcessBase']]],
   ['_7epostprocessmanager',['~PostProcessManager',['../classamr__wind_1_1_post_process_manager.html#a60517a8736ae31f5851965c90de3a1be',1,'amr_wind::PostProcessManager']]],
   ['_7eprobesampler',['~ProbeSampler',['../classamr__wind_1_1sampling_1_1_probe_sampler.html#af4621b93be510dba9c762c49c588c77f',1,'amr_wind::sampling::ProbeSampler']]],
+  ['_7eqcriterionrefinement',['~QCriterionRefinement',['../classamr__wind_1_1_q_criterion_refinement.html#a6e3d692c0bd55dc0d021bc8a20851a15',1,'amr_wind::QCriterionRefinement']]],
   ['_7erayleightaylor',['~RayleighTaylor',['../classamr__wind_1_1_rayleigh_taylor.html#a43b9abf8211f1087b5e929bd500acda0',1,'amr_wind::RayleighTaylor']]],
   ['_7erefinecriteriamanager',['~RefineCriteriaManager',['../classamr__wind_1_1_refine_criteria_manager.html#a650ae4ab97eb8e031e1c4da155eed74c',1,'amr_wind::RefineCriteriaManager']]],
   ['_7erefinementcriteria',['~RefinementCriteria',['../classamr__wind_1_1_refinement_criteria.html#a1c0fdcf7d91471dc95a2499f6244716f',1,'amr_wind::RefinementCriteria']]],
