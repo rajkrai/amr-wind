@@ -17,5 +17,6 @@ var searchData=
   ['viscosity',['viscosity',['../classamr__wind_1_1transport_1_1_const_transport.html#a686d8800ee611bc0466d1a53209ba226',1,'amr_wind::transport::ConstTransport']]],
   ['vortexpatch',['VortexPatch',['../classamr__wind_1_1_vortex_patch.html#a060cc68e07f4d92d6acca199399658cf',1,'amr_wind::VortexPatch']]],
   ['vorticity_5fmag',['vorticity_mag',['../group__fvm.html#ga9cb7fd0ea23f7f07194371ef1dd22c94',1,'amr_wind::fvm::vorticity_mag(FTypeOut &amp;vortmagphi, const FTypeIn &amp;phi)'],['../group__fvm.html#ga666a6e46dfe15694035b6f1fdbc5a98d',1,'amr_wind::fvm::vorticity_mag(const FType &amp;phi)']]],
-  ['vorticitymag',['VorticityMag',['../structamr__wind_1_1fvm_1_1_vorticity_mag.html#ae60be1bece9c62489e473eaaf56bdf2e',1,'amr_wind::fvm::VorticityMag::VorticityMag()'],['../structamr__wind_1_1derived_1_1_vorticity_mag.html#a2a3ffa4ceae6d620fbf60b954361143c',1,'amr_wind::derived::VorticityMag::VorticityMag()']]]
+  ['vorticitymag',['VorticityMag',['../structamr__wind_1_1fvm_1_1_vorticity_mag.html#ae60be1bece9c62489e473eaaf56bdf2e',1,'amr_wind::fvm::VorticityMag::VorticityMag()'],['../structamr__wind_1_1derived_1_1_vorticity_mag.html#a2a3ffa4ceae6d620fbf60b954361143c',1,'amr_wind::derived::VorticityMag::VorticityMag()']]],
+  ['vorticityrefinement',['VorticityRefinement',['../classamr__wind_1_1_vorticity_refinement.html#afcc1bd43a0d46b3a5345faa950801b8e',1,'amr_wind::VorticityRefinement']]]
 ];

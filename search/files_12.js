@@ -8,5 +8,7 @@ var searchData=
   ['vortexpatch_2ecpp',['VortexPatch.cpp',['../_vortex_patch_8cpp.html',1,'']]],
   ['vortexpatch_2eh',['VortexPatch.H',['../_vortex_patch_8_h.html',1,'']]],
   ['vorticity_5fmag_2eh',['vorticity_mag.H',['../vorticity__mag_8_h.html',1,'']]],
+  ['vorticityrefinement_2ecpp',['VorticityRefinement.cpp',['../_vorticity_refinement_8cpp.html',1,'']]],
+  ['vorticityrefinement_2eh',['VorticityRefinement.H',['../_vorticity_refinement_8_h.html',1,'']]],
   ['vstraits_2eh',['vstraits.H',['../vstraits_8_h.html',1,'']]]
 ];

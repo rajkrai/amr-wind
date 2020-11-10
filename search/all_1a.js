@@ -80,5 +80,6 @@ var searchData=
   ['_7eturbulencemodel',['~TurbulenceModel',['../classamr__wind_1_1turbulence_1_1_turbulence_model.html#afaefc88d39e01e0caff0a8909d38ff00',1,'amr_wind::turbulence::TurbulenceModel']]],
   ['_7evelplaneaveraging',['~VelPlaneAveraging',['../classamr__wind_1_1_vel_plane_averaging.html#a46f6fc38acedc8c08c3bc948961ed558',1,'amr_wind::VelPlaneAveraging']]],
   ['_7evortexpatch',['~VortexPatch',['../classamr__wind_1_1_vortex_patch.html#a7c43f1c7037260320e727db879c7095e',1,'amr_wind::VortexPatch']]],
+  ['_7evorticityrefinement',['~VorticityRefinement',['../classamr__wind_1_1_vorticity_refinement.html#aa341c6b35056ecf6367ae4aaf3f5ffac',1,'amr_wind::VorticityRefinement']]],
   ['_7ezalesakdisk',['~ZalesakDisk',['../classamr__wind_1_1_zalesak_disk.html#a10e37bcd7dc2c45c1a7ab49d705bc060',1,'amr_wind::ZalesakDisk']]]
 ];
