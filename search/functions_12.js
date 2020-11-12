@@ -32,7 +32,7 @@ var searchData=
   ['shear_5fstress',['shear_stress',['../namespacediffusion.html#a8aa2c8189eca7e621f87bc8170de79ba',1,'diffusion']]],
   ['sim',['sim',['../classincflo.html#a98bde37746dcfef9ee62272a7156ac14',1,'incflo']]],
   ['simtime',['SimTime',['../classamr__wind_1_1_sim_time.html#ab4e56481a0ac8c6d2ec6f3a0f60cad79',1,'amr_wind::SimTime']]],
-  ['size',['size',['../structamr__wind_1_1vs_1_1_tensor_t.html#acbde5b5e2a1bff8571133df8ca3793dc',1,'amr_wind::vs::TensorT::size()'],['../structamr__wind_1_1vs_1_1_vector_t.html#a1edb5f9cdd2d9269c92d52ad38f5b5ef',1,'amr_wind::vs::VectorT::size()']]],
+  ['size',['size',['../structamr__wind_1_1vs_1_1_tensor_t.html#acbde5b5e2a1bff8571133df8ca3793dc',1,'amr_wind::vs::TensorT::size()'],['../structamr__wind_1_1vs_1_1_vector_t.html#a1edb5f9cdd2d9269c92d52ad38f5b5ef',1,'amr_wind::vs::VectorT::size()'],['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html#aaf99dcce4220155a84f5d87e1e448dc6',1,'amr_wind::tioga_iface::AmrDualArray::size()']]],
   ['smagorinsky',['Smagorinsky',['../classamr__wind_1_1turbulence_1_1_smagorinsky.html#a08e4a2250c3e3bcbcb109d5efd4c331c',1,'amr_wind::turbulence::Smagorinsky']]],
   ['solve',['solve',['../classamr__wind_1_1pde_1_1_p_d_e_system.html#ac800661a4223ebee3aad10fb8d236b6e',1,'amr_wind::pde::PDESystem::solve()'],['../classamr__wind_1_1pde_1_1_p_d_e_base.html#a73ba758a3744921cb1c370106392a119',1,'amr_wind::pde::PDEBase::solve()']]],
   ['source_5ffield',['source_field',['../classamr__wind_1_1_view_field.html#a30b87f8ad33c35df5bfa2141b0f742bc',1,'amr_wind::ViewField::source_field()'],['../classamr__wind_1_1_view_field.html#adc787643ffc5b0806aa6d1dc80e4c9f7',1,'amr_wind::ViewField::source_field() const']]],

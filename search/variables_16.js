@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['z0',['z0',['../structamr__wind_1_1_m_o_data.html#ad827c439af3666e652f9dc4fb5fdc422',1,'amr_wind::MOData']]],
-  ['zref',['zref',['../structamr__wind_1_1_m_o_data.html#a6cafcf5211c3acc6203267fb0f1c5e99',1,'amr_wind::MOData']]]
+  ['xlo',['xlo',['../structamr__wind_1_1_a_m_r_overset_info.html#a6fa89d3020dfdf42d9cd77437fba2c47',1,'amr_wind::AMROversetInfo::xlo()'],['../class_plane_averaging.html#a9aa8ef9b170a5bd450ec78854e038569',1,'PlaneAveraging::xlo()']]]
 ];

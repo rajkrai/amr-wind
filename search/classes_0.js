@@ -16,5 +16,11 @@ var searchData=
   ['advectionop_3c_20pde_2c_20fvm_3a_3agodunov_2c_20typename_20std_3a_3aenable_5fif_3c_20std_3a_3ais_5fbase_5fof_3c_20scalartransport_2c_20pde_20_3e_3a_3avalue_20_3e_3a_3atype_20_3e',['AdvectionOp&lt; PDE, fvm::Godunov, typename std::enable_if&lt; std::is_base_of&lt; ScalarTransport, PDE &gt;::value &gt;::type &gt;',['../structamr__wind_1_1pde_1_1_advection_op_3_01_p_d_e_00_01fvm_1_1_godunov_00_01typename_01std_1_1e1063a557f39edceb10cd2474c8648de6.html',1,'amr_wind::pde']]],
   ['advectionop_3c_20pde_2c_20fvm_3a_3amol_2c_20typename_20std_3a_3aenable_5fif_3c_20std_3a_3ais_5fbase_5fof_3c_20scalartransport_2c_20pde_20_3e_3a_3avalue_20_3e_3a_3atype_20_3e',['AdvectionOp&lt; PDE, fvm::MOL, typename std::enable_if&lt; std::is_base_of&lt; ScalarTransport, PDE &gt;::value &gt;::type &gt;',['../structamr__wind_1_1pde_1_1_advection_op_3_01_p_d_e_00_01fvm_1_1_m_o_l_00_01typename_01std_1_1ena287b922bd4640f298fc4e1e74ccc5775.html',1,'amr_wind::pde']]],
   ['advectionop_3c_20pde_2c_20scheme_20_3e',['AdvectionOp&lt; PDE, Scheme &gt;',['../structamr__wind_1_1pde_1_1_advection_op.html',1,'amr_wind::pde']]],
-  ['amroversetinfo',['AMROversetInfo',['../structamr__wind_1_1_a_m_r_overset_info.html',1,'amr_wind']]]
+  ['amrdualarray',['AmrDualArray',['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html',1,'amr_wind::tioga_iface']]],
+  ['amrdualarray_3c_20amrex_3a_3areal_20_2a_3e',['AmrDualArray&lt; amrex::Real *&gt;',['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html',1,'amr_wind::tioga_iface']]],
+  ['amrdualarray_3c_20amrex_3a_3areal_20_3e',['AmrDualArray&lt; amrex::Real &gt;',['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html',1,'amr_wind::tioga_iface']]],
+  ['amrdualarray_3c_20int_20_2a_3e',['AmrDualArray&lt; int *&gt;',['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html',1,'amr_wind::tioga_iface']]],
+  ['amrdualarray_3c_20int_20_3e',['AmrDualArray&lt; int &gt;',['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html',1,'amr_wind::tioga_iface']]],
+  ['amroversetinfo',['AMROversetInfo',['../structamr__wind_1_1_a_m_r_overset_info.html',1,'amr_wind']]],
+  ['amroversetinfoold',['AMROversetInfoOld',['../structamr__wind_1_1_a_m_r_overset_info_old.html',1,'amr_wind']]]
 ];

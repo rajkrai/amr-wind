@@ -78,6 +78,8 @@ var searchData=
   ['copy',['copy',['../group__field__ops.html#gab31eb2b8cff530d9c29d57cf8dfebdf6',1,'amr_wind::field_ops::copy(T1 &amp;dst, const T2 &amp;src, int srccomp, int dstcomp, int numcomp, const amrex::IntVect &amp;nghost)'],['../group__field__ops.html#ga22da9fc42aea838768f8f566bbe2e37e',1,'amr_wind::field_ops::copy(T1 &amp;dst, const T2 &amp;src, int srccomp, int dstcomp, int numcomp, int nghost)']]],
   ['copy_5fbc_5fto_5fdevice',['copy_bc_to_device',['../structamr__wind_1_1_field_info.html#a24037b762bf849e60ee4090fa3500546',1,'amr_wind::FieldInfo::copy_bc_to_device()'],['../classamr__wind_1_1_field.html#ab0adec93beabe7432b9d5eb8f13e96bc',1,'amr_wind::Field::copy_bc_to_device()']]],
   ['copy_5fstate',['copy_state',['../classamr__wind_1_1_field.html#a0ae22cd10aed34f38589da9d3c44e0a6',1,'amr_wind::Field']]],
+  ['copy_5fto_5fdevice',['copy_to_device',['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html#a99d8e2cfd855d74a23cdcc503e7a71d1',1,'amr_wind::tioga_iface::AmrDualArray']]],
+  ['copy_5fto_5fhost',['copy_to_host',['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html#a149d846d43621ed300d8fdd9c00aa1bb',1,'amr_wind::tioga_iface::AmrDualArray']]],
   ['coriolisforcing',['CoriolisForcing',['../classamr__wind_1_1pde_1_1icns_1_1_coriolis_forcing.html',1,'amr_wind::pde::icns::CoriolisForcing'],['../classamr__wind_1_1pde_1_1icns_1_1_coriolis_forcing.html#a1e273d7a6b8b2b621fe9a3d39d0e37fb',1,'amr_wind::pde::icns::CoriolisForcing::CoriolisForcing()']]],
   ['coriolisforcing_2ecpp',['CoriolisForcing.cpp',['../_coriolis_forcing_8cpp.html',1,'']]],
   ['coriolisforcing_2eh',['CoriolisForcing.H',['../_coriolis_forcing_8_h.html',1,'']]],

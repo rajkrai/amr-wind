@@ -130,6 +130,7 @@ var menudata={children:[
 {text:"n",url:"functions_vars_n.html#index_n"},
 {text:"o",url:"functions_vars_o.html#index_o"},
 {text:"p",url:"functions_vars_p.html#index_p"},
+{text:"q",url:"functions_vars_q.html#index_q"},
 {text:"r",url:"functions_vars_r.html#index_r"},
 {text:"s",url:"functions_vars_s.html#index_s"},
 {text:"t",url:"functions_vars_t.html#index_t"},
@@ -139,7 +140,9 @@ var menudata={children:[
 {text:"x",url:"functions_vars_x.html#index_x"},
 {text:"z",url:"functions_vars_z.html#index_z"}]},
 {text:"Typedefs",url:"functions_type.html",children:[
+{text:"a",url:"functions_type.html#index_a"},
 {text:"c",url:"functions_type.html#index_c"},
+{text:"h",url:"functions_type.html#index_h"},
 {text:"i",url:"functions_type.html#index_i"},
 {text:"l",url:"functions_type.html#index_l"},
 {text:"m",url:"functions_type.html#index_m"},

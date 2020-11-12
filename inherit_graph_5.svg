@@ -12,7 +12,7 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="structamr__wind_1_1_a_m_r_overset_info.html" target="_top" xlink:title="amr_wind::AMROversetInfo">
+<g id="a_node1"><a xlink:href="structamr__wind_1_1_a_m_r_overset_info.html" target="_top" xlink:title="AMR mesh data in TIOGA format. ">
 <polygon fill="#ffffff" stroke="#000000" points="0,-.5 0,-19.5 138,-19.5 138,-.5 0,-.5"/>
 <text text-anchor="middle" x="69" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::AMROversetInfo</text>
 </a>
