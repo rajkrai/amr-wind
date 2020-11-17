@@ -110,9 +110,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a15aec98cb6801fd877984fe2ba7d6c06"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_overset_manager.html#a15aec98cb6801fd877984fe2ba7d6c06">post_overset_conn_work</a> ()=0</td></tr>
 <tr class="memdesc:a15aec98cb6801fd877984fe2ba7d6c06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates necessary after overset connectivity has been updated.  <a href="#a15aec98cb6801fd877984fe2ba7d6c06">More...</a><br /></td></tr>
 <tr class="separator:a15aec98cb6801fd877984fe2ba7d6c06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a841a62d374c327351791dc344252165d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_overset_manager.html#a841a62d374c327351791dc344252165d">register_solution</a> ()=0</td></tr>
-<tr class="memdesc:a841a62d374c327351791dc344252165d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform actions necessary to register fields for overset exchange.  <a href="#a841a62d374c327351791dc344252165d">More...</a><br /></td></tr>
-<tr class="separator:a841a62d374c327351791dc344252165d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc42e62d7bc831bab8a946390ee58391"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_overset_manager.html#acc42e62d7bc831bab8a946390ee58391">register_solution</a> (const std::vector&lt; std::string &gt; &amp;cell_vars, const std::vector&lt; std::string &gt; &amp;node_vars)=0</td></tr>
+<tr class="memdesc:acc42e62d7bc831bab8a946390ee58391"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform actions necessary to register fields for overset exchange.  <a href="#acc42e62d7bc831bab8a946390ee58391">More...</a><br /></td></tr>
+<tr class="separator:acc42e62d7bc831bab8a946390ee58391"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ada3778bee8180cbe5f74aa38b3f27a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_overset_manager.html#a1ada3778bee8180cbe5f74aa38b3f27a">update_solution</a> ()=0</td></tr>
 <tr class="memdesc:a1ada3778bee8180cbe5f74aa38b3f27a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional work after solution fields have been exchanged.  <a href="#a1ada3778bee8180cbe5f74aa38b3f27a">More...</a><br /></td></tr>
 <tr class="separator:a1ada3778bee8180cbe5f74aa38b3f27a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -277,8 +277,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a841a62d374c327351791dc344252165d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a841a62d374c327351791dc344252165d">&#9670;&nbsp;</a></span>register_solution()</h2>
+<a id="acc42e62d7bc831bab8a946390ee58391"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc42e62d7bc831bab8a946390ee58391">&#9670;&nbsp;</a></span>register_solution()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -289,8 +289,19 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual void amr_wind::OversetManager::register_solution </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>cell_vars</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>node_vars</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>

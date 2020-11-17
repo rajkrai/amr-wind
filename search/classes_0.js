@@ -21,6 +21,5 @@ var searchData=
   ['amrdualarray_3c_20amrex_3a_3areal_20_3e',['AmrDualArray&lt; amrex::Real &gt;',['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html',1,'amr_wind::tioga_iface']]],
   ['amrdualarray_3c_20int_20_2a_3e',['AmrDualArray&lt; int *&gt;',['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html',1,'amr_wind::tioga_iface']]],
   ['amrdualarray_3c_20int_20_3e',['AmrDualArray&lt; int &gt;',['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html',1,'amr_wind::tioga_iface']]],
-  ['amroversetinfo',['AMROversetInfo',['../structamr__wind_1_1_a_m_r_overset_info.html',1,'amr_wind']]],
-  ['amroversetinfoold',['AMROversetInfoOld',['../structamr__wind_1_1_a_m_r_overset_info_old.html',1,'amr_wind']]]
+  ['amroversetinfo',['AMROversetInfo',['../structamr__wind_1_1_a_m_r_overset_info.html',1,'amr_wind']]]
 ];

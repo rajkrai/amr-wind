@@ -111,14 +111,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad0109b3253f42ed851cc50f0c2d6bbfd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#ad0109b3253f42ed851cc50f0c2d6bbfd">post_overset_conn_work</a> () override</td></tr>
 <tr class="memdesc:ad0109b3253f42ed851cc50f0c2d6bbfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates necessary after overset connectivity has been updated.  <a href="#ad0109b3253f42ed851cc50f0c2d6bbfd">More...</a><br /></td></tr>
 <tr class="separator:ad0109b3253f42ed851cc50f0c2d6bbfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a596419e92d3a066e1923aed7b8259607"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#a596419e92d3a066e1923aed7b8259607">register_solution</a> () override</td></tr>
-<tr class="memdesc:a596419e92d3a066e1923aed7b8259607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform actions necessary to register fields for overset exchange.  <a href="#a596419e92d3a066e1923aed7b8259607">More...</a><br /></td></tr>
-<tr class="separator:a596419e92d3a066e1923aed7b8259607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa21d4a4fb5f454fa443190d0f14c38a7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#aa21d4a4fb5f454fa443190d0f14c38a7">register_solution</a> (const std::vector&lt; std::string &gt; &amp;cell_vars, const std::vector&lt; std::string &gt; &amp;node_vars) override</td></tr>
+<tr class="memdesc:aa21d4a4fb5f454fa443190d0f14c38a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform actions necessary to register fields for overset exchange.  <a href="#aa21d4a4fb5f454fa443190d0f14c38a7">More...</a><br /></td></tr>
+<tr class="separator:aa21d4a4fb5f454fa443190d0f14c38a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad657da362b0320bff1b30f51a69ba786"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#ad657da362b0320bff1b30f51a69ba786">update_solution</a> () override</td></tr>
 <tr class="memdesc:ad657da362b0320bff1b30f51a69ba786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional work after solution fields have been exchanged.  <a href="#ad657da362b0320bff1b30f51a69ba786">More...</a><br /></td></tr>
 <tr class="separator:ad657da362b0320bff1b30f51a69ba786"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70c0625a63d740e1cd90070d71cb1bdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structamr__wind_1_1_a_m_r_overset_info_old.html">AMROversetInfoOld</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#a70c0625a63d740e1cd90070d71cb1bdd">amr_mesh_info</a> ()</td></tr>
-<tr class="separator:a70c0625a63d740e1cd90070d71cb1bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97b2cc4ac340389ff725caa7545224bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structamr__wind_1_1_a_m_r_overset_info.html">AMROversetInfo</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#a97b2cc4ac340389ff725caa7545224bf">amr_overset_info</a> ()</td></tr>
 <tr class="separator:a97b2cc4ac340389ff725caa7545224bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90d47b0968b09e1e81c238642c5212dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#a90d47b0968b09e1e81c238642c5212dc">qvars_cell</a> ()</td></tr>
@@ -151,14 +149,16 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a2a2ac16839fdbcbb96bc9e443e543860"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af99872790938fdbafdf884d8707b786c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_int_field.html">IntField</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#af99872790938fdbafdf884d8707b786c">m_mask_node</a></td></tr>
 <tr class="separator:af99872790938fdbafdf884d8707b786c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2817e293568585470e503a91169a29d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structamr__wind_1_1_a_m_r_overset_info_old.html">AMROversetInfoOld</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#a2817e293568585470e503a91169a29d0">m_info</a></td></tr>
-<tr class="separator:a2817e293568585470e503a91169a29d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f6661d22045edfcd42d8dc54f7154c7"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structamr__wind_1_1_a_m_r_overset_info.html">AMROversetInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#a3f6661d22045edfcd42d8dc54f7154c7">m_amr_data</a></td></tr>
 <tr class="separator:a3f6661d22045edfcd42d8dc54f7154c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d5bde3708e9d772021a5bb345ed9c1"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#a93d5bde3708e9d772021a5bb345ed9c1">m_qcell</a></td></tr>
 <tr class="separator:a93d5bde3708e9d772021a5bb345ed9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba5cb8386e6eef9dc5f781b519da8468"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classamr__wind_1_1_scratch_field.html">ScratchField</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#aba5cb8386e6eef9dc5f781b519da8468">m_qnode</a></td></tr>
 <tr class="separator:aba5cb8386e6eef9dc5f781b519da8468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a87490546fbe0f7ee9ebbd00ef4042"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#aa6a87490546fbe0f7ee9ebbd00ef4042">m_cell_vars</a></td></tr>
+<tr class="separator:aa6a87490546fbe0f7ee9ebbd00ef4042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa84f6969ba4f7d6aa0e9d08edfc46351"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_tioga_interface.html#aa84f6969ba4f7d6aa0e9d08edfc46351">m_node_vars</a></td></tr>
+<tr class="separator:aa84f6969ba4f7d6aa0e9d08edfc46351"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4b562416b3001be55d5f91c28c0314b9"></a>
@@ -180,31 +180,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a70c0625a63d740e1cd90070d71cb1bdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70c0625a63d740e1cd90070d71cb1bdd">&#9670;&nbsp;</a></span>amr_mesh_info()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structamr__wind_1_1_a_m_r_overset_info_old.html">AMROversetInfoOld</a>&amp; amr_wind::TiogaInterface::amr_mesh_info </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a97b2cc4ac340389ff725caa7545224bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97b2cc4ac340389ff725caa7545224bf">&#9670;&nbsp;</a></span>amr_overset_info()</h2>
 
@@ -441,8 +416,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a596419e92d3a066e1923aed7b8259607"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a596419e92d3a066e1923aed7b8259607">&#9670;&nbsp;</a></span>register_solution()</h2>
+<a id="aa21d4a4fb5f454fa443190d0f14c38a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa21d4a4fb5f454fa443190d0f14c38a7">&#9670;&nbsp;</a></span>register_solution()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -453,8 +428,19 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void amr_wind::TiogaInterface::register_solution </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>cell_vars</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const std::vector&lt; std::string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>node_vars</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -519,6 +505,28 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa6a87490546fbe0f7ee9ebbd00ef4042"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6a87490546fbe0f7ee9ebbd00ef4042">&#9670;&nbsp;</a></span>m_cell_vars</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; amr_wind::TiogaInterface::m_cell_vars</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9aceb6539e191707b3a6e83a9228d0d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9aceb6539e191707b3a6e83a9228d0d5">&#9670;&nbsp;</a></span>m_iblank_cell</h2>
 
@@ -567,28 +575,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2817e293568585470e503a91169a29d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2817e293568585470e503a91169a29d0">&#9670;&nbsp;</a></span>m_info</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="structamr__wind_1_1_a_m_r_overset_info_old.html">AMROversetInfoOld</a> amr_wind::TiogaInterface::m_info</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a2a2ac16839fdbcbb96bc9e443e543860"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a2ac16839fdbcbb96bc9e443e543860">&#9670;&nbsp;</a></span>m_mask_cell</h2>
 
@@ -624,6 +610,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classamr__wind_1_1_int_field.html">IntField</a>&amp; amr_wind::TiogaInterface::m_mask_node</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa84f6969ba4f7d6aa0e9d08edfc46351"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa84f6969ba4f7d6aa0e9d08edfc46351">&#9670;&nbsp;</a></span>m_node_vars</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; amr_wind::TiogaInterface::m_node_vars</td>
         </tr>
       </table>
   </td>
