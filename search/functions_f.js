@@ -51,7 +51,7 @@ var searchData=
   ['prepare_5fnetcdf_5ffile',['prepare_netcdf_file',['../classamr__wind_1_1sampling_1_1_sampling.html#ae9f1ac3bf911d6c7e2e7d9375c7389d5',1,'amr_wind::sampling::Sampling::prepare_netcdf_file()'],['../classamr__wind_1_1_a_b_l_stats.html#a4c2f4724f4b9c8228c31cc6b205b20a6',1,'amr_wind::ABLStats::prepare_netcdf_file()']]],
   ['pressure',['pressure',['../classincflo.html#a428f5cd112d5f1234ce50fb08372e322',1,'incflo']]],
   ['print',['print',['../structamr__wind_1_1_factory.html#a8d98edcc6f1e14d11dc8626d75498548',1,'amr_wind::Factory']]],
-  ['print_5fbanner',['print_banner',['../namespaceamr__wind_1_1io.html#a85f71f77d92246ab3ce40cc3f8d09e02',1,'amr_wind::io']]],
+  ['print_5fbanner',['print_banner',['../namespaceamr__wind_1_1io.html#a7bd2ee1f004b5599f9a7bbbd65a39345',1,'amr_wind::io']]],
   ['print_5fmlmg_5fheader',['print_mlmg_header',['../namespaceamr__wind_1_1io.html#a761493de569c4b76d81134857e6d1573',1,'amr_wind::io']]],
   ['print_5fmlmg_5finfo',['print_mlmg_info',['../namespaceamr__wind_1_1io.html#abeeeacba12fb26792c4d8f142e0735e5',1,'amr_wind::io']]],
   ['print_5fsummary',['print_summary',['../namespaceamr__wind_1_1io.html#aa35607b1cf99252f43614e4352ece234',1,'amr_wind::io']]],

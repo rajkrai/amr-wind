@@ -79,8 +79,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a85f71f77d92246ab3ce40cc3f8d09e02"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1io.html#a85f71f77d92246ab3ce40cc3f8d09e02">print_banner</a> (std::ostream &amp;out)</td></tr>
-<tr class="separator:a85f71f77d92246ab3ce40cc3f8d09e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bd2ee1f004b5599f9a7bbbd65a39345"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1io.html#a7bd2ee1f004b5599f9a7bbbd65a39345">print_banner</a> (MPI_Comm comm, std::ostream &amp;out)</td></tr>
+<tr class="separator:a7bd2ee1f004b5599f9a7bbbd65a39345"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a761493de569c4b76d81134857e6d1573"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1io.html#a761493de569c4b76d81134857e6d1573">print_mlmg_header</a> (const std::string &amp;key)</td></tr>
 <tr class="separator:a761493de569c4b76d81134857e6d1573"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeeeacba12fb26792c4d8f142e0735e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceamr__wind_1_1io.html#abeeeacba12fb26792c4d8f142e0735e5">print_mlmg_info</a> (const std::string &amp;solve_name, const amrex::MLMG &amp;mlmg)</td></tr>
@@ -89,8 +89,8 @@ Functions</h2></td></tr>
 <tr class="separator:aa35607b1cf99252f43614e4352ece234"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a85f71f77d92246ab3ce40cc3f8d09e02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85f71f77d92246ab3ce40cc3f8d09e02">&#9670;&nbsp;</a></span>print_banner()</h2>
+<a id="a7bd2ee1f004b5599f9a7bbbd65a39345"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bd2ee1f004b5599f9a7bbbd65a39345">&#9670;&nbsp;</a></span>print_banner()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -98,9 +98,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void amr_wind::io::print_banner </td>
           <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>out</em></td><td>)</td>
+          <td class="paramtype">MPI_Comm&#160;</td>
+          <td class="paramname"><em>comm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
