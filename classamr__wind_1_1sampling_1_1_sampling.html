@@ -113,6 +113,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3a4d66fcbbc360e3db0ceae72146a1f7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#a3a4d66fcbbc360e3db0ceae72146a1f7">impl_write_native</a> ()</td></tr>
 <tr class="memdesc:a3a4d66fcbbc360e3db0ceae72146a1f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write sampled data in binary format.  <a href="#a3a4d66fcbbc360e3db0ceae72146a1f7">More...</a><br /></td></tr>
 <tr class="separator:a3a4d66fcbbc360e3db0ceae72146a1f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76f9a352e4b28bd76df11377e92a87a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#a76f9a352e4b28bd76df11377e92a87a2">num_total_particles</a> () const</td></tr>
+<tr class="separator:a76f9a352e4b28bd76df11377e92a87a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d013e90e49928cb2a60a95b3b39cb92"><td class="memItemLeft" align="right" valign="top">const amrex::Vector&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#a0d013e90e49928cb2a60a95b3b39cb92">var_names</a> () const</td></tr>
+<tr class="separator:a0d013e90e49928cb2a60a95b3b39cb92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -133,6 +137,8 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a63c249429d3cdc7e640f9e09d7c8c08c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#a63c249429d3cdc7e640f9e09d7c8c08c">write_ascii</a> ()</td></tr>
 <tr class="memdesc:a63c249429d3cdc7e640f9e09d7c8c08c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output sampled data in ASCII format.  <a href="#a63c249429d3cdc7e640f9e09d7c8c08c">More...</a><br /></td></tr>
 <tr class="separator:a63c249429d3cdc7e640f9e09d7c8c08c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ae6aaeddbe67e7d95772e495678dee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1sampling_1_1_sampling_container.html">SamplingContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1sampling_1_1_sampling.html#a68ae6aaeddbe67e7d95772e495678dee">sampling_container</a> ()</td></tr>
+<tr class="separator:a68ae6aaeddbe67e7d95772e495678dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -294,6 +300,31 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a76f9a352e4b28bd76df11377e92a87a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76f9a352e4b28bd76df11377e92a87a2">&#9670;&nbsp;</a></span>num_total_particles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int amr_wind::sampling::Sampling::num_total_particles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a09e4a6514064d7fdd5a8f9d619b6ba52"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a09e4a6514064d7fdd5a8f9d619b6ba52">&#9670;&nbsp;</a></span>post_advance_work()</h2>
 
@@ -364,6 +395,56 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Output data based on user-defined format. </p>
+
+</div>
+</div>
+<a id="a68ae6aaeddbe67e7d95772e495678dee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ae6aaeddbe67e7d95772e495678dee">&#9670;&nbsp;</a></span>sampling_container()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classamr__wind_1_1sampling_1_1_sampling_container.html">SamplingContainer</a>&amp; amr_wind::sampling::Sampling::sampling_container </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0d013e90e49928cb2a60a95b3b39cb92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d013e90e49928cb2a60a95b3b39cb92">&#9670;&nbsp;</a></span>var_names()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const amrex::Vector&lt;std::string&gt;&amp; amr_wind::sampling::Sampling::var_names </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -26,5 +26,6 @@ var searchData=
   ['num_5fsampling_5fparticles',['num_sampling_particles',['../classamr__wind_1_1sampling_1_1_sampling_container.html#a6f331fe9ed1bd0edd8089a68649a2d62',1,'amr_wind::sampling::SamplingContainer::num_sampling_particles() const'],['../classamr__wind_1_1sampling_1_1_sampling_container.html#a7ad14b326d73c4db96352683b48c2e46',1,'amr_wind::sampling::SamplingContainer::num_sampling_particles()']]],
   ['num_5fstates',['num_states',['../classamr__wind_1_1_field.html#a88bc7c149e48f2cdcaf03eba1749eab3',1,'amr_wind::Field']]],
   ['num_5ftime_5fstates',['num_time_states',['../classamr__wind_1_1_field.html#a594163d98791c2fa1bf8f98a8e008ba6',1,'amr_wind::Field']]],
+  ['num_5ftotal_5fparticles',['num_total_particles',['../classamr__wind_1_1sampling_1_1_sampling.html#a76f9a352e4b28bd76df11377e92a87a2',1,'amr_wind::sampling::Sampling']]],
   ['num_5fvariables',['num_variables',['../classncutils_1_1_n_c_group.html#a4721cc36bd0f188be0250112329d3ba1',1,'ncutils::NCGroup']]]
 ];
