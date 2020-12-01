@@ -25,6 +25,7 @@ var searchData=
   ['line_5fvelocity_5fxdir',['line_velocity_xdir',['../class_plane_averaging.html#aba1feb570e3348392905e6bfd3afaef3',1,'PlaneAveraging']]],
   ['line_5fvelocity_5fydir',['line_velocity_ydir',['../class_plane_averaging.html#a04d5ab651390c9573a2578fb7aa342ad',1,'PlaneAveraging']]],
   ['line_5fvelocity_5fzdir',['line_velocity_zdir',['../class_plane_averaging.html#aa3251e6ab5a99a088d9e4ed5b33bc0f4',1,'PlaneAveraging']]],
+  ['linearprofile',['LinearProfile',['../structamr__wind_1_1udf_1_1_linear_profile.html#a5d0f45c6a2fbc0fd8f932978469c72e6',1,'amr_wind::udf::LinearProfile']]],
   ['linesampler',['LineSampler',['../classamr__wind_1_1sampling_1_1_line_sampler.html#a6a7ac18e9796a64be244ea995dc6485b',1,'amr_wind::sampling::LineSampler']]],
   ['linsys_5fsolve',['linsys_solve',['../classamr__wind_1_1pde_1_1_diff_solver_iface.html#aa6c777edb27a5c9e48e488cc71ae14ef',1,'amr_wind::pde::DiffSolverIface']]],
   ['lower_5fbound',['lower_bound',['../group__field__ops.html#gaa847e8ec31210673919f3004a4f145c4',1,'amr_wind::field_ops']]],

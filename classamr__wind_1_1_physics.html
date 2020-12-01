@@ -103,6 +103,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aef05e5b34d73729d56aa47a30775dc3d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_physics.html#aef05e5b34d73729d56aa47a30775dc3d">initialize_fields</a> (int level, const amrex::Geometry &amp;geom)=0</td></tr>
 <tr class="memdesc:aef05e5b34d73729d56aa47a30775dc3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the fields for a given level during init/regrid.  <a href="#aef05e5b34d73729d56aa47a30775dc3d">More...</a><br /></td></tr>
 <tr class="separator:aef05e5b34d73729d56aa47a30775dc3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdc845293382ed75a0a8a941aa9a95c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_physics.html#acdc845293382ed75a0a8a941aa9a95c3">pre_init_actions</a> ()</td></tr>
+<tr class="memdesc:acdc845293382ed75a0a8a941aa9a95c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actions to perform after PDEs and turbulence models have been created, but before mesh creation.  <a href="#acdc845293382ed75a0a8a941aa9a95c3">More...</a><br /></td></tr>
+<tr class="separator:acdc845293382ed75a0a8a941aa9a95c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe93961a91fa77f1662172fef86239c3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classamr__wind_1_1_physics.html#abe93961a91fa77f1662172fef86239c3">post_init_actions</a> ()=0</td></tr>
 <tr class="memdesc:abe93961a91fa77f1662172fef86239c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actions to perform post initialization.  <a href="#abe93961a91fa77f1662172fef86239c3">More...</a><br /></td></tr>
 <tr class="separator:abe93961a91fa77f1662172fef86239c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -336,6 +339,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Perform tasks necessary before advancing timestep. </p>
+
+</div>
+</div>
+<a id="acdc845293382ed75a0a8a941aa9a95c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdc845293382ed75a0a8a941aa9a95c3">&#9670;&nbsp;</a></span>pre_init_actions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void amr_wind::Physics::pre_init_actions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Actions to perform after PDEs and turbulence models have been created, but before mesh creation. </p>
 
 </div>
 </div>

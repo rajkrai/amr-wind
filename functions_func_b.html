@@ -85,16 +85,20 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1sampling_1_1_sampler_base.html#a638a0b0b0337b65fb40e3f6faa93aeb7">amr_wind::sampling::SamplerBase</a>
 , <a class="el" href="classamr__wind_1_1tagging_1_1_geometry_type.html#afb67909012c94e6bbbb782ac61da9112">amr_wind::tagging::GeometryType</a>
 , <a class="el" href="classamr__wind_1_1turbulence_1_1_turbulence_model.html#a3757fe2e716a1db20876389ef79a2f32">amr_wind::turbulence::TurbulenceModel</a>
+, <a class="el" href="classamr__wind_1_1udf_1_1_u_d_f.html#a14ddf15e478e9b2016293b030f0fee85">amr_wind::udf::UDF</a>
 </li>
 <li>base_name()
 : <a class="el" href="classamr__wind_1_1_field.html#ad41aa05abd6ed852f56b2a87bf3c1761">amr_wind::Field</a>
+</li>
+<li>bc_functor()
+: <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#a9005dfd2263ce5217e4333fa1b60122f">amr_wind::FieldFillPatchOps&lt; BCOpCreator &gt;</a>
 </li>
 <li>bc_initialized()
 : <a class="el" href="classamr__wind_1_1_field.html#abeb5fec1ed460309c8c558edacfc759a">amr_wind::Field</a>
 , <a class="el" href="structamr__wind_1_1_field_info.html#a97dbad8e0bdd612fda55b01f6539a52e">amr_wind::FieldInfo</a>
 </li>
 <li>bc_type()
-: <a class="el" href="classamr__wind_1_1_field.html#a35e72cd01b21ffd08689acc847d6b2be">amr_wind::Field</a>
+: <a class="el" href="classamr__wind_1_1_field.html#af91f9f88ad3312f60d598d7c886ae7d1">amr_wind::Field</a>
 </li>
 <li>bc_values()
 : <a class="el" href="classamr__wind_1_1_field.html#ad0ec14405f133cd516e9520c120e8d9b">amr_wind::Field</a>
@@ -111,6 +115,9 @@ $(function() {
 <li>BCOp()
 : <a class="el" href="structamr__wind_1_1pde_1_1_b_c_op_3_01_i_c_n_s_01_4.html#ab69c2778cfcb0bf70e4999d5d21d0869">amr_wind::pde::BCOp&lt; ICNS &gt;</a>
 , <a class="el" href="structamr__wind_1_1pde_1_1_b_c_op_3_01_p_d_e_00_01typename_01std_1_1enable__if_3_01std_1_1is__ba09d3e606cd77a31531d65648a3482008.html#a6dbcd5fa3d6e5e5dff92fe640da00f7f">amr_wind::pde::BCOp&lt; PDE, typename std::enable_if&lt; std::is_base_of&lt; ScalarTransport, PDE &gt;::value &gt;::type &gt;</a>
+</li>
+<li>BCOpCreator()
+: <a class="el" href="structamr__wind_1_1_b_c_op_creator.html#a1387e2f6d51d58d7f577ee4807f62ec4">amr_wind::BCOpCreator&lt; InflowOp, WallOp &gt;</a>
 </li>
 <li>BCPressure()
 : <a class="el" href="classamr__wind_1_1_b_c_pressure.html#a23ede706b51b2be975c6217734a0f97f">amr_wind::BCPressure</a>

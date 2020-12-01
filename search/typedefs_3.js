@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['hostarraytype',['HostArrayType',['../structamr__wind_1_1tioga__iface_1_1_amr_dual_array.html#a0bc51aff310476a41db309ba85b25f79',1,'amr_wind::tioga_iface::AmrDualArray']]]
+  ['fieldplaneaveraging',['FieldPlaneAveraging',['../namespaceamr__wind.html#a078c88a857d4018bbbcbfd5a577e63ac',1,'amr_wind']]],
+  ['funcdef',['FuncDef',['../namespaceamr__wind_1_1mms.html#a015cb6f7a2ebf1dd1e929bdfab6ca7ed',1,'amr_wind::mms']]],
+  ['functor',['Functor',['../classamr__wind_1_1_field_fill_patch_ops.html#a3d1efb082b0a3821e64a7f65ab37982c',1,'amr_wind::FieldFillPatchOps']]],
+  ['functortype',['FunctorType',['../structamr__wind_1_1_field_b_c_no_op.html#a5d20e16bb61ee738da206bc906e7f908',1,'amr_wind::FieldBCNoOp::FunctorType()'],['../structamr__wind_1_1_field_b_c_dirichlet.html#a9b528c1b7326e20a7fa8b1daca29472c',1,'amr_wind::FieldBCDirichlet::FunctorType()'],['../structamr__wind_1_1_b_c_op_creator.html#a9bee82831c1a53901ec34a56f4982533',1,'amr_wind::BCOpCreator::FunctorType()']]]
 ];

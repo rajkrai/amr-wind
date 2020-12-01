@@ -14,6 +14,8 @@ var searchData=
   ['planesampler_2eh',['PlaneSampler.H',['../_plane_sampler_8_h.html',1,'']]],
   ['postprocessing_2ecpp',['PostProcessing.cpp',['../_post_processing_8cpp.html',1,'']]],
   ['postprocessing_2eh',['PostProcessing.H',['../_post_processing_8_h.html',1,'']]],
+  ['powerlawprofile_2ecpp',['PowerLawProfile.cpp',['../_power_law_profile_8cpp.html',1,'']]],
+  ['powerlawprofile_2eh',['PowerLawProfile.H',['../_power_law_profile_8_h.html',1,'']]],
   ['prob_5fbc_2ecpp',['prob_bc.cpp',['../prob__bc_8cpp.html',1,'']]],
   ['prob_5finit_5ffluid_2ecpp',['prob_init_fluid.cpp',['../prob__init__fluid_8cpp.html',1,'']]],
   ['probesampler_2ecpp',['ProbeSampler.cpp',['../_probe_sampler_8cpp.html',1,'']]],

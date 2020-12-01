@@ -5,6 +5,7 @@ var searchData=
   ['wall_5fmodel',['wall_model',['../incflo__enums_8_h.html#a6e1412fca31cbd35d0f50f12fcc70b0fa6e55e2ee14d93d50c4bc849a21816201',1,'incflo_enums.H']]],
   ['wall_5fmodel_5fbc',['wall_model_bc',['../namespacediffusion.html#a0f9c495bdda812becb61cd3a62ee5f47',1,'diffusion']]],
   ['wall_5fmodel_5fbc_5fmoeng',['wall_model_bc_moeng',['../namespacediffusion.html#a9ace6be09d511bc3744fdb0da578fe4a',1,'diffusion']]],
+  ['walloptype',['WallOpType',['../structamr__wind_1_1_dirichlet_op.html#abf555da6eddf61d0e0950eb044249f63',1,'amr_wind::DirichletOp::WallOpType()'],['../structamr__wind_1_1_b_c_op_creator.html#afbd951d1c54b190e55e7a8bbda745e21',1,'amr_wind::BCOpCreator::WallOpType()']]],
   ['weno',['WENO',['../namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5a373656f56e555e31f62cb895843a5f57',1,'godunov']]],
   ['wind_20energy_20modeling',['Wind energy modeling',['../group__wind.html',1,'']]],
   ['write_5fascii',['write_ascii',['../classamr__wind_1_1sampling_1_1_sampling.html#a63c249429d3cdc7e640f9e09d7c8c08c',1,'amr_wind::sampling::Sampling::write_ascii()'],['../classamr__wind_1_1_a_b_l_stats.html#a90d6c78bf800e96f300fdb8341c5d1bb',1,'amr_wind::ABLStats::write_ascii()']]],

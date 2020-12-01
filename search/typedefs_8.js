@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['reference',['reference',['../structamr__wind_1_1vs_1_1_tensor_t.html#a4a47f3e954877b9634d7e0223ffc19a0',1,'amr_wind::vs::TensorT::reference()'],['../structamr__wind_1_1vs_1_1_vector_t.html#ac304504c48ab3759c644f9e8447d60b9',1,'amr_wind::vs::VectorT::reference()']]]
+  ['pdetype',['PDEType',['../classamr__wind_1_1pde_1_1_p_d_e_system.html#a933e9beb74f26766d8501619b34b8af1',1,'amr_wind::pde::PDESystem']]],
+  ['planevector',['PlaneVector',['../classamr__wind_1_1_inlet_data.html#ab6245c2d02476b7c1980935a7a05de3c',1,'amr_wind::InletData']]]
 ];

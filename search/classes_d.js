@@ -13,5 +13,6 @@ var searchData=
   ['postprocessmanager',['PostProcessManager',['../classamr__wind_1_1_post_process_manager.html',1,'amr_wind']]],
   ['postsolveop',['PostSolveOp',['../structamr__wind_1_1pde_1_1_post_solve_op.html',1,'amr_wind::pde']]],
   ['postsolveop_3c_20tke_20_3e',['PostSolveOp&lt; TKE &gt;',['../structamr__wind_1_1pde_1_1_post_solve_op_3_01_t_k_e_01_4.html',1,'amr_wind::pde']]],
+  ['powerlawprofile',['PowerLawProfile',['../structamr__wind_1_1udf_1_1_power_law_profile.html',1,'amr_wind::udf']]],
   ['probesampler',['ProbeSampler',['../classamr__wind_1_1sampling_1_1_probe_sampler.html',1,'amr_wind::sampling']]]
 ];

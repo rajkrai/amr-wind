@@ -53,7 +53,7 @@
 <g id="a_node4"><a xlink:href="classamr__wind_1_1_field_fill_patch_ops.html" target="_top" xlink:title="Concrete implementation of filling patches and boundary conditions on multi&#45;level AMR meshes...">
 <polygon fill="#ffffff" stroke="#000000" points="78,-135.5 78,-165.5 202,-165.5 202,-135.5 78,-135.5"/>
 <text text-anchor="start" x="86" y="-153.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">amr_wind::FieldFillPatch</text>
-<text text-anchor="middle" x="140" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Ops&lt; Functor &gt;</text>
+<text text-anchor="middle" x="140" y="-142.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Ops&lt; BCOpCreator &gt;</text>
 </a>
 </g>
 </g>

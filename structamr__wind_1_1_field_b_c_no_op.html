@@ -71,8 +71,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="structamr__wind_1_1_field_b_c_no_op-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">amr_wind::FieldBCNoOp Struct Reference<div class="ingroups"><a class="el" href="group__core.html">AMR-Wind core</a> &raquo; <a class="el" href="group__fields.html">Field management</a> &raquo; <a class="el" href="group__field__fillpatch.html">Fillpatch operators</a></div></div>  </div>
@@ -84,27 +84,42 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="_field_b_c_ops_8_h_source.html">FieldBCOps.H</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a5d20e16bb61ee738da206bc906e7f908"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#a5d20e16bb61ee738da206bc906e7f908">FunctorType</a> = <a class="el" href="structamr__wind_1_1_field_b_c_no_op.html">FieldBCNoOp</a></td></tr>
+<tr class="separator:a5d20e16bb61ee738da206bc906e7f908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3471c5c2f2cea116e359bf30dd9425be"><td class="memItemLeft" align="right" valign="top">AMREX_GPU_HOST constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#a3471c5c2f2cea116e359bf30dd9425be">FieldBCNoOp</a> (const int probtype, const int ncomp, const amrex::GpuArray&lt; const amrex::Real *, AMREX_SPACEDIM *2 &gt; &amp;bcv)</td></tr>
-<tr class="separator:a3471c5c2f2cea116e359bf30dd9425be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d2c5e12627803e450cc9e5ab38bc0e8"><td class="memItemLeft" align="right" valign="top">AMREX_GPU_HOST constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#a6d2c5e12627803e450cc9e5ab38bc0e8">FieldBCNoOp</a> ()</td></tr>
+<tr class="separator:a6d2c5e12627803e450cc9e5ab38bc0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde3c11257465b13d6601e7aaf9da021"><td class="memItemLeft" align="right" valign="top">AMREX_GPU_HOST constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#abde3c11257465b13d6601e7aaf9da021">FieldBCNoOp</a> (const <a class="el" href="classamr__wind_1_1_field.html">Field</a> &amp;)</td></tr>
+<tr class="separator:abde3c11257465b13d6601e7aaf9da021"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70750e85ea5f9357d8ffbc242b126560"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#a5d20e16bb61ee738da206bc906e7f908">FunctorType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#a70750e85ea5f9357d8ffbc242b126560">operator()</a> () const</td></tr>
+<tr class="separator:a70750e85ea5f9357d8ffbc242b126560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7a49b5cab5694896e8c6556b7a2ef1f"><td class="memItemLeft" align="right" valign="top">AMREX_GPU_DEVICE void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#ac7a49b5cab5694896e8c6556b7a2ef1f">operator()</a> (const amrex::IntVect &amp;, amrex::Array4&lt; amrex::Real &gt; const &amp;, const int, const int, amrex::GeometryData const &amp;, const amrex::Real, const amrex::BCRec *, const int, const int) const</td></tr>
 <tr class="separator:ac7a49b5cab5694896e8c6556b7a2ef1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ad05f452f0c0539ffd9e78f37252f27cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#ad05f452f0c0539ffd9e78f37252f27cf">m_probtype</a></td></tr>
-<tr class="separator:ad05f452f0c0539ffd9e78f37252f27cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81d4c100060920b12a01ffd214207385"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#a81d4c100060920b12a01ffd214207385">m_ncomp</a></td></tr>
-<tr class="separator:a81d4c100060920b12a01ffd214207385"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a08f6a4d09b8b40f43ec75dc6685adc"><td class="memItemLeft" align="right" valign="top">amrex::GpuArray&lt; const amrex::Real *, AMREX_SPACEDIM *2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#a5a08f6a4d09b8b40f43ec75dc6685adc">m_bcv</a></td></tr>
-<tr class="separator:a5a08f6a4d09b8b40f43ec75dc6685adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A no-op BC. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3471c5c2f2cea116e359bf30dd9425be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3471c5c2f2cea116e359bf30dd9425be">&#9670;&nbsp;</a></span>FieldBCNoOp()</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a5d20e16bb61ee738da206bc906e7f908"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d20e16bb61ee738da206bc906e7f908">&#9670;&nbsp;</a></span>FunctorType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#a5d20e16bb61ee738da206bc906e7f908">amr_wind::FieldBCNoOp::FunctorType</a> =  <a class="el" href="structamr__wind_1_1_field_b_c_no_op.html">FieldBCNoOp</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a6d2c5e12627803e450cc9e5ab38bc0e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d2c5e12627803e450cc9e5ab38bc0e8">&#9670;&nbsp;</a></span>FieldBCNoOp() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -115,25 +130,34 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">AMREX_GPU_HOST constexpr amr_wind::FieldBCNoOp::FieldBCNoOp </td>
           <td>(</td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>probtype</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">const int&#160;</td>
-          <td class="paramname"><em>ncomp</em>, </td>
         </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abde3c11257465b13d6601e7aaf9da021"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abde3c11257465b13d6601e7aaf9da021">&#9670;&nbsp;</a></span>FieldBCNoOp() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
         <tr>
-          <td class="paramkey"></td>
+          <td class="memname">AMREX_GPU_HOST constexpr amr_wind::FieldBCNoOp::FieldBCNoOp </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classamr__wind_1_1_field.html">Field</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">const amrex::GpuArray&lt; const amrex::Real *, AMREX_SPACEDIM *2 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>bcv</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -146,8 +170,33 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a70750e85ea5f9357d8ffbc242b126560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70750e85ea5f9357d8ffbc242b126560">&#9670;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structamr__wind_1_1_field_b_c_no_op.html#a5d20e16bb61ee738da206bc906e7f908">FunctorType</a> amr_wind::FieldBCNoOp::operator() </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac7a49b5cab5694896e8c6556b7a2ef1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7a49b5cab5694896e8c6556b7a2ef1f">&#9670;&nbsp;</a></span>operator()()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7a49b5cab5694896e8c6556b7a2ef1f">&#9670;&nbsp;</a></span>operator()() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220,49 +269,6 @@ Public Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5a08f6a4d09b8b40f43ec75dc6685adc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a08f6a4d09b8b40f43ec75dc6685adc">&#9670;&nbsp;</a></span>m_bcv</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">amrex::GpuArray&lt;const amrex::Real*, AMREX_SPACEDIM * 2&gt; amr_wind::FieldBCNoOp::m_bcv</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a81d4c100060920b12a01ffd214207385"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81d4c100060920b12a01ffd214207385">&#9670;&nbsp;</a></span>m_ncomp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int amr_wind::FieldBCNoOp::m_ncomp</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad05f452f0c0539ffd9e78f37252f27cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad05f452f0c0539ffd9e78f37252f27cf">&#9670;&nbsp;</a></span>m_probtype</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int amr_wind::FieldBCNoOp::m_probtype</td>
-        </tr>
-      </table>
 </div><div class="memdoc">
 
 </div>
