@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['macprojop',['MacProjOp',['../classamr__wind_1_1pde_1_1_mac_proj_op.html#ab86532af213ee9c0b31217c9a04cefcc',1,'amr_wind::pde::MacProjOp']]],
   ['mag',['mag',['../namespaceamr__wind_1_1vs.html#a24943da027eeae841dc056d9a79b064b',1,'amr_wind::vs::mag(const TensorT&lt; T &gt; &amp;t)'],['../namespaceamr__wind_1_1vs.html#ad0620fff3d65eded13eda1cd54cad694',1,'amr_wind::vs::mag(const VectorT&lt; T &gt; &amp;v)']]],
   ['mag_5fsqr',['mag_sqr',['../namespaceamr__wind_1_1vs.html#a8e192564028dc23f6fec096bcfa4bbe5',1,'amr_wind::vs::mag_sqr(const TensorT&lt; T &gt; &amp;t)'],['../namespaceamr__wind_1_1vs.html#a7000d69ba8146e8f88e8f16f47990739',1,'amr_wind::vs::mag_sqr(const VectorT&lt; T &gt; &amp;v)']]],
   ['main',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],

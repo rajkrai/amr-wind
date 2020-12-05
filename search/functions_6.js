@@ -14,7 +14,7 @@ var searchData=
   ['get_5finterpolation_5foperator',['get_interpolation_operator',['../group__field__ops.html#ga2e6b7fdbf009b079c6f19549b5a75c9c',1,'amr_wind::field_impl']]],
   ['get_5fmfab_5fvec',['get_mfab_vec',['../classamr__wind_1_1_field_fill_patch_ops.html#ad8f5e0dd8d200aa48fe3091d7c90d7a1',1,'amr_wind::FieldFillPatchOps']]],
   ['get_5fmultifab',['get_multifab',['../classamr__wind_1_1_field_repo.html#a3e37a6b9fb1d90268148153ba2bab5f1',1,'amr_wind::FieldRepo']]],
-  ['get_5fprojection_5fbc',['get_projection_bc',['../classincflo.html#a43662303c371c69cf87d400479fbc460',1,'incflo::get_projection_bc()'],['../namespacemac.html#a2c7a242842e7c604950f4b1a2cc3af43',1,'mac::get_projection_bc()']]],
+  ['get_5fprojection_5fbc',['get_projection_bc',['../classincflo.html#a43662303c371c69cf87d400479fbc460',1,'incflo']]],
   ['global_5fmax_5fmagnitude',['global_max_magnitude',['../group__field__ops.html#gaec69eec8e1e211dcc30cabe1e9132e14',1,'amr_wind::field_ops']]],
   ['gotonextline',['GotoNextLine',['../io_8cpp.html#adf2ebdee3ee75dbe3b5b77e85a5c4e2f',1,'io.cpp']]],
   ['grad_5fp',['grad_p',['../classincflo.html#a77bcdf7928df6e21a0ce4c0d98e1bb7f',1,'incflo']]],

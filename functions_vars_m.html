@@ -88,7 +88,7 @@ $(function() {
 : <a class="el" href="classamr__wind_1_1_sim_time.html#a83e897d948280eb4ffb91a6a4ec1e519">amr_wind::SimTime</a>
 </li>
 <li>m_adv_op
-: <a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html#a17ff3d26a604e7aefa84f9110df858c4">amr_wind::pde::PDESystem&lt; PDE, Scheme &gt;</a>
+: <a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html#ad79b91fd268f45c5d7b947a2effe0c6e">amr_wind::pde::PDESystem&lt; PDE, Scheme &gt;</a>
 </li>
 <li>m_alpha_turb
 : <a class="el" href="classamr__wind_1_1turbulence_1_1_turb_model_base.html#a6087c36bc68ce74cd350014befbe0851">amr_wind::turbulence::TurbModelBase&lt; Transport &gt;</a>
@@ -408,6 +408,9 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1pde_1_1icns_1_1_density_buoyancy.html#a85799ce6d1eca3d33f4c3b852a11f178">amr_wind::pde::icns::DensityBuoyancy</a>
 , <a class="el" href="classamr__wind_1_1turbulence_1_1_one_eq_ksgs_m84.html#a1c868f4dea5731453322a798e94dcb74">amr_wind::turbulence::OneEqKsgsM84&lt; Transport &gt;</a>
 </li>
+<li>m_has_overset
+: <a class="el" href="classamr__wind_1_1pde_1_1_mac_proj_op.html#acf1ff8a0a2ac339e6cb3a616ccc58469">amr_wind::pde::MacProjOp</a>
+</li>
 <li>m_height
 : <a class="el" href="classamr__wind_1_1_dam_break.html#ad32e46408c31754e2f159a812c8dd866">amr_wind::DamBreak</a>
 </li>
@@ -545,6 +548,13 @@ $(function() {
 <li>m_lpinfo
 : <a class="el" href="structamr__wind_1_1_m_l_m_g_options.html#a75199734c45386eb32ac24e4fc402d01">amr_wind::MLMGOptions</a>
 </li>
+<li>m_mac_proj
+: <a class="el" href="classamr__wind_1_1pde_1_1_mac_proj_op.html#a642cb9c4e11eb480cce3eedcd2beac64">amr_wind::pde::MacProjOp</a>
+</li>
+<li>m_macproj_op
+: <a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#a0447475572ffa39dd5409b3e27323b20">amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;</a>
+, <a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_m_o_l_01_4.html#adf01db5941155337bd4487163a7aa1ad">amr_wind::pde::AdvectionOp&lt; ICNS, fvm::MOL &gt;</a>
+</li>
 <li>m_mapper
 : <a class="el" href="classamr__wind_1_1_field_fill_patch_ops.html#a6a97313ec285e289611904338d663c77">amr_wind::FieldFillPatchOps&lt; BCOpCreator &gt;</a>
 </li>
@@ -658,6 +668,9 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1_scratch_field.html#af9336b08894fd0d72185c44d4be1e7a1">amr_wind::ScratchField</a>
 , <a class="el" href="classamr__wind_1_1_view_field.html#a1cc04c74c545ac9971c90f773f748607">amr_wind::ViewField&lt; T &gt;</a>
 </li>
+<li>m_need_init
+: <a class="el" href="classamr__wind_1_1pde_1_1_mac_proj_op.html#a4a8a5da2b608727417971aabfe9aee88">amr_wind::pde::MacProjOp</a>
+</li>
 <li>m_new_time
 : <a class="el" href="classamr__wind_1_1_sim_time.html#a5f95fe4cf5931ce58bee3d383f63ab1c">amr_wind::SimTime</a>
 </li>
@@ -718,6 +731,7 @@ $(function() {
 </li>
 <li>m_options
 : <a class="el" href="classamr__wind_1_1pde_1_1_diff_solver_iface.html#a6f15f9f764454ec4e9f7d6a736ea33f2">amr_wind::pde::DiffSolverIface&lt; LinOp &gt;</a>
+, <a class="el" href="classamr__wind_1_1pde_1_1_mac_proj_op.html#a774f0db0bb3f200bf929465fd6674f5c">amr_wind::pde::MacProjOp</a>
 </li>
 <li>m_ori
 : <a class="el" href="classamr__wind_1_1_fixed_gradient_b_c.html#aebedd395866496ddf216fc939f353356">amr_wind::FixedGradientBC</a>
@@ -913,6 +927,7 @@ $(function() {
 , <a class="el" href="classamr__wind_1_1_field.html#ace4172c86a3daf1c3e384ea2c7fbed77">amr_wind::Field</a>
 , <a class="el" href="classamr__wind_1_1_int_field.html#a4830bfd9767ce77a8764e134d33bcb94">amr_wind::IntField</a>
 , <a class="el" href="classamr__wind_1_1mms_1_1_m_m_s.html#aface2625629ccc80fc538bb2661bc9da">amr_wind::mms::MMS</a>
+, <a class="el" href="classamr__wind_1_1pde_1_1_mac_proj_op.html#ad4207e776823b56a5550d18713bf18a4">amr_wind::pde::MacProjOp</a>
 , <a class="el" href="classamr__wind_1_1pde_1_1_p_d_e_system.html#a1fedcc13b2839ac5c63b2458f046852a">amr_wind::pde::PDESystem&lt; PDE, Scheme &gt;</a>
 , <a class="el" href="classamr__wind_1_1_scratch_field.html#ab115d9f282dc82d7a7e5c75d0f5f510a">amr_wind::ScratchField</a>
 , <a class="el" href="classamr__wind_1_1transport_1_1_const_transport.html#a298ff02a389f2226412f7212361cc1ff">amr_wind::transport::ConstTransport</a>

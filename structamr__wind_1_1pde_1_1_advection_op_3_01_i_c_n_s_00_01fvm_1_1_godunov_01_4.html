@@ -82,7 +82,7 @@ $(function() {
 <p>Godunov scheme for <a class="el" href="structamr__wind_1_1pde_1_1_i_c_n_s.html" title="Characteristics of ICNS equation system. ">ICNS</a>.  
  <a href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="icns__ops_8_h_source.html">icns_ops.H</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="icns__advection_8_h_source.html">icns_advection.H</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;:</div>
 <div class="dyncontent">
@@ -92,10 +92,10 @@ Collaboration diagram for amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad34129b25d1319b5131cc46ae560a715"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#ad34129b25d1319b5131cc46ae560a715">AdvectionOp</a> (<a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a> &amp;fields_in)</td></tr>
-<tr class="separator:ad34129b25d1319b5131cc46ae560a715"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82df723fa989741a0b99b56aba528099"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#a82df723fa989741a0b99b56aba528099">operator()</a> (const <a class="el" href="group__fields.html#gaba2b7a43f2e9cb10cdb5e2ab8acfcdd8">FieldState</a> fstate, const amrex::Real dt, const bool has_overset)</td></tr>
-<tr class="separator:a82df723fa989741a0b99b56aba528099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacbaa3810a7b42b55cd6e7826962cfad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#aacbaa3810a7b42b55cd6e7826962cfad">AdvectionOp</a> (<a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a> &amp;fields_in, bool has_overset)</td></tr>
+<tr class="separator:aacbaa3810a7b42b55cd6e7826962cfad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0fd2e06ea21ff7a43969e936dabeff1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#aa0fd2e06ea21ff7a43969e936dabeff1">operator()</a> (const <a class="el" href="group__fields.html#gaba2b7a43f2e9cb10cdb5e2ab8acfcdd8">FieldState</a> fstate, const amrex::Real dt)</td></tr>
+<tr class="separator:aa0fd2e06ea21ff7a43969e936dabeff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -107,6 +107,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:afb6e41fdd17a2a127c342b44308a2e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24f48813b313fc4401a4b90321e8b891"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1_field.html">Field</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#a24f48813b313fc4401a4b90321e8b891">w_mac</a></td></tr>
 <tr class="separator:a24f48813b313fc4401a4b90321e8b891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0447475572ffa39dd5409b3e27323b20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classamr__wind_1_1pde_1_1_mac_proj_op.html">MacProjOp</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#a0447475572ffa39dd5409b3e27323b20">m_macproj_op</a></td></tr>
+<tr class="separator:a0447475572ffa39dd5409b3e27323b20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeec879f7a6fffd1f16a5b9b20a5a35cd"><td class="memItemLeft" align="right" valign="top">amrex::Gpu::DeviceVector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#aeec879f7a6fffd1f16a5b9b20a5a35cd">iconserv</a></td></tr>
 <tr class="separator:aeec879f7a6fffd1f16a5b9b20a5a35cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a302d1ba581696caa533648c1a4ce694b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5">godunov::scheme</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op_3_01_i_c_n_s_00_01fvm_1_1_godunov_01_4.html#a302d1ba581696caa533648c1a4ce694b">godunov_scheme</a> = <a class="el" href="namespacegodunov.html#a17da36a0f6b425b194910f4c1fc2dbc5a4bb1ebdeeb70354069bc644b9c94ee5f">godunov::scheme::PPM</a></td></tr>
@@ -122,8 +124,8 @@ struct amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;</h3>
 
 <p>Godunov scheme for <a class="el" href="structamr__wind_1_1pde_1_1_i_c_n_s.html" title="Characteristics of ICNS equation system. ">ICNS</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad34129b25d1319b5131cc46ae560a715"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad34129b25d1319b5131cc46ae560a715">&#9670;&nbsp;</a></span>AdvectionOp()</h2>
+<a id="aacbaa3810a7b42b55cd6e7826962cfad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacbaa3810a7b42b55cd6e7826962cfad">&#9670;&nbsp;</a></span>AdvectionOp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -135,8 +137,18 @@ struct amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;</h3>
           <td class="memname"><a class="el" href="structamr__wind_1_1pde_1_1_advection_op.html">amr_wind::pde::AdvectionOp</a>&lt; <a class="el" href="structamr__wind_1_1pde_1_1_i_c_n_s.html">ICNS</a>, <a class="el" href="structamr__wind_1_1fvm_1_1_godunov.html">fvm::Godunov</a> &gt;::<a class="el" href="structamr__wind_1_1pde_1_1_advection_op.html">AdvectionOp</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structamr__wind_1_1pde_1_1_p_d_e_fields.html">PDEFields</a> &amp;&#160;</td>
-          <td class="paramname"><em>fields_in</em></td><td>)</td>
+          <td class="paramname"><em>fields_in</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>has_overset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -149,8 +161,8 @@ struct amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;</h3>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a82df723fa989741a0b99b56aba528099"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82df723fa989741a0b99b56aba528099">&#9670;&nbsp;</a></span>operator()()</h2>
+<a id="aa0fd2e06ea21ff7a43969e936dabeff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0fd2e06ea21ff7a43969e936dabeff1">&#9670;&nbsp;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,13 +180,7 @@ struct amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;</h3>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const amrex::Real&#160;</td>
-          <td class="paramname"><em>dt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const bool&#160;</td>
-          <td class="paramname"><em>has_overset</em>&#160;</td>
+          <td class="paramname"><em>dt</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -262,6 +268,20 @@ struct amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;</h3>
 
 </div>
 </div>
+<a id="a0447475572ffa39dd5409b3e27323b20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0447475572ffa39dd5409b3e27323b20">&#9670;&nbsp;</a></span>m_macproj_op</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classamr__wind_1_1pde_1_1_mac_proj_op.html">MacProjOp</a> <a class="el" href="structamr__wind_1_1pde_1_1_advection_op.html">amr_wind::pde::AdvectionOp</a>&lt; <a class="el" href="structamr__wind_1_1pde_1_1_i_c_n_s.html">ICNS</a>, <a class="el" href="structamr__wind_1_1fvm_1_1_godunov.html">fvm::Godunov</a> &gt;::m_macproj_op</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac6c53ac3cbb93bcf07f2793be060bf4b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6c53ac3cbb93bcf07f2793be060bf4b">&#9670;&nbsp;</a></span>u_mac</h2>
 
@@ -305,7 +325,7 @@ struct amr_wind::pde::AdvectionOp&lt; ICNS, fvm::Godunov &gt;</h3>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="icns__ops_8_h_source.html">icns_ops.H</a></li>
+<li><a class="el" href="icns__advection_8_h_source.html">icns_advection.H</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

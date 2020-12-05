@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['mac_5fprojection_2eh',['mac_projection.H',['../mac__projection_8_h.html',1,'']]],
   ['main_2ecpp',['main.cpp',['../main_8cpp.html',1,'']]],
   ['main_5fpage_2emd',['main_page.md',['../main__page_8md.html',1,'']]],
   ['mlmgoptions_2ecpp',['MLMGOptions.cpp',['../_m_l_m_g_options_8cpp.html',1,'']]],

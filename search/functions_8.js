@@ -16,6 +16,7 @@ var searchData=
   ['init_5fphysics',['init_physics',['../classamr__wind_1_1_c_f_d_sim.html#a9735fb288e32066d72b08e2301ff124f',1,'amr_wind::CFDSim']]],
   ['init_5fphysics_5fand_5fpde',['init_physics_and_pde',['../classincflo.html#ac40fe751b2172ccd66d81423ed0ea6ac',1,'incflo']]],
   ['init_5fplane_5fpoiseuille',['init_plane_poiseuille',['../classincflo.html#a1834a7ae1b507a021e713a3e21c27350',1,'incflo::init_plane_poiseuille()'],['../incflo__prob___i_8_h.html#ada61f179ffb9ea7bdc98960b81ee3f03',1,'init_plane_poiseuille():&#160;incflo_prob_I.H']]],
+  ['init_5fprojector',['init_projector',['../classamr__wind_1_1pde_1_1_mac_proj_op.html#aed0cf2423611693c2b65102f44724c54',1,'amr_wind::pde::MacProjOp']]],
   ['init_5fsource_5fterms',['init_source_terms',['../structamr__wind_1_1pde_1_1_src_term_op_base.html#ae8e012a1a4374bfd764fd5349fc32abd',1,'amr_wind::pde::SrcTermOpBase']]],
   ['init_5ftke',['init_tke',['../classamr__wind_1_1_a_b_l_field_init.html#ad2f6b729ebd8eb9298b197c91ac1c945',1,'amr_wind::ABLFieldInit']]],
   ['initdata',['InitData',['../classincflo.html#ac5176769479be6d215a8a46fe11465a0',1,'incflo']]],
